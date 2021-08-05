@@ -28,6 +28,20 @@
 ### Go to [Source Tree](https://www.sourcetreeapp.com/) and download the Installer
 There are Many git clients such as Console Git, GitHubDesktop, GitKraken. We will be using SourceTree as it is free and i consider it's branch management GUI to be very simple.
 
+### Log in to your github account
+1. Go to Tools > Options > Authentication
+2. Click on Add
+3. Select GitHub
+4. Click on the Refresh OAuth button to Sign In.
+5. Finish login using your browser
+
+<img    src="CloneButton.png" 
+        title="Clone Button" 
+        width="60%" 
+        height="60%" />
+
+<br>
+
 <br>
 
 # Clone the Class Repository
