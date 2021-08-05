@@ -23,6 +23,7 @@ Hello Class!👋 My name is `Carlos Jose Cobian`🧙and i will be sharing with y
 
 ### Objectives
 * Hello World
+* Strings
 
 ### Tools
 * **Replit**
