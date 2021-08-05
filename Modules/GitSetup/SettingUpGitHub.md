@@ -35,10 +35,10 @@ There are Many git clients such as Console Git, GitHubDesktop, GitKraken. We wil
 4. Click on the Refresh OAuth button to Sign In.
 5. Finish login using your browser
 
-<img    src="CloneButton.png" 
+<img    src="SourceTreeAuthentication.png" 
         title="Clone Button" 
-        width="60%" 
-        height="60%" />
+        width="100%" 
+        height="100%" />
 
 <br>
 
