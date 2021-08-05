@@ -1,0 +1,68 @@
+<img    src="../../images/csi.png" 
+        title="Colegio San Ignacio" 
+        width="20%" 
+        height="20%" />
+
+# What is Git?
+
+<img    src="GitHubFlow.png" 
+        title="Git Flow" 
+        width="60%" 
+        height="60%" />
+
+### Git is a free and open source distributed version control system. GitHub is the largest Repository of open source code. By understanding how to use Git and GitHub you will have acces to most of the code that humanity has developed.
+<br>
+
+# Setting up a GitHub Account
+### Go to [GitHub.com](https://www.example.com) and Sign Up
+
+* Use your Student Email and a username following the format seen below (CSI-Name-Lastname). 
+* Pay attention to Capitalization
+
+<img    src="GitHubSetup.png" 
+        title="Create Account" />
+
+<br>
+
+# Download Source Tree
+### Go to [Source Tree](https://www.sourcetreeapp.com/) and download the Installer
+There are Many git clients such as Console Git, GitHubDesktop, GitKraken. We will be using SourceTree as it is free and i consider it's branch management GUI to be very simple.
+
+<br>
+
+# Clone the Class Repository
+### Visit the [Class Git Page](https://github.com/CSI-Carlos-Cobian/CSI-Python-2021) and click on the `Code`
+
+<img    src="CloneButton.png" 
+        title="Clone Button" 
+        width="60%" 
+        height="60%" />
+
+### You will have the option to download the source as a Zip or clone it via URL. 
+### In this class we will Clone it by copying the URL to our Source Control Client (SourceTree)
+
+<br>
+
+<img    src="CloneRepository.png" 
+        title="Clone Repository" />
+
+<br>
+
+# **Commit** and **Push** 
+### SourceTree will show you any changes you have made in the repository directory.
+
+<img    src="MyFirstCommit.png" 
+        title="Commit" />
+
+
+### At the end of every class you must create a **Commit** using SourceTree and **Push** it to GitHub. 
+
+
+<img    src="StagedFiles.png" 
+        title="Staged Files" 
+        width="60%" 
+        height="60%" />
+
+### Select the files and/or lines that you would like co commit and **stage** them. Select the *Push changes* checkbox and clock on the commit button.
+
+### **This will account for 30% of your class grade.** 
