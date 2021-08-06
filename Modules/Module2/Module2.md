@@ -69,7 +69,8 @@ Typing `python` into the terminal will enter the Python console:
 >
 > \>\>\>
 
-`print("Hello World!")` will run a simple python command that returns whichever string of text you have encapsulated into your doublequotes. In this case `Hello World!`
+`print("Hello World!")` will run a simple python command that returns whichever string of text you have encapsulated into your doublequotes. In this case 
+> Hello World!
 
 `exit()` will bring you back into your Operating System's console.
 
