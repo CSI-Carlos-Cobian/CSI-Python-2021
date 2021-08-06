@@ -16,7 +16,7 @@
 <br>
 
 ### The first thing you will see on the left-most side of visual studio code is the file system for the class.
-<img    src="VSleftPanel.png" 
+<img    src="VSLeftPanel.png" 
         title="Files available on the directory may vary from the time of the screenshot" 
         width="60%" 
         height="60%" />
@@ -94,15 +94,20 @@ The output should look like the following:
 <br>
 
 what?
- - 
+
+ - answer
+
 who?
- - 
+
+ - answer
+
 where?
- - 
+
+ - answer
 
 <br>
 
-#### Save the file.  Commit and Push this change and your image into your student branch.
+#### Save the file.  Commit your changes by the end of the class. and Push this change and your image into your student branch.
 ### Doing and answering the questions below on time will grant you all points for today's lesson.
 
 <br>

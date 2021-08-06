@@ -4,9 +4,10 @@
                 width="20%" 
                 height="20%" />
         <br>
+</div>
 
 #### Hello Class!👋 My name is `Carlos Jose Cobian`🧙and i will be sharing with you some of my knowledge on computer programming by using the Python Language.
-</div>
+
 <br>
 
 # Course Description
@@ -79,7 +80,7 @@ At least 300 points.
 <br>
 
 # Setting up a GitHub Account
-### Go to [GitHub.com](https://git-scm.com/downloads) and Sign Up.
+### Go to [GitHub.com](https://github.com) and Sign Up.
 * Use your etudent Email and create a username following the format: CSI-Name-Lastname. 
 * Pay attention to Capitalization
 * Use my github name as an example: `CSI-Carlos-Cobian`
