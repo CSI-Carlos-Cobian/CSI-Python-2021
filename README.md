@@ -9,7 +9,7 @@ Hello Class!👋 My name is `Carlos Jose Cobian`🧙and i will be sharing with y
 2 meetings per cycle
 24 courses in semester
 48 classes total
-300 Puntos
+At least 300 points.
 
 ### Setup environment
 1. Visual Studio Code
@@ -26,26 +26,32 @@ Hello Class!👋 My name is `Carlos Jose Cobian`🧙and i will be sharing with y
 * Strings
 
 ### Tools
-* **Replit**
-* VS Code
-* Python Installer
+* [VS Code](https://code.visualstudio.com/download)
+* [Python Installer](https://www.python.org/downloads/)
+* [Git](https://git-scm.com/downloads)
+* [Sourcetree (optional)](https://www.sourcetreeapp.com/)
 
 ### Evaluation Criteria
+* Student Pushes a comit into his branch at the end of every class. 
+* Student commits answers to previous lectures' questionaires before the following class. 
+   - Student uses full sentences on commit descriptions and questionaire answers. 
+* Partial credit may be awarded for late submisions.
+* In class problem solving.
+* Open branch final exam. 
 
 ## Topics
-* Input and output
-* If-else logic
-* Looping (for while)
+* Integrated Development Environments and the Console
+* Git and source control
+* Input, output and functional strings.
+* If-else logic **Rock Paper Scisors**
+* Compound logic
+* Looping (for, while)
 * Lists **(Hangman Project)**
-* String manipulation
-* Arithmetic
-* Objects
-* Conversions and casting of Data types (String, float, int)
-* Cartesian coordinates and vectors.
-* Canvas, game, Putting it all together. **(Egg Catcher)**
+* Canvas, Vectors, Putting it all together. **(Egg Catcher)** 
 
 ## Suggested final projects
 * Egg Catcher
 * Rock Paper Scisors
 * Hangman
 * Snake
+* Conways game of life
