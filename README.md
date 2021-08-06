@@ -39,8 +39,8 @@ At least 300 points.
 * Open branch final exam. 
 
 ## Topics
-* Integrated Development Environments and the Console
 * Git and source control
+* [Integrated Development Environments and the Console](/../../tree/main/Modules/Module1/Module1.md)
 * Input, output and functional strings.
 * If-else logic **(Rock Paper Scisors)**
 * Compound logic
@@ -66,12 +66,12 @@ At least 300 points.
 3. Install Git
    - Use default with these exceptions.
    - Select Visual Studio Code as your default editor
-<img    src="images/GitSelect.png" 
+   - <img    src="images/GitSelect.png" 
 	title="Select Visual Studio Code as your default editor" 
         width="50%" 
         height="50%" />
-   - Use default windows console<br>
-<img    src="images/DefaultConsole.png" 
+   - Use default windows console
+   - <img    src="images/DefaultConsole.png" 
 	title="Select Visual Studio Code as your default editor" 
         width="50%" 
         height="50%" />
@@ -83,6 +83,8 @@ At least 300 points.
 * Use your etudent Email and create a username following the format: CSI-Name-Lastname. 
 * Pay attention to Capitalization
 * Use my github name as an example: `CSI-Carlos-Cobian`
+<br>
+
 <img    src="images/GitHubSetup.png" 
         title="Create Account" 
         width="50%" 
