@@ -52,4 +52,4 @@ At least 300 points.
 2. Python Installer
    - Add Python to PATH
 3. Install Git 
-4. [Source Tree Git](/../../SourceTreeSetup/Setup.md)
+4. [Source Tree Git](/../../Modules/SourceTreeSetup/Setup.md)
