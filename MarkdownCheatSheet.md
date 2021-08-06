@@ -6,7 +6,7 @@
 | Blockquote | > blockquote |
 | Ordered List | 1. First item <br> 2. Second item <br> 3. Third item |
 | Unordered List | - First item <br> - Second item <br> - Third item |
-| List Indentation | Double Spacing |
+| List Indentation | Two Spaces |
 | Code | \`code` |
 | Horizontal Rule | --- |
 | Link | \[title](https://www.example.com) |

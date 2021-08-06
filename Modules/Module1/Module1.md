@@ -22,15 +22,30 @@
 
 <br>
 
-### On the bottom of your screen is the console. THrough here you may communicate directly with your computer's Operating System. 
-<img    src="VSleftPanel.png" 
+### On the bottom of your screen is the console. Through here you may communicate directly with your computer's Operating System. 
+<br>
+<img    src="Terminal.png" 
         title="Clone Button" 
-        width="60%" 
-        height="60%" />
+        width="90%" 
+        height="90%" />
 
-## 
+# Communicate with Console
 
-### Communicate with Console
+### Lets start by navigating through directories 
+<br>
+
+> `dir` will Show contents of current directory
+> 
+> `cd ..` will go back one directory
+> 
+> `cd CSI-Python-2021` will bring you back to the project directory (Assuming you went back one directory in the step before)
+>
+> **(Hint)** After typing "`cd `" into the console you may hit the `TAB` key to run through the options available in the directory, or to autocomplete.
+>
+>`cd Modules\Module1` will move you from
+`C:\Users\user\Documents\CSI-Python-2021` to `C:\Users\user\Documents\CSI-Python-2021\Modules\Module1`
+
+### 
 ```
 print("Hello World!")
 ```

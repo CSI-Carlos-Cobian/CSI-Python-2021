@@ -1,11 +1,17 @@
-<img    src="images/csi.png" 
-	title="Colegio San Ignacio" 
-        width="20%" 
-        height="20%" />
+<div style="text-align:center">
+        <img    src="images/csi.png" 
+                title="Colegio San Ignacio" 
+                width="20%" 
+                height="20%" />
+        <br>
 
-Hello Class!👋 My name is `Carlos Jose Cobian`🧙and i will be sharing with you some of my knowledge on computer programming by using the Python Language.
+#### Hello Class!👋 My name is `Carlos Jose Cobian`🧙and i will be sharing with you some of my knowledge on computer programming by using the Python Language.
+</div>
+<br>
 
 # Course Description
+#### By understanding Git and GitHub you will acquire access to most of the code humanity has developed. Fundamental understanding of computer programming you will allow you visualize concepts beyond some standard limitations of your brain. 
+
 2 meetings per cycle
 24 courses in semester
 48 classes total
@@ -28,7 +34,7 @@ At least 300 points.
 * Student Pushes a comit into his branch at the end of every class. 
 * Student commits answers to previous lectures' questionaires before the following class. 
    - Student uses full sentences on commit descriptions and questionaire answers. 
-* Partial credit may be awarded for late submisions.
+* Partial credit may be granted for late submisions.
 * In class problem solving.
 * Open branch final exam. 
 
@@ -62,13 +68,13 @@ At least 300 points.
    - Select Visual Studio Code as your default editor
 <img    src="images/GitSelect.png" 
 	title="Select Visual Studio Code as your default editor" 
-        width="70%" 
-        height="70%" />
-   - Use default windows console
+        width="50%" 
+        height="50%" />
+   - Use default windows console<br>
 <img    src="images/DefaultConsole.png" 
 	title="Select Visual Studio Code as your default editor" 
-        width="70%" 
-        height="70%" />
+        width="50%" 
+        height="50%" />
 
 <br>
 
@@ -77,9 +83,10 @@ At least 300 points.
 * Use your etudent Email and create a username following the format: CSI-Name-Lastname. 
 * Pay attention to Capitalization
 * Use my github name as an example: `CSI-Carlos-Cobian`
-
 <img    src="images/GitHubSetup.png" 
-        title="Create Account" />
+        title="Create Account" 
+        width="50%" 
+        height="50%" />
 
 <br>
 
