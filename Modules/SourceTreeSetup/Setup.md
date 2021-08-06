@@ -14,10 +14,10 @@
 <br>
 
 # Setting up a GitHub Account
-### Go to [GitHub.com](https://www.example.com) and Sign Up
-
+### Go to [GitHub.com](https://git-scm.com/downloads) and Sign Up 
 * Use your Student Email and a username following the format seen below (CSI-Name-Lastname). 
 * Pay attention to Capitalization
+* Use my github name as an example
 
 <img    src="GitHubSetup.png" 
         title="Create Account" />

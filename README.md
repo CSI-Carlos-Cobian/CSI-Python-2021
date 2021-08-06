@@ -11,16 +11,6 @@ Hello Class!👋 My name is `Carlos Jose Cobian`🧙and i will be sharing with y
 48 classes total
 At least 300 points.
 
-### Setup environment
-1. Visual Studio Code
-2. Python Installer
-3. Source Tree Git
-* Console Git (Top Tier Students)
-
-## First Topic
-* Setup environment (tbd)
-* IDE vs Text Editor
-
 ### Objectives
 * Hello World
 * Strings
@@ -45,13 +35,21 @@ At least 300 points.
 * Input, output and functional strings.
 * If-else logic **Rock Paper Scisors**
 * Compound logic
-* Looping (for, while)
-* Lists **(Hangman Project)**
-* Canvas, Vectors, Putting it all together. **(Egg Catcher)** 
+* Looping (for, while) **Fancy Prints**
+* Lists **Hangman Project**
+* 2D Arrays **Snake**
+* Canvas, Vectors, Putting it all together. **Egg Catcher** 
 
-## Suggested final projects
+## Suggested projects
 * Egg Catcher
 * Rock Paper Scisors
 * Hangman
 * Snake
 * Conways game of life
+
+### Setup environment
+1. Visual Studio Code
+2. Python Installer
+   - Add Python to PATH
+3. Install Git 
+4. [Source Tree Git](SourceTreeSetup/Setup.md)

@@ -4,6 +4,8 @@
         height="20%" />
 
 # Module 1: Introduction
+Install pip     
+
 
 ### Communicate with Console
 ```
