@@ -11,7 +11,7 @@
 <br>
 
 # Course Description
-#### By understanding Git and GitHub you will acquire access to most of the code humanity has developed. Fundamental understanding of computer programming you will allow you visualize concepts beyond some standard limitations of your brain. 
+#### By understanding Git and GitHub you will acquire access to most of the code humanity has developed. Fundamental understanding of computer programming will allow you to visualize concepts beyond some standard limitations of your brain. 
 
 2 meetings per cycle
 24 courses in semester
@@ -19,7 +19,7 @@
 At least 300 points.
 
 ## Objectives
-* Understand Git Version control and branching.
+* Understand Git version control and branching.
 * Be able to understand the core aspects and syntax of a programming language.
 * Be able to read and write algorithms using Python.  
 * Be able to iterate through multidimensional arrays.
@@ -29,6 +29,7 @@ At least 300 points.
 * [VS Code](https://code.visualstudio.com/download)
 * [Python Installer](https://www.python.org/downloads/)
 * [Git](https://git-scm.com/downloads)
+* [Git (Mac)](https://sourceforge.net/projects/git-osx-installer/files/)
 * [Sourcetree](https://www.sourcetreeapp.com/) (optional)
 
 ## Evaluation Criteria
@@ -41,7 +42,7 @@ At least 300 points.
 
 ## Topics
 * Git and source control
-* [Integrated Development Environments and the Console](/../../tree/main/Modules/Module1/Module1.md)
+* [Integrated Development Environments and the Console](/../../tree/main/Modules/Module2/Module2.md)
 * Input, output and functional strings.
 * If-else logic **(Rock Paper Scisors)**
 * Compound logic
@@ -65,23 +66,24 @@ At least 300 points.
    - [X] Add Python to PATH
 2. Run Visual Studio Code Installer
 3. Install Git
-   - Use default with these exceptions.
-   - Select Visual Studio Code as your default editor
+   - Use default settings with these exceptions.
+   - Select Visual Studio Code as your default editor.
    - <img    src="images/GitSelect.png" 
 	title="Select Visual Studio Code as your default editor" 
         width="50%" 
         height="50%" />
-   - Use default windows console
+   - Use the default windows console.
    - <img    src="images/DefaultConsole.png" 
-	title="Select Visual Studio Code as your default editor" 
+	title="Select Windows Console." 
         width="50%" 
         height="50%" />
 
 <br>
 
-# Setting up a GitHub Account
+# Setting up a GitHub Account. Follow Instructions!
 ### Go to [GitHub.com](https://github.com) and Sign Up.
-* Use your etudent Email and create a username following the format: CSI-Name-Lastname. 
+* Use your student Email.
+* Use the following format for your username: CSI-Name-Lastname. 
 * Pay attention to Capitalization
 * Use my github name as an example: `CSI-Carlos-Cobian`
 <br>
