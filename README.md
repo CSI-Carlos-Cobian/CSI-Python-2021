@@ -1,19 +1,16 @@
-<div style="text-align:center">
-        <img    src="images/csi.png" 
-                title="Colegio San Ignacio" 
-                width="20%" 
-                height="20%" />
+<img    src="images/csi.png" 
+        title="Colegio San Ignacio" 
+        width="20%" 
+        height="20%" />
 
 <br>
 
-
 #### Hello Class!👋 My name is `Carlos Jose Cobian`🧙and i will be sharing with you some of my knowledge on computer programming by using the Python Language.
-</div>
 
 <br>
 
 # Course Description
-#### By understanding Git and GitHub you will acquire access to most of the code humanity has developed. Fundamental understanding of computer programming will allow you to visualize concepts beyond some standard limitations of your brain. 
+#### By understanding Git and GitHub you will acquire access to most of the code humanity has developed. Fundamental understanding of computer programming will allow you to visualize concepts unnatural to your brain. 
 
 2 meetings per cycle
 24 courses in semester
@@ -62,44 +59,3 @@ At least 300 points.
 * Snake
 * Conway's game of life
 * Serial Interfacing with Arduino
-
-<br>
-
-# Setup Development Environment
-1. Run Python Installer
-   - [X] Add Python to PATH
-2. Run Visual Studio Code Installer
-3. Install Git
-   - Use default settings with these exceptions.
-   - Select Visual Studio Code as your default editor.
-   - <img    src="images/GitSelect.png" 
-        title="Select Visual Studio Code as your default editor" 
-        width="50%" 
-        height="50%" />
-   - Use the default windows console.
-   - <img    src="images/DefaultConsole.png" 
-	title="Select Windows Console." 
-        width="50%" 
-        height="50%" />
-
-<br>
-
-# Setting up a GitHub Account. Follow Instructions!
-### Go to [GitHub.com](https://github.com) and Sign Up.
-* Use your student Email.
-* Use the following format for your username: CSI-Name-Lastname. 
-* Pay attention to Capitalization
-* Use my github name as an example: `CSI-Carlos-Cobian`
-<br>
-
-<img    src="images/GitHubSetup.png" 
-        title="Create Account" 
-        width="50%" 
-        height="50%" />
-
-<br>
-
-# [Source Tree Git](/../../tree/main/Modules/SourceTree/Setup.md) **(Optional)** 
-
-* ### Provides easier visualization of branching. 
-* ### Requires many 3rd party authorizations

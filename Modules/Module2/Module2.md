@@ -6,7 +6,7 @@
 </div>
 <br>
 
-# Module 1: using Visual Studio Code
+# Module 2: Using Visual Studio Code
 
 ### Create a commit merging master into your current branch. `(1pts)`
 
@@ -83,7 +83,7 @@ Typing `python` into the terminal will enter the Python console:
 ## Execute Python Script
 ### Navigate to the Module2 directory and type: `python HelloWorld.py`. This will execute a python script.
 
-### The output should look like the following:
+### The output should look similar to this:
 
 <img    src="HelloWorldSample.png" 
         title="HelloCarlos!" 
@@ -95,19 +95,24 @@ Typing `python` into the terminal will enter the Python console:
 * #### Name the file using the following convention: `CSI-Carlos-Cobian-Module2-1.png`
 * #### On Windows use CTRL+SHFT+S to make a selection.
 
-### Commit and push this image before the next lecture`(3pts)`
+### Commit and push this image before the next lecture`(2pts)`
 
 <br>
 
-## Answer the questions on the Markdown file located within your `Module2` directory (Module2.md). `(3pts)`
+# Class Discussion
+## Answer the questions on the Markdown file located within your `Module2` directory (Module2.md). `(4pts)`
 
 <!-- This is a comment. It is not processed by the code -->
 <!-- Welcome! These are your questions. -->
 <!-- Answer using full sentences to receive all points. -->
 <!-- 
 
+What does "cd" stand for?
+
+ - Answer:
+
 Did you get stuck at any point or cecome confused with your console? (yes/no) 
-If so, what happened? How did you solve it?
+If so, what happened? How did you solve it? (optional)
 
  - Answer:
 
