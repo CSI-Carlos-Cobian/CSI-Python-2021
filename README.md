@@ -3,11 +3,9 @@
                 title="Colegio San Ignacio" 
                 width="20%" 
                 height="20%" />
-</div>
 
 <br>
 
-<div style="text-align:center">
 
 #### Hello Class!👋 My name is `Carlos Jose Cobian`🧙and i will be sharing with you some of my knowledge on computer programming by using the Python Language.
 </div>
