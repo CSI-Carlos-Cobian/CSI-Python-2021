@@ -8,6 +8,10 @@
 
 # Module 1: using Visual Studio Code
 
+### Create a commit merging master into your current branch. `(3pts)`
+
+<br>
+
 ### Open Visual Studio Code. Your first task is to change your working directory to that of the course.
 
 1. Go to File > Open Folder
@@ -18,8 +22,8 @@
 ### The first thing you will see on the left-most side of visual studio code is the file system for the class.
 <img    src="VSLeftPanel.png" 
         title="Files available on the directory may vary from the time of the screenshot" 
-        width="30%" 
-        height="30%" />
+        width="70%" 
+        height="70%" />
 
 <br>
 
@@ -27,8 +31,8 @@
 <br>
 <img    src="Terminal.png" 
         title="Terminal" 
-        width="50%" 
-        height="50%" />
+        width="80%" 
+        height="80%" />
 
 # Communicate with Console
 
@@ -38,7 +42,7 @@
 
 `dir` will Show contents of current directory
  
-`cd ..` will go back one directory
+`cd ..` will take you back one directory
 
 `cd CSI-Python-2021` will bring you back to the project directory (Assuming you went back one directory in the step before)
 
@@ -87,28 +91,39 @@ The output should look like the following:
         height="60%" />
 
 #### Take a screenshot of your output and save it in the <u>Module2</u> directory of your branch. Name the file using the following convention: `CSI-Carlos-Cobian-Module2-1.png`
+Committing this image before the next lecture will gain you 3 points.
 
 <br>
 
-## Answer the following questions on the MarkDown file located within your `Module2` directory (Module2.md). 
+## Answer the questions on the MarkDown file located within your `Module2` directory (Module2.md). `(9pts)`
 
-<br>
+<!-- This is a comment. It is not processed by the code -->
+<!-- Welcome! These are your questions. -->
+<!-- Each one is worth 3 points. -->
+<!-- Answer using full sentences to receive all points. -->
+<!-- 
 
-what?
 
- - answer
+Did you get stuck at any point or cecome confused with your console? (yes/no) 
+If so, what happened? How did you solve it?
 
-who?
+ - Answer:
 
- - answer
+Did you consider searching google for other commands to run? What did you try? 
 
-where?
+ - Answer:
 
- - answer
+What would you like to program? 
 
-<br>
+ - Answer:
 
-### Save the file. Commit your changes by the end of the class. 
+Lackluster responses may result in point deductions.
+-->
+
+
+
+* ### Save the file. Commit your changes and push them to your remote repository by the end of the class. `(1pts)`
+* ### You may complete the answers by issuing aditional commits and pushing them before the next class.
 
 ### Push the commit(s) into your student branch before the start of the next class.
 

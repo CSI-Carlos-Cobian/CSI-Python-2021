@@ -3,10 +3,14 @@
                 title="Colegio San Ignacio" 
                 width="20%" 
                 height="20%" />
-        <br>
 </div>
 
+<br>
+
+<div style="text-align:center">
+
 #### Hello Class!👋 My name is `Carlos Jose Cobian`🧙and i will be sharing with you some of my knowledge on computer programming by using the Python Language.
+</div>
 
 <br>
 
@@ -26,11 +30,13 @@ At least 300 points.
 * Understand nesting.
 
 ## Tools
-* [VS Code](https://code.visualstudio.com/download)
-* [Python Installer](https://www.python.org/downloads/)
-* [Git](https://git-scm.com/downloads)
-* [Git (Mac)](https://sourceforge.net/projects/git-osx-installer/files/)
-* [Sourcetree](https://www.sourcetreeapp.com/) (optional)
+
+| Tool | Windows | Mac |
+|----------|----------|----------|
+| Editor (IDE) | [VS Code](https://code.visualstudio.com/download) | [XCode](https://developer.apple.com/xcode/)|
+| Python | [Python3](https://www.python.org/downloads/) | [Python3](https://www.python.org/downloads/macos/) |
+| Git | [Git](https://git-scm.com/downloads) | [Git](https://git-scm.com/download/win) <br> Included in XCode|
+| Visual Repository <br>(optional) | [Sourcetree](https://www.sourcetreeapp.com/)| [Sourcetree](https://www.sourcetreeapp.com/) |
 
 ## Evaluation Criteria
 * Student Pushes a comit into his branch at the end of every class. 
@@ -42,7 +48,7 @@ At least 300 points.
 
 ## Topics
 * Git and source control
-* [Integrated Development Environments and the Console](/../../tree/main/Modules/Module2/Module2.md)
+* [Integrated Development Environment(IDE) and the Console](/../../tree/main/Modules/Module2/Module2.md)
 * Input, output and functional strings.
 * If-else logic **(Rock Paper Scisors)**
 * Compound logic
