@@ -8,7 +8,7 @@
 
 # Module 1: using Visual Studio Code
 
-### Create a commit merging master into your current branch. `(3pts)`
+### Create a commit merging master into your current branch. `(1pts)`
 
 <br>
 
@@ -81,28 +81,30 @@ Typing `python` into the terminal will enter the Python console:
 <br>
 
 ## Execute Python Script
-Navigate to the Module2 directory and type: `python HelloWorld.py`. This will execute a python script.
+### Navigate to the Module2 directory and type: `python HelloWorld.py`. This will execute a python script.
 
-The output should look like the following:
+### The output should look like the following:
 
 <img    src="HelloWorldSample.png" 
         title="HelloCarlos!" 
-        width="50%" 
-        height="60%" />
+        width="80%" 
+        height="80%" />
 
-#### Take a screenshot of your output and save it in the <u>Module2</u> directory of your branch. Name the file using the following convention: `CSI-Carlos-Cobian-Module2-1.png`
-Committing this image before the next lecture will gain you 3 points.
+### Take a screenshot of your terminal's output showing the same elements as above. 
+* #### Save it in the <u>Module2</u> directory of your branch. 
+* #### Name the file using the following convention: `CSI-Carlos-Cobian-Module2-1.png`
+* #### On Windows use CTRL+SHFT+S to make a selection.
+
+### Commit and push this image before the next lecture`(3pts)`
 
 <br>
 
-## Answer the questions on the MarkDown file located within your `Module2` directory (Module2.md). `(9pts)`
+## Answer the questions on the Markdown file located within your `Module2` directory (Module2.md). `(3pts)`
 
 <!-- This is a comment. It is not processed by the code -->
 <!-- Welcome! These are your questions. -->
-<!-- Each one is worth 3 points. -->
 <!-- Answer using full sentences to receive all points. -->
 <!-- 
-
 
 Did you get stuck at any point or cecome confused with your console? (yes/no) 
 If so, what happened? How did you solve it?
@@ -120,11 +122,5 @@ What would you like to program?
 Lackluster responses may result in point deductions.
 -->
 
-
-
 * ### Save the file. Commit your changes and push them to your remote repository by the end of the class. `(1pts)`
 * ### You may complete the answers by issuing aditional commits and pushing them before the next class.
-
-### Push the commit(s) into your student branch before the start of the next class.
-
-<br>

@@ -33,9 +33,9 @@ At least 300 points.
 
 | Tool | Windows | Mac |
 |----------|----------|----------|
-| Editor (IDE) | [VS Code](https://code.visualstudio.com/download) | [XCode](https://developer.apple.com/xcode/)|
+| Editor (IDE) | [VS Code](https://code.visualstudio.com/download) | [XCode](https://developer.apple.com/xcode/)<br>[VS Code](https://code.visualstudio.com/download)|
 | Python | [Python3](https://www.python.org/downloads/) | [Python3](https://www.python.org/downloads/macos/) |
-| Git | [Git](https://git-scm.com/downloads) | [Git](https://git-scm.com/download/win) <br> Included in XCode|
+| Git | [Git](https://git-scm.com/downloads) | [Git](https://git-scm.com/download/mac) <br> Included in XCode|
 | Visual Repository <br>(optional) | [Sourcetree](https://www.sourcetreeapp.com/)| [Sourcetree](https://www.sourcetreeapp.com/) |
 
 ## Evaluation Criteria
@@ -75,7 +75,7 @@ At least 300 points.
    - Use default settings with these exceptions.
    - Select Visual Studio Code as your default editor.
    - <img    src="images/GitSelect.png" 
-	title="Select Visual Studio Code as your default editor" 
+        title="Select Visual Studio Code as your default editor" 
         width="50%" 
         height="50%" />
    - Use the default windows console.
