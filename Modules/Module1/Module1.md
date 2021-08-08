@@ -92,13 +92,20 @@ This will be your root folder. This means it is the top-level containing folder.
 
 Clone the project into this folder in your machine
 
-<br>
-
-Branch off main
 
 <br>
 
-Create a fork in your repository.
+Create a fork in your GitHub.
+
+<br>
+
+Merge update changes made on my repository into your fork (Update course).
+1. Go to your `Source Control` tab
+2. Click on the 3 dots (your git menu)
+3. Branch > Merge Branch
+4. Select `upstream/main`
+
+<br>
 
 ### [Source Tree Git](/../../tree/main/Modules/SourceTree/Setup.md) **(Optional)** 
 
