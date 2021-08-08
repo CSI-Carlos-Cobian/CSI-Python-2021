@@ -23,7 +23,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <br>
 
-## Install [Git](https://git-scm.com/downloads) Correctly (Windows). `(1pts)`
+## Install [Git](https://git-scm.com/downloads) **Correctly** (Windows). `(1pts)`
 ### Use default settings with these exceptions.
 - Select Visual Studio Code as your default editor.<br>
 <img    src="GitSelect.png" 
@@ -81,13 +81,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Install [Visual Studio Code](https://code.visualstudio.com/download) or [XCode](https://developer.apple.com/xcode/) `(1pts)`
 
 ### Use default settings. I personally prefer the Dark theme.
-<br>
-
-
-
-## Fork the class repository `(1pts)`
 
 <br>
+
+## Branch off the class repository `(1pts)`
+Create a folder. You may name it whatever you please but i will use "Courses" as it is simple and descriptive.
+This will be your root folder. This means it is the top-level containing folder. You may place it anywhere but i suggest using your Documents or Desktop folder. In here you will clone the repositories for any classes that use GitHub. Currently Java, Python and hopefully NovaTech.
+
+<br>
+
+Clone the project into this folder in your machine
+
+<br>
+
+Branch off main
+
+<br>
+
+Create a fork in your repository.
 
 ### [Source Tree Git](/../../tree/main/Modules/SourceTree/Setup.md) **(Optional)** 
 
