@@ -7,24 +7,66 @@
 <br>
 
 # Module 1: Git and GitHub
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+### Welcome to Python-2021! In this class we will be using GitHub as our code repository. This is an industry standard that should be understood by all students looking to pursue a carreer path related to software.
 <br>
 
 # What is Git?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+*"Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency"*
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \- [The Git Website](https://git-scm.com/)
+
+<br>
+
+#### Git allows you to track changes in a file system, refered to as repository. Some examples would be adding and removing files, adding and removing lines to a file, renaming files.
 
 <br>
 
 ## Repository
+*"A receptacle or place where things are deposited, stored, or offered"*
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \- My google search.
+
+<br>
+
+#### In class we will refer to repositories as the copies of the course file system that each one of us holds. Repositories are both local and remote, meaning that repositories are available both offline on your machine, and online on a remote webserver. In our class we will use GitHub as our remote host.
+
+<br>
+
 ## Pull
+#### When you pull a repository you are updating your local copy with any changes that have been made on the remote version. 
+
+<br>
+
 ## Commit
+#### A commit saves any changes made to files on your local machine to the local repository. Before committing you will select which files and/or lines you would like to include. You don't have to include all of them but you should make sure that what you are committing is correct. A commit requires a message. This message must be descriptive of what is being changes. This helps you keep track of every version change. Commits may be deleted or reverted locally.
+
+<br>
+
 ## Push
+#### Pushing to your remote repository will upload all pending commits. You should make sure that all commits are stable and correct before pushing. Oncce a commit has been pushed it will be available to anyone working on the repository. It is easier to delete or revert commits that are local and unpushed as another user may have pulled them already. 
+
+<br>
+
+### A Diagram
+
+<br>
+
+<img    src="https://www.pngitem.com/pimgs/m/608-6085261_git-push-and-pull-hd-png-download.png" 
+        title="Colegio San Ignacio" 
+        width="60%" 
+        height="60%" />
+
+
 
 <br>
 
 ## Install [Git](https://git-scm.com/downloads) **Correctly** (Windows). `(1pts)`
-### Use default settings with these exceptions.
+### In this class we'll use Visual Studio's integrated implementation of Git. MAC users may use XCode's integration. We'll install Git on our machines and select Visual Studio Code as our default editor.
+
+<br>
+
+### When installing, use default settings with these exceptions.
 - Select Visual Studio Code as your default editor.<br>
 <img    src="GitSelect.png" 
         title="Select Visual Studio Code as your default editor" 
@@ -40,7 +82,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br>
 
 # What is GitHub?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Think of GitHub as an Instagram of Code. A whole bunch of programmers from all around the world share their code so that others may view and like it. They all use the technology of Git and share it on this Hub. GitHub is free, but you may pay to keep your repositories private.
 
 <br>
 
@@ -84,9 +126,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <br>
 
-## Branch off the class repository `(2pts)`
+## Fork the class repository `(2pts)`
+### Visit the class repo and click on `fork` (top right)
+https://github.com/CSI-Carlos-Cobian/CSI-Python-2021
+
+<br>
+
 Create a folder. You may name it whatever you please but i will use "Courses" as it is simple and descriptive.
-This will be your root folder. This means it is the top-level containing folder. You may place it anywhere but i suggest using your Documents or Desktop folder. In here you will clone the repositories for any classes that use GitHub. Currently Java, Python and hopefully NovaTech.
+This will be your root folder. This means it is the top-level containing folder. You may place it anywhere but i suggest using your Documents or Desktop folder. 
+In here you will clone the repositories for any classes that use GitHub. Currently Java, Python and hopefully NovaTech.
 * In Visual Studio
 * Go to File > Open Folder
 * Select your newly created directory
@@ -98,10 +146,7 @@ Forking a repository will create a copy on your GitHub account. You may freely a
 
 <br>
 
-### Visit the class repo and click on fork (top right)
-https://github.com/CSI-Carlos-Cobian/CSI-Python-2021
 
-<br>
 
 ### Clone the project into the Classes folder on your machine
 1. Go to your `Source Control` tab
