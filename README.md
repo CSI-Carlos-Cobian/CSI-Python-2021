@@ -21,8 +21,7 @@ At least 300 points.
 * Understand Git version control and branching.
 * Be able to understand the core aspects and syntax of a programming language.
 * Be able to read and write algorithms using Python.  
-* Be able to iterate through multidimensional arrays.
-* Understand nesting.
+* Understand Nesting and be able to iterate through multidimensional arrays.
 
 ## Tools
 
@@ -30,7 +29,7 @@ At least 300 points.
 |----------|----------|----------|
 | Editor (IDE) | [VS Code](https://code.visualstudio.com/download) | [XCode](https://developer.apple.com/xcode/)<br>[VS Code](https://code.visualstudio.com/download)|
 | Python | [Python3](https://www.python.org/downloads/) | [Python3](https://www.python.org/downloads/macos/) |
-| Git | [Git](https://git-scm.com/downloads) | [Git](https://git-scm.com/download/mac) <br> Included in XCode|
+| Git | [Git](https://git-scm.com/downloads) | [GitHub Desktop](https://desktop.github.com/) <br> Included in XCode|
 | Visual Repository <br>(optional) | [Sourcetree](https://www.sourcetreeapp.com/)| [Sourcetree](https://www.sourcetreeapp.com/) |
 
 ## Evaluation Criteria
