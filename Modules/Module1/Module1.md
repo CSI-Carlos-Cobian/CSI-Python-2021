@@ -85,34 +85,51 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br>
 
 ## Branch off the class repository `(2pts)`
-### Create a folder. You may name it whatever you please but i will use "Courses" as it is simple and descriptive.
-### This will be your root folder. This means it is the top-level containing folder. You may place it anywhere but i suggest using your Documents or Desktop folder. In here you will clone the repositories for any classes that use GitHub. Currently Java, Python and hopefully NovaTech.
+Create a folder. You may name it whatever you please but i will use "Courses" as it is simple and descriptive.
+This will be your root folder. This means it is the top-level containing folder. You may place it anywhere but i suggest using your Documents or Desktop folder. In here you will clone the repositories for any classes that use GitHub. Currently Java, Python and hopefully NovaTech.
+* In Visual Studio
 * Go to File > Open Folder
 * Select your newly created directory
-<br>
-
-### Clone the project into this folder in your machine
-1. Go to your `Source Control` tab
-2. Initialize Repository if you have not done so.
-3. Click on the 3 dots (your git menu)
-4. Select Clone and copy the course URL
-   - https://github.com/CSI-Carlos-Cobian/CSI-Python-2021
-5. Use the directory created above.
 
 <br>
 
 ### Create a fork in your GitHub.
+Forking a repository will create a copy on your GitHub account. You may freely alter this copy to take class notes and answer questions. These changes will only be reflected on **your** copy of the repository. You may also update your copy of the repository to reflect any changes i have made to the course without overwriting your individual changes.
 
 <br>
 
-Merge update changes made on my repository into your fork (Update course local couse repository).
+### Visit the class repo and click on fork (top right)
+https://github.com/CSI-Carlos-Cobian/CSI-Python-2021
+
+<br>
+
+### Clone the project into the Classes folder on your machine
+1. Go to your `Source Control` tab
+2. Initialize Repository if you have not done so.
+3. Click on the 3 dots (your git menu)
+4. Clone the forked repository.
+   - Select `Clone from GitHub`
+   - Alternatively, enter the fork URL with format: github.com/CSI-Name-Lastname/CSI-Python-2021
+5. When prompted, select to open your new repo.
+
+You may clone a repository without forking it, but only the owner may push changes to it. When you fork a copy it becomes your own. 
+
+<br>
+
+### Update your fork:
+You may update your fork on GitHub. When your fork is out of date, a banner will show up.
+
+<br>
+
+To download these changes to your local repository
 1. Go to your `Source Control` tab
 2. Click on the 3 dots (your git menu)
 3. Pull
+
 <br>
 
-Alternatively, the long way of updating a fork would be by
-1. Branch > Merge Branch
+Alternatively, you may update both simultaneously from Visual Studio by selecting.
+1. `Source Control` > Branch > Merge Branch
 2. Select `upstream/main`
 
 <br>
