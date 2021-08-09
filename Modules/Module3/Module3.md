@@ -22,11 +22,23 @@ Print your name using the print () command.
 >José D. Quintana Rivera
 
 <br>
+<br>
 
-### Ex. 3.2 Update the variable meal to reflect each meal of the day before you print it. 
+## `Variables`
+A variable can store a value.  In Python, programmers assign variables by using the equals `sign(=)`. 
+
+Example: 
+```
+age = 21
+
+print(age)
+```
+>21
+
+### Ex. 3.2 Create an algorithm with the variable *`meal`*. Update the variable meal to reflect each meal of the day before you print it. (6 points)
 >Breakfast: 
 
->An english muffing
+>An english muffin
 
 >Lunch:
 
@@ -35,89 +47,26 @@ Print your name using the print () command.
 >Dinner:
 
 >Spagettis with brocolli
-<br>
-
-
-# Communicate with Console
-
-## Lets start by navigating through directories 
-### Type the following commands into your console
-
-
-`dir` will Show contents of current directory
- 
-`cd ..` will go back one directory
-
-`cd CSI-Python-2021` will bring you back to the project directory (Assuming you went back one directory in the step before)
-
-**(Hint)** After typing "`cd `" into the console you may hit the `TAB` key to run through the options available in the directory, or to autocomplete.
-
-`cd Modules\Module2` will move you from
-> C:\Users\user\Documents\CSI-Python-2021
-
-to 
-
-> C:\Users\user\Documents\CSI-Python-2021\Modules\Module2
 
 <br>
 
-# Interact with Python.
+# Class Discussion
+## Answer the questions on the Markdown file located within your <u>`Module3`</u> directory (Module3.md) - 3 points
 
-Python should have been installed and added to PATH. To verify this run: `python --version` and recieve an output of:
- 
->Python 3.9.6
+<!-- This is a comment. It is not processed by the code -->
+<!-- Welcome! These are your questions. -->
+<!-- Answer using full sentences to receive all points. -->
+<!-- 
 
-<br>
+Evaluate the following code. Is the code written correctly? 
+  print('This message has a syntax error!")
+  print(Churrigueresco)
+ - Answer:
 
-## Open Python Console
+If you found a SyntaxError or NameError in the code, what would be the correct code?
 
-Typing `python` into the terminal will enter the Python console:
+ - Answer:
 
-> Type "help", "copyright", "credits" or "license" for more information.
->
-> \>\>\>
 
-`print("Hello World!")` will run a simple python command that returns whichever string of text you have encapsulated into your doublequotes. In this case 
-> Hello World!
-
-`exit()` will bring you back into your Operating System's console.
-
-<br>
-
-## Execute Python Script
-Navigate to the Module2 directory and type: `python HelloWorld.py`. This will execute a python script.
-
-The output should look like the following:
-
-<img    src="HelloWorldSample.png" 
-        title="HelloCarlos!" 
-        width="50%" 
-        height="60%" />
-
-#### Take a screenshot of your output and save it in the <u>Module2</u> directory of your branch. Name the file using the following convention: `CSI-Carlos-Cobian-Module2-1.png`
-
-<br>
-
-## Answer the following questions on the MarkDown file located within your `Module2` directory (Module2.md). 
-
-<br>
-
-what?
-
- - answer
-
-who?
-
- - answer
-
-where?
-
- - answer
-
-<br>
-
-### Save the file. Commit your changes by the end of the class. 
-
-### Push the commit(s) into your student branch before the start of the next class.
-
-<br>
+Lackluster responses may result in point deductions.
+-->
