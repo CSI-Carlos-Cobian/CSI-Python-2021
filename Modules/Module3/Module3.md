@@ -22,6 +22,18 @@ Print your name using the print () command.
 >José D. Quintana Rivera
 
 <br>
+<br>
+
+## `Variables`
+A variable can store a value.  In Python, programmers assign variables by using the equals `sign(=)`. 
+
+Example: 
+
+age = 21
+
+print(age)
+
+>21
 
 ### Ex. 3.2 Update the variable meal to reflect each meal of the day before you print it. 
 >Breakfast: 
