@@ -80,22 +80,28 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Install [Visual Studio Code](https://code.visualstudio.com/download) or [XCode](https://developer.apple.com/xcode/) `(1pts)`
 
-### Use default settings. I personally prefer the Dark theme.
+### Visual Studio works for both MAC and PC. Xcode runs on MAC. Use default settings. I personally prefer the Dark theme.
 
 <br>
 
-## Branch off the class repository `(1pts)`
-Create a folder. You may name it whatever you please but i will use "Courses" as it is simple and descriptive.
-This will be your root folder. This means it is the top-level containing folder. You may place it anywhere but i suggest using your Documents or Desktop folder. In here you will clone the repositories for any classes that use GitHub. Currently Java, Python and hopefully NovaTech.
+## Branch off the class repository `(2pts)`
+### Create a folder. You may name it whatever you please but i will use "Courses" as it is simple and descriptive.
+### This will be your root folder. This means it is the top-level containing folder. You may place it anywhere but i suggest using your Documents or Desktop folder. In here you will clone the repositories for any classes that use GitHub. Currently Java, Python and hopefully NovaTech.
+* Go to File > Open Folder
+* Select your newly created directory
+<br>
+
+### Clone the project into this folder in your machine
+1. Go to your `Source Control` tab
+2. Initialize Repository if you have not done so.
+3. Click on the 3 dots (your git menu)
+4. Select Clone and copy the course URL
+   - https://github.com/CSI-Carlos-Cobian/CSI-Python-2021
+5. Use the directory created above.
 
 <br>
 
-Clone the project into this folder in your machine
-
-
-<br>
-
-Create a fork in your GitHub.
+### Create a fork in your GitHub.
 
 <br>
 
@@ -113,14 +119,13 @@ Alternatively, the long way of updating a fork would be by
 
 ### [Source Tree Git](/../../tree/main/Modules/SourceTree/Setup.md) **(Optional)** 
 
-* #### Provides easier visualization of multiple branches. 
+* #### Provides easier visualization of branches and history. 
 * #### Requires many 3rd party authorizations
-* #### Students are expected to work on a single branch, theirs.
 
 <br>
 
 # Class Discussion
-## Answer the questions on the Markdown file located within your <u>`Module1`</u> directory (Module1.md). `(4pts)`
+## Answer the questions on the Markdown file located within your <u>`Module1`</u> directory (Module1.md). `(3pts)`
 
 <!-- This is a comment. It is not processed by the code -->
 <!-- Welcome! These are your questions. -->
@@ -137,14 +142,6 @@ What is the difference between Git and GitHub?
  - Answer:
 
 What is the difference between a git commit and a git push?
-
- - Answer:
-
-Did you consider searching google for other commands to run? What did you try? 
-
- - Answer:
-
-What would you like to program? 
 
  - Answer:
 
