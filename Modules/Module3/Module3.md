@@ -25,10 +25,10 @@ Print your name using the print () command.
 <br>
 
 ## `Variables`
-A variable can store a value.  In Python, programmers assign variables by using the equals `sign(=)`. 
+A variable can store a value.  In Python, programmers assign variables by using the equals sign "`=`". 
 
 Example: 
-```
+```c
 age = 21
 
 print(age)
