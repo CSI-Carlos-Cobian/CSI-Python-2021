@@ -99,11 +99,15 @@ Create a fork in your GitHub.
 
 <br>
 
-Merge update changes made on my repository into your fork (Update course).
+Merge update changes made on my repository into your fork (Update course local couse repository).
 1. Go to your `Source Control` tab
 2. Click on the 3 dots (your git menu)
-3. Branch > Merge Branch
-4. Select `upstream/main`
+3. Pull
+<br>
+
+Alternatively, the long way of updating a fork would be by
+1. Branch > Merge Branch
+2. Select `upstream/main`
 
 <br>
 

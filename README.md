@@ -42,7 +42,7 @@ At least 300 points.
 * Open branch final exam. 
 
 ## Topics
-* Git and source control
+* [Git and source control](/../../tree/main/Modules/Module1/Module1.md)
 * [Integrated Development Environment(IDE) and the Console](/../../tree/main/Modules/Module2/Module2.md)
 * Input, output and functional strings.
 * If-else logic **(Rock Paper Scisors)**
