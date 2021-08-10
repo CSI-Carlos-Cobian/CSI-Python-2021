@@ -60,7 +60,7 @@ print(age)
 
 <br>
 
-## `Concatenation`
+## `Concatenation` - parte nueva
 The "`+`" operator doesn't just add 2 numbers, it can also "add" two strings.  Combining two strings is called *concatenation*.
 
 <br>
