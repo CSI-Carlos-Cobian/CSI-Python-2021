@@ -1,1 +1,0 @@
-print("José D. Quintana")
