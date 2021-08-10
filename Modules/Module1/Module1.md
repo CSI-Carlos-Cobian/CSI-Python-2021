@@ -133,18 +133,18 @@ In here, you will clone the repositories for any courses that use GitHub. Curren
 
 ### Clone the project into the 'Classes' folder on your machine **(Windows)**.
 1. Go to your `Source Control` tab in Visual Studio(3rd).
-<br>
 <img    src="SourceControl.png" 
         title="SourceControl" 
-        width="5%" 
-        height="5%" />
+        width="3%" 
+        height="3%" />
 <br>
-1. Initialize Repository (if you have not done so).
-2. Click on the 3 dots (your git menu).
-3. `Clone` the forked repository.
+
+2. Initialize Repository (if you have not done so).
+3. Click on the 3 dots (your git menu).
+4. `Clone` the forked repository.
    - Select `Clone from GitHub`.
    - Alternatively, enter the fork URL with format: github.com/CSI-Name-Lastname/CSI-Python-2021.
-4. When prompted by VS, select to open your new repo.
+5. When prompted by VS, select to open your new repo.
 
 <br>
 
@@ -189,7 +189,7 @@ You may update both simultaneously from Visual Studio by selecting.
 <br>
 
 # Class Discussion
-## Answer the questions on the Markdown file located within your <u>`Module1`</u> directory (Module1.md). `(3pts)`
+## Answer the questions on the Markdown file located within your <u>`Module1`</u> directory (Module1.md). `(4pts)`
 
 <!-- This is a comment. It is not processed by the code -->
 <!-- Welcome! These are your questions. -->
@@ -205,6 +205,10 @@ What is the difference between a git commit and a git push?
  - Answer:
 
 What is the difference between a pull, and an upstream pull?
+
+ - Answer:
+
+What part of these instructions was unclear or incomplete?
 
  - Answer:
 
