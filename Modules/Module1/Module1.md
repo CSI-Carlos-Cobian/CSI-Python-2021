@@ -105,19 +105,9 @@ Branches are different versions of a repository. A central branch(`main`) repres
 
 <br>
 
-# Set up your development environment
 
-<br>
-
-## Install [Visual Studio Code](https://code.visualstudio.com/download) or [XCode](https://developer.apple.com/xcode/) `(1pts)`
-
-### Visual Studio works for both MAC and PC. Xcode runs only on MAC. Use default settings.
-
-<br>
-
-## Fork the class repository. `(2pts)`
+## Fork the class repository. `(1pts)`
 Forking a repository will create a copy on your GitHub account. You own it now. You may freely alter this copy to take class notes and answer questions. These changes will only be reflected on your copy **(fork)** of the repository. 
-
 <br>
 
 ### Visit the class repo and click on `fork`. (top right)
@@ -125,34 +115,54 @@ https://github.com/CSI-Carlos-Cobian/CSI-Python-2021
 
 <br>
 
-## Create a folder on your machine (Windows). 
-You may name it whatever you please but I will use "Courses" as it is simple and descriptive.
-This will be your root folder. This means it is the top-level containing folder. You may place it anywhere but I suggest using your Documents or Desktop folder. 
-In here, you will clone the repositories for any courses that use GitHub. Currently Java, Python and hopefully NovaTech.
+# Set up your development environment
+
+## Install [Visual Studio Code](https://code.visualstudio.com/download) or [XCode](https://developer.apple.com/xcode/) `(1pts)`
+
+### Visual Studio works for both MAC and PC. XCode runs only on MAC. Use default settings.
 
 <br>
 
-### Clone the project into the 'Classes' folder on your machine.
+
+## Clone the repository into your machine `(1pts)`
+### Create a folder on your machine **(Windows)**. 
+You may name it whatever you please but I will use "Courses" as it is simple and descriptive.
+This will be your root folder. This means it is the top-level containing folder. You may place it anywhere but I suggest using your Documents or Desktop folder. 
+In here, you will clone the repositories for any courses that use GitHub. Currently Java, Python and hopefully NovaTech.
+<br>
+
+### Clone the project into the 'Classes' folder on your machine **(Windows)**.
 1. Go to your `Source Control` tab in Visual Studio(3rd).
-2. Initialize Repository (if you have not done so).
-3. Click on the 3 dots (your git menu).
-4. `Clone` the forked repository.
+<br>
+<img    src="SourceControl.png" 
+        title="SourceControl" 
+        width="5%" 
+        height="5%" />
+<br>
+1. Initialize Repository (if you have not done so).
+2. Click on the 3 dots (your git menu).
+3. `Clone` the forked repository.
    - Select `Clone from GitHub`.
    - Alternatively, enter the fork URL with format: github.com/CSI-Name-Lastname/CSI-Python-2021.
-5. When prompted by VS, select to open your new repo.
+4. When prompted by VS, select to open your new repo.
 
+<br>
+
+### Clone using GitHub Desktop **(Mac)**. 
+After signing in to GitHub, click on Clone and your fork should show up. **GitHub Desktop** automatically creates a folder on your Documents called <u>GitHub</u>. This is the equivalent of the 'Courses' folder mentioned above. Within this folder you will find a folder named <u>CSI-Python-2021</u> containing your cloned course.
+
+<br>
+
+# Using Git
 You may clone a repository without forking it, but only `contributors` may push changes to it. When you fork a copy, it becomes your own. 
-
 <br>
 
 *You may also update your copy **(fork)** of the repository to reflect any changes I have made to the course without overwriting your individual changes.*
 
 <br>
 
-## Using Git
-
-### Update your fork:
-You may update your fork on GitHub. When your fork is out of date, a banner will show up. Click on it to update your branch.
+## Update your fork:
+You may update your fork on GitHub.com. When your fork is out of date, a banner will show up. Click on it to update your branch.
 
 <br>
 
@@ -163,11 +173,11 @@ To download fork updates to your **local** repository(PC).
 
 <br>
 
-Alternatively, you may update both simultaneously from Visual Studio by selecting.
+You may update both simultaneously from Visual Studio by selecting.
 1. `Source Control` > Branch > Merge Branch
 2. Select `upstream/main`
 
-`upstream/main` represents the main branch of the repository you've forked. 'Merging' it into you branch means that you're applying its updates into your branch.
+`upstream/main` represents the repository you've forked. 'Merging' it into you branch means that you're applying its updates into your branch.
 
 <br>
 

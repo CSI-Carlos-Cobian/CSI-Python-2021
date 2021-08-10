@@ -17,9 +17,9 @@ Markdown is a lightweight markup language that you can use to add formatting ele
 
 <br>
 
-### Open Visual Studio Code. Your first task is to change your working directory to that of the course.
+### Open Visual Studio Code. Make sure that your working directory to that of the course.
 
-1. Go to File > Open Folder
+1. Go to `File` > `Open Folder`
 2. Select the directory you cloned your repository into `(CSI-Python-2021)`. 
 
 <br>
