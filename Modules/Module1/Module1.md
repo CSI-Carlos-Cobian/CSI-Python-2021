@@ -15,16 +15,6 @@
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \- [The Git Website](https://git-scm.com/)
 
-<br>
-
-### A Diagram
-<img    src="https://www.pngitem.com/pimgs/m/608-6085261_git-push-and-pull-hd-png-download.png" 
-        title="Git diagram" 
-        width="60%" 
-        height="60%" />
-
-<br>
-
 #### Git allows you to track changes in a file system, refered to as a repository. Some examples would be adding and removing files, adding and removing lines in a file, renaming files.
 
 <br>
@@ -37,7 +27,7 @@
 
 <br>
 
-#### In class we will refer to repositories as the copies of the course file system that each one of us holds. Repositories are both local and remote, meaning that repositories are available both offline on your machine, and online on a remote webserver. In our class we will use `GitHub` as our remote host.
+#### In class, we will refer to repositories as the copies of the course file-system that each one of us holds. Repositories are both local and remote, meaning that repositories are available both offline on your machine, and online on a remote webserver. In our class we will use `GitHub` as our remote host.
 
 <br>
 
@@ -56,8 +46,18 @@
 
 <br>
 
+<br>
+
+## A Diagram
+<img    src="https://www.pngitem.com/pimgs/m/608-6085261_git-push-and-pull-hd-png-download.png" 
+        title="Git diagram" 
+        width="60%" 
+        height="60%" />
+
+<br>
+
 ## Install [Git](https://git-scm.com/downloads) **Correctly** (Windows). `(1pts)`
-### In this class we'll use Visual Studio's integrated implementation of Git. MAC users may use XCode's integration. Visual Studio requires Git installed on your machine. XCode does not.
+### In this class we'll use Visual Studio's integrated implementation of Git. MAC users may use XCode's integration. Visual Studio requires Git installed on your machine. XCode includes it.
 
 <br>
 
@@ -147,7 +147,7 @@ You may clone a repository without forking it, but only `contributors` may push 
 
 <br>
 
-You may also update your copy(fork) of the repository to reflect any changes i have made to the course without overwriting your individual changes.
+*You may also update your copy(fork) of the repository to reflect any changes i have made to the course without overwriting your individual changes.*
 
 <br>
 
@@ -205,5 +205,5 @@ What is the difference between a pull, and an upstream pull?
 Lackluster responses may result in point deductions.
 -->
 
-* ### Save the file. Commit your changes and push them to your remote repository by the next class. `(1pts)`*(Free for first class. Consult me if you struggle too hard.)*
+* ### Save the file. Commit your changes and push them to your remote repository by the next class. `(1pts)`*(Free for first class. Consult me if you struggle too hard with Git.)*
 * ### You may complete the answers by issuing aditional commits and pushing them before the next class.
