@@ -12,6 +12,11 @@
 
 <br>
 
+## What is [Markdown](https://www.markdownguide.org/getting-started/)?
+Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents.
+
+<br>
+
 ### Open Visual Studio Code. Your first task is to change your working directory to that of the course.
 
 1. Go to File > Open Folder
@@ -54,6 +59,16 @@
 to 
 
 > C:\Users\user\Documents\CSI-Python-2021\Modules\Module2
+
+<br>
+
+
+# Install [Python3](https://www.python.org/downloads/) Correctly`(1pts)`
+### Run Python Installer
+   - [X] Add Python to PATH
+
+*You may need to close and open Visual Stuido after Installation.*
+
 
 <br>
 
@@ -107,11 +122,16 @@ Typing `python` into the terminal will enter the Python console:
 <!-- Answer using full sentences to receive all points. -->
 <!-- 
 
+What is a benefit of using Markdown?
+https://www.markdownguide.org/getting-started/
+
+ - Answer:
+
 What does "cd" stand for?
 
  - Answer:
 
-Did you get stuck at any point or cecome confused with your console? (yes/no) 
+Did you get stuck at any point or become confused with your console? (yes/no) 
 If so, what happened? How did you solve it? (optional)
 
  - Answer:

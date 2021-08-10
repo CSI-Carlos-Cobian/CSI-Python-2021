@@ -17,7 +17,15 @@
 
 <br>
 
-#### Git allows you to track changes in a file system, refered to as repository. Some examples would be adding and removing files, adding and removing lines to a file, renaming files.
+### A Diagram
+<img    src="https://www.pngitem.com/pimgs/m/608-6085261_git-push-and-pull-hd-png-download.png" 
+        title="Git diagram" 
+        width="60%" 
+        height="60%" />
+
+<br>
+
+#### Git allows you to track changes in a file system, refered to as a repository. Some examples would be adding and removing files, adding and removing lines in a file, renaming files.
 
 <br>
 
@@ -29,7 +37,7 @@
 
 <br>
 
-#### In class we will refer to repositories as the copies of the course file system that each one of us holds. Repositories are both local and remote, meaning that repositories are available both offline on your machine, and online on a remote webserver. In our class we will use GitHub as our remote host.
+#### In class we will refer to repositories as the copies of the course file system that each one of us holds. Repositories are both local and remote, meaning that repositories are available both offline on your machine, and online on a remote webserver. In our class we will use `GitHub` as our remote host.
 
 <br>
 
@@ -39,30 +47,17 @@
 <br>
 
 ## Commit
-#### A commit saves any changes made to files on your local machine to the local repository. Before committing you will select which files and/or lines you would like to include. You don't have to include all of them but you should make sure that what you are committing is correct. A commit requires a message. This message must be descriptive of what is being changes. This helps you keep track of every version change. Commits may be deleted or reverted locally.
+#### A commit saves any changes made to files on your local machine, to the local repository. Before committing, you will select which files and/or lines you would like to include. You don't have to include all of them, but you should make sure that what you are committing is correct. A commit requires a message. This message must be descriptive of what is being changed. This helps you keep track of every version change. Commits may be deleted or reverted locally before a Push.
 
 <br>
 
 ## Push
-#### Pushing to your remote repository will upload all pending commits. You should make sure that all commits are stable and correct before pushing. Oncce a commit has been pushed it will be available to anyone working on the repository. It is easier to delete or revert commits that are local and unpushed as another user may have pulled them already. 
-
-<br>
-
-### A Diagram
-
-<br>
-
-<img    src="https://www.pngitem.com/pimgs/m/608-6085261_git-push-and-pull-hd-png-download.png" 
-        title="Colegio San Ignacio" 
-        width="60%" 
-        height="60%" />
-
-
+#### Pushing to your remote repository will upload all pending commits. You should make sure that all commits are stable and correct before pushing. Oncce a commit has been pushed it will be available to anyone working on the repository. It is easier to delete or revert commits that are local and unpushed, as another user may pull bad code before you fix it. 
 
 <br>
 
 ## Install [Git](https://git-scm.com/downloads) **Correctly** (Windows). `(1pts)`
-### In this class we'll use Visual Studio's integrated implementation of Git. MAC users may use XCode's integration. We'll install Git on our machines and select Visual Studio Code as our default editor.
+### In this class we'll use Visual Studio's integrated implementation of Git. MAC users may use XCode's integration. Visual Studio requires Git installed on your machine. XCode does not.
 
 <br>
 
@@ -81,8 +76,12 @@
 
 <br>
 
+Any users that chose to use Visual Studio Code on Mac should download and install [GitHub Desktop](https://desktop.github.com/) as it is the easiest solution to the git dependency.
+
+<br>
+
 # What is GitHub?
-Think of GitHub as an Instagram of Code. A whole bunch of programmers from all around the world share their code so that others may view and like it. They all use the technology of Git and share it on this Hub. GitHub is free, but you may pay to keep your repositories private.
+Think of GitHub as an Instagram of Code. A whole bunch of programmers from all around the world share their code so that others may view, comment and like it. They all use the technology of Git and share it on this Hub. GitHub is free, but you may pay to keep your repositories private.
 
 <br>
 
@@ -98,76 +97,71 @@ Think of GitHub as an Instagram of Code. A whole bunch of programmers from all a
         title="Create Account" 
         width="70%" 
         height="70%" />
+<br>
+*If it already exists, include your second lastname.*
 
 <br>
 
-# What is a branch?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+# What is a branch?     
+Branches are diferent versions of  a repository. A central branch(`main`) represents a repository, while many others represent pending changes that are incomplete, in developement, or just diferent. 
 
 <br>
-
-# What is Markdown?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-<br>
-
 
 # Set up your development environment
-
-## Install [Python3](https://www.python.org/downloads/) Correctly`(1pts)`
-### Run Python Installer
-   - [X] Add Python to PATH
 
 <br>
 
 ## Install [Visual Studio Code](https://code.visualstudio.com/download) or [XCode](https://developer.apple.com/xcode/) `(1pts)`
 
-### Visual Studio works for both MAC and PC. Xcode runs on MAC. Use default settings. I personally prefer the Dark theme.
+### Visual Studio works for both MAC and PC. Xcode runs only on MAC. Use default settings. I personally prefer the Dark theme.
 
 <br>
 
-## Fork the class repository `(2pts)`
-### Visit the class repo and click on `fork` (top right)
+## Fork the class repository. `(2pts)`
+Forking a repository will create a copy on your GitHub account. You own it now. You may freely alter this copy to take class notes and answer questions. These changes will only be reflected on **your copy**(fork) of the repository. 
+
+<br>
+
+### Visit the class repo and click on `fork`. (top right)
 https://github.com/CSI-Carlos-Cobian/CSI-Python-2021
 
 <br>
 
-Create a folder. You may name it whatever you please but i will use "Courses" as it is simple and descriptive.
+### Create a folder on your machine. 
+You may name it whatever you please but i will use "Courses" as it is simple and descriptive.
 This will be your root folder. This means it is the top-level containing folder. You may place it anywhere but i suggest using your Documents or Desktop folder. 
-In here you will clone the repositories for any classes that use GitHub. Currently Java, Python and hopefully NovaTech.
-* In Visual Studio
-* Go to File > Open Folder
-* Select your newly created directory
+In here you will clone the repositories for any courses that use GitHub. Currently Java, Python and hopefully NovaTech.
 
 <br>
 
-### Create a fork in your GitHub.
-Forking a repository will create a copy on your GitHub account. You may freely alter this copy to take class notes and answer questions. These changes will only be reflected on **your** copy of the repository. You may also update your copy of the repository to reflect any changes i have made to the course without overwriting your individual changes.
-
-<br>
-
-
-
-### Clone the project into the Classes folder on your machine
-1. Go to your `Source Control` tab
-2. Initialize Repository if you have not done so.
-3. Click on the 3 dots (your git menu)
-4. Clone the forked repository.
+### Clone the project into the 'Classes' folder on your machine.
+1. Go to your `Source Control` tab in Visual Studio(3rd).
+2. Initialize Repository (if you have not done so).
+3. Click on the 3 dots (your git menu).
+4. `Clone` the forked repository.
    - Select `Clone from GitHub`
    - Alternatively, enter the fork URL with format: github.com/CSI-Name-Lastname/CSI-Python-2021
-5. When prompted, select to open your new repo.
+5. When prompted by VS, select to open your new repo.
 
-You may clone a repository without forking it, but only the owner may push changes to it. When you fork a copy it becomes your own. 
+You may clone a repository without forking it, but only `contributors` may push changes to it. When you fork a copy it becomes your own. 
+
+<br>
+
+You may also update your copy(fork) of the repository to reflect any changes i have made to the course without overwriting your individual changes.
+
+<br>
+
+## Using Git
 
 <br>
 
 ### Update your fork:
-You may update your fork on GitHub. When your fork is out of date, a banner will show up.
+You may update your fork on GitHub. When your fork is out of date, a banner will show up. Click on it to update your branch.
 
 <br>
 
-To download these changes to your local repository
-1. Go to your `Source Control` tab
+To download fork updates to your **local** repository(PC).
+1. Go to your `Source Control` tab in Visual Studio(3rd).
 2. Click on the 3 dots (your git menu)
 3. Pull
 
@@ -177,12 +171,14 @@ Alternatively, you may update both simultaneously from Visual Studio by selectin
 1. `Source Control` > Branch > Merge Branch
 2. Select `upstream/main`
 
+`upstream/main` represents the main branch of the repository you've forked. 'Merging' it into you branch means that you're applying it's updates into your branch.
+
 <br>
 
 ### [Source Tree Git](/../../tree/main/Modules/SourceTree/Setup.md) **(Optional)** 
 
 * #### Provides easier visualization of branches and history. 
-* #### Requires many 3rd party authorizations
+* #### Requires many 3rd party authorizations.
 
 <br>
 
@@ -194,11 +190,6 @@ Alternatively, you may update both simultaneously from Visual Studio by selectin
 <!-- Answer using full sentences to receive all points. -->
 <!-- 
 
-What is a benefit of using Markdown?
-https://www.markdownguide.org/getting-started/
-
- - Answer:
-
 What is the difference between Git and GitHub?
 
  - Answer:
@@ -207,8 +198,12 @@ What is the difference between a git commit and a git push?
 
  - Answer:
 
+What is the difference between a pull, and an upstream pull?
+
+ - Answer:
+
 Lackluster responses may result in point deductions.
 -->
 
-* ### Save the file. Commit your changes and push them to your remote repository by the end of the class. `(1pts)`
+* ### Save the file. Commit your changes and push them to your remote repository by the next class. `(1pts)`*(Free for first class. Consult me if you struggle too hard.)*
 * ### You may complete the answers by issuing aditional commits and pushing them before the next class.

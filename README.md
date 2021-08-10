@@ -33,7 +33,7 @@ At least 300 points.
 | Visual Repository <br>(optional) | [Sourcetree](https://www.sourcetreeapp.com/)| [Sourcetree](https://www.sourcetreeapp.com/) |
 
 ## Evaluation Criteria
-* Student Pushes a comit into his branch at the end of every class. 
+* Student Pushes a commit into his branch at the end of every class. 
 * Student commits answers to previous lectures' questionaires before the following class. 
    - Student uses full sentences on commit descriptions and questionaire answers. 
 * Partial credit may be granted for late submisions.
