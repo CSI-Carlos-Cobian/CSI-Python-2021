@@ -10,7 +10,7 @@
 
 ### Open Visual Studio Code. Your first task is create your first algorithm in Python.
 
-1. Select Module 3
+1. Select Module 4
 2. Go to File > New File
 3. Name the file as Print.py  
 *Python programs usually have a name ending with ".py", which makes them easy to recognize. 
@@ -20,7 +20,7 @@ In Python, the `print()` function is used to tell a computer to talk. the messag
 
 <br>
 
-## `Strings`
+## `String`
 Programmers use the word strings to refer to blocks of text or any data made up of a sequence of letters.  In Python a string is surrounded by single or double quotes. 
 ### Exercise 3.1 
 Print your name using the print () command.
