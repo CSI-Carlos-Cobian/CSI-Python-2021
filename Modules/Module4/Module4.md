@@ -6,7 +6,7 @@
 </div>
 <br>
 
-# Module 3: Let's start coding
+# Module 4: Let's start coding
 
 ### Open Visual Studio Code. Your first task is create your first algorithm in Python.
 
@@ -60,13 +60,13 @@ print(age)
 
 <br>
 
-## `Concatenation` - parte nueva
+## `Concatenation`
 The "`+`" operator doesn't just add 2 numbers, it can also "add" two strings.  Combining two strings is called *concatenation*.
 
 <br>
 
 ## Class Discussion
-## Answer the questions on the Markdown file located within your <u>`Module3`</u> directory (Module3.md) - 3 points
+## Answer the questions on the Markdown file located within your <u>`Module4`</u> directory (Module4.md) - 3 points
 
 <!-- This is a comment. It is not processed by the code -->
 <!-- Welcome! These are your questions. -->
