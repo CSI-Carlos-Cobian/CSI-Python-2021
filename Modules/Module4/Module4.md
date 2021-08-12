@@ -84,7 +84,7 @@ A Functional String accepts variables or <u>code blocks</u> `{}` into the constr
 
 A functional string is denoted by a "f" before the string initialization. eg.
 ```c
-s:string = f"Combine an existing {var} with a number such as: {1}"
+s:str = f "Combine an existing {var} with a number such as: {1}"
 ```
 <br>
 
