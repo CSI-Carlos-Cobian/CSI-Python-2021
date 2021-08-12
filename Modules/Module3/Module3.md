@@ -7,7 +7,7 @@
 <br>
 
 
-# Module 4: Data Type
+# Module 3: Data Type
 
 ## Data type
 A data type is a category for values. The most commons data types in Python are `integer`, `float`, `strings`, and `boolean`. 
@@ -50,7 +50,7 @@ Programmers use the word strings to refer to blocks of text or any data made up 
 <br>
 
 ## Class Discussion
-## Answer the questions on the Markdown file located within your <u>`Module4`</u> directory (Module4.md) - 3 points
+## Answer the questions on the Markdown file located within your <u>`Module3`</u> directory (Module4.md) - 3 points
 
 <!-- This is a comment. It is not processed by the code -->
 <!-- Welcome! These are your questions. -->
