@@ -30,7 +30,9 @@ In coding, numbers with a decimal point are known as `floats`. It's Full name is
 Programmers use the word strings to refer to blocks of text or any data made up of a sequence of characters. Strings are a single data object; They are surrounded by single quote (') or double quote (") characters. 
 >Example: "a", "aa", 'Hello!', '101 Dalmatians'
 
+<br>
 
+## Common Data Types
 
 
 
@@ -40,7 +42,8 @@ Programmers use the word strings to refer to blocks of text or any data made up 
 |Float|d = float(5) <br> d = 5.3|
 |String|s="Hello World!" <br> s=str(42)|
 |Boolean|True, False, >, <, ==, >=, <=, 1, 0
-|||
+|Object|o=Object();|
+|Void/Null|o = None
 
 
 
