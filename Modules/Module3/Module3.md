@@ -38,6 +38,8 @@ Programmers use the word strings to refer to blocks of text or any data made up 
 |----------|----------|
 |Integer | i = 42 <br> i: int = 42 <br> i = int ("3")|
 |Float|d = float(5) <br> d = 5.3|
+|String|s="Hello World!" <br> s=str(42)|
+|Boolean|True, False, >, <, ==, >=, <=, 1, 0
 |||
 
 
