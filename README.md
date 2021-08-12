@@ -34,9 +34,9 @@ At least 300 points.
 
 ## Evaluation Criteria
 * Student Pushes a commit into his branch at the end of every class. 
-* Student commits answers to previous lectures' questionaires before the following class. 
-   - Student uses full sentences on commit descriptions and questionaire answers. 
-* Partial credit may be granted for late submisions.
+* Student commits answers to previous lectures' questionnaires before the following class. 
+   - Student uses full sentences on commit descriptions and questionnaire answers. 
+* Partial credit may be granted for late submissions.
 * In class problem solving.
 * Open branch final exam. 
 
@@ -44,7 +44,7 @@ At least 300 points.
 * [Git and source control](/../../tree/main/Modules/Module1/Module1.md)
 * [Integrated Development Environment(IDE) and the Console](/../../tree/main/Modules/Module2/Module2.md)
 * Input, output and functional strings.
-* If-else logic **(Rock Paper Scisors)**
+* If-else logic **(Rock Paper Scissors)**
 * Compound logic
 * Looping (for, while) **(Fancy & Funky Print Loops)**
 * Lists & Iteration **(Hangman Project)**

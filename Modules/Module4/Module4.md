@@ -54,7 +54,7 @@ print(age)
 >
 >Dinner:
 >
->Spagettis with brocolli
+>Spaghetti with brocoli
 
 <!-- Sample Code. Create a file named FeedingCycle.py -->
 <!-- 
