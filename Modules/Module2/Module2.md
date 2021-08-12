@@ -69,7 +69,7 @@ to
 ### Run Python Installer
    - [X] Add Python to PATH
 
-* *You may need to close and open Visual Stuido after Installation.*
+* *You may need to close and open Visual Studio after Installation.*
 
 * *If prompted for Python Extensions, select to Install.*
 
@@ -80,7 +80,7 @@ to
 
 # Interact with Python.
 
-Python should have been installed and added to PATH. To verify this run: `python --version` and recieve an output of:
+Python should have been installed and added to PATH. To verify this run: `python --version` and receive an output of:
  
 >Python 3.9.6
 
@@ -94,7 +94,7 @@ Typing `python` *(or `python3`)* into the terminal will enter the Python console
 >
 > \>\>\>
 
-`print("Hello World!")` will run a simple python command that returns whichever string of text you have encapsulated into your doublequotes. In this case 
+`print("Hello World!")` will run a simple python command that returns whichever string of text you have encapsulated into your double quotes. In this case 
 > Hello World!
 
 `exit()` will bring you back into your Operating System's console.
@@ -106,7 +106,7 @@ Typing `python` *(or `python3`)* into the terminal will enter the Python console
 
 ### The output should look similar to this:
 
-<img    src="HelloWorldSample.png" 
+<img    src="CSI-Carlos-Cobian-Module2-1.png" 
         title="HelloCarlos!" 
         width="80%" 
         height="80%" />
@@ -155,4 +155,4 @@ Lackluster responses may result in point deductions.
 -->
 
 * ### Save the file. Commit your changes and push them to your remote repository by the end of the class. `(1pts)`
-* ### You may complete the answers by issuing aditional commits and pushing them before the next class.
+* ### You may complete the answers by issuing additional commits and pushing them before the next class.

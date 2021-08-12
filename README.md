@@ -53,7 +53,7 @@ At least 300 points.
 
 ## Suggested projects
 * Egg Catcher
-* Rock Paper Scisors
+* Rock Paper Scissors
 * Hangman
 * Snake
 * Conway's game of life

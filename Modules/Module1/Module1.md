@@ -7,7 +7,7 @@
 <br>
 
 # Module 1: Git and GitHub
-### Welcome to Python-2021! In this class, we will be using GitHub as our code repository. This is an industry standard that should be understood by all students looking to pursue a carreer path related to software.
+### Welcome to Python-2021! In this class, we will be using GitHub as our code repository. This is an industry standard that should be understood by all students looking to pursue a career path related to software.
 <br>
 
 # What is Git?
@@ -15,7 +15,7 @@
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \- [The Git Website](https://git-scm.com/)
 
-#### Git allows you to track changes in a file system, refered to as a repository. Some examples would be adding and removing files, adding and removing lines in a file, renaming files.
+#### Git allows you to track changes in a file system, referred to as a repository. Some examples would be adding and removing files, adding and removing lines in a file, renaming files.
 
 <br>
 
@@ -101,7 +101,7 @@ Think of GitHub as an Instagram of Code. A whole bunch of programmers from all a
 <br>
 
 # What is a branch?     
-Branches are different versions of a repository. A central branch(`main`) represents a repository, while many others represent modifications that are incomplete, in developement, or just diferent. 
+Branches are different versions of a repository. A central branch(`main`) represents a repository, while many others represent modifications that are incomplete, in development, or just different. 
 
 <br>
 
