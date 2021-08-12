@@ -6,9 +6,9 @@
 </div>
 <br>
 
-# Module 4: Let's start coding
+# Module 4: 
 
-### Open Visual Studio Code. Your first task is create your first algorithm in Python.
+### Open Visual Studio Code. Your first task is create your first script in Python.
 
 1. Select Module 4
 2. Go to File > New File
@@ -19,12 +19,10 @@
 In Python, the `print()` function is used to tell a computer to talk. the message to be printed should be surrounded by brackets(`'` or `"`).
 
 <br>
-
-## `String`
-Programmers use the word strings to refer to blocks of text or any data made up of a sequence of letters.  In Python a string is surrounded by single or double quotes. 
-### Exercise 3.1 
-Print your name using the print () command.
+### Exercise 4.1 
+Print your name using the print() command.
 >José D. Quintana Rivera
+<!-- Upload a screenshot -->
 
 <br>
 
@@ -42,7 +40,7 @@ print(age)
 
 <br>
 
-### Ex. 3.2 Create an algorithm with the variable *`meal`*. Update the variable meal to reflect each meal of the day before you print it. (6 points)
+### Ex. 4.2 Write a script that updates the variable *`meal`*. Update it to reflect each meal of the day before calling print(). (6 points)
 
 <br>
 
@@ -58,11 +56,36 @@ print(age)
 >
 >Spagettis with brocolli
 
+<!-- Sample Code. Create a file named FeedingCycle.py -->
+<!-- 
+meal:string =
+print
+meal
+print
+
+print
+
+ -->
+
+
+
 <br>
+
+
 
 ## `Concatenation`
 The "`+`" operator doesn't just add 2 numbers, it can also "add" two strings.  Combining two strings is called *concatenation*.
 
+<br>
+
+
+## `Functional Strings`
+A Functional String accepts variables or <u>code blocks</u> `{}` into the construction of a string. Functional strings and <u>string formats</u> are faster than concatenation. 
+
+A functional string is denoted by a "f" before the string initialization. eg.
+```c
+s:string = f"Combine an existing {var} with a number such as: {1}"
+```
 <br>
 
 ## Class Discussion
