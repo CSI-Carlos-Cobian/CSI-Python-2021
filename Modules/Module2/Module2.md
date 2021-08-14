@@ -17,14 +17,14 @@ Markdown is a lightweight markup language that you can use to add formatting ele
 
 <br>
 
-### Open Visual Studio Code. Make sure that your working directory to that of the course.
+### Open Visual Studio Code. Make sure that it is your working directory of the course.
 
 1. Go to `File` > `Open Folder`
-2. Select the directory you cloned your repository into `(CSI-Python-2021)`. 
+2. Select the directory you've cloned your repository into `(CSI-Python-2021)`. 
 
 <br>
 
-### The first thing you will see on the left-most side of visual studio code is the file system for the class.
+### The first thing you will see on the left-most side of visual studio code is the file system for the course.
 <img    src="VSLeftPanel.png" 
         title="Files available on the directory may vary from the time of the screenshot" 
         width="60%" 
@@ -154,5 +154,5 @@ What would you like to program?
 Lackluster responses may result in point deductions.
 -->
 
-* ### Save the file. Commit your changes and push them to your remote repository by the end of the class. `(1pts)`
-* ### You may complete the answers by issuing additional commits and pushing them before the next class.
+* ### Save the file. Commit your changes and push them to your remote repository. `(1pts)`
+* ### You may complete the answers by issuing **additional** commits and pushing them before the next class.

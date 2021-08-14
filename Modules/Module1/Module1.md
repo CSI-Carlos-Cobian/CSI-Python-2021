@@ -58,7 +58,7 @@
 # Install Git **Correctly** `(1pts)`
 ## Install [Git](https://git-scm.com/downloads) (Windows). 
 ### In this class, we'll use Visual Studio's integrated implementation of Git. 
-### When installing, use default settings with these exceptions.
+### When installing, use default settings with these exceptions:
 - Select Visual Studio Code as your default editor.<br>
 <img    src="GitSelect.png" 
         title="Select Visual Studio Code as your default editor" 
@@ -79,7 +79,7 @@ Any users that chose to use Visual Studio Code on Mac should download and instal
 <br>
 
 # What is GitHub?
-Think of GitHub as an Instagram of Code. A whole bunch of programmers from all around the world share their code so that others may view, comment and like it. They all use the technology of Git and share it on this Hub. GitHub is free, but you may pay to keep your repositories private.
+Think of GitHub as an Instagram of Code. A whole bunch of programmers from all around the world share their code so that others may view, comment and like it. Some of the more proficient developers rack up followers who use their code. They all use the technology of Git and share it on this Hub. GitHub is free, but you may pay to keep your repositories private.
 
 <br>
 
@@ -107,7 +107,7 @@ Branches are different versions of a repository. A central branch(`main`) repres
 
 
 ## Fork the class repository. `(1pts)`
-Forking a repository will create a copy on your GitHub account. You own it now. You may freely alter this copy to take class notes and answer questions. These changes will only be reflected on your copy **(fork)** of the repository. 
+Forking a repository will create a copy on your GitHub account. It is similar to a branch, but it exists in another repository. You own it now. You may freely alter this copy to take class notes and answer questions. These changes will only be reflected on your copy **(fork)** of the repository. 
 <br>
 
 ### Visit the class repo and click on `fork`. (top right)
@@ -149,7 +149,7 @@ In here, you will clone the repositories for any courses that use GitHub. Curren
 <br>
 
 ### Clone using GitHub Desktop **(Mac)**. 
-After signing in to GitHub, click on Clone and your fork should show up. **GitHub Desktop** automatically creates a folder on your Documents called <u>GitHub</u>. This is the equivalent of the 'Courses' folder mentioned above. Within this folder you will find a folder named <u>CSI-Python-2021</u> containing your cloned course.
+After signing in to GitHub, click on Clone and your fork should show up. **GitHub Desktop** automatically creates a folder on your Documents called <u>GitHub</u>. This is the equivalent of the *'Courses'* folder mentioned above. Within this folder you will find a folder named <u>CSI-Python-2021</u> containing your cloned course.
 
 <br>
 
@@ -162,8 +162,7 @@ You may clone a repository without forking it, but only `contributors` may push 
 <br>
 
 ## Update your fork:
-You may update your fork on GitHub.com. When your fork is out of date, a banner will show up. Click on it to update your branch.
-
+You may update your fork on GitHub.com. When your fork is out of date, a banner will show up. Click on it to update your fork by pulling changes from the repository you've forked.
 <br>
 
 To download fork updates to your **local** repository(PC).
@@ -215,5 +214,5 @@ What part of these instructions was unclear or incomplete?
 Lackluster responses may result in point deductions.
 -->
 
-* ### Save the file. Commit your changes and push them to your remote repository by the next class. `(1pts)`*(Free for first class. Consult me if you struggle too hard with Git.)*
+* ### Save the file. Commit your changes and push them to your remote repository by the next class. `(1pts)`*(Free for first class. Consult me during office hours if you struggle with Git.)*
 * ### You may complete the answers by issuing additional commits and pushing them before the next class.
