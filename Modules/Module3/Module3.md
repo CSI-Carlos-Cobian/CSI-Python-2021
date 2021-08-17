@@ -32,40 +32,81 @@ Programmers use the word strings to refer to blocks of text or any data made up 
 
 <br>
 
-## Common Data Types
+### Boolean
+A Boolean is a value that is represented by a single bit. This means that it is either true or false. Booleans are used as a part of logic. Various operators may determine whether a statement is true or false such as equals(`==`) or greater than(`>`).
+>Example:
+>
+>i = 10
+>
+>(i < 15) is False
 
+<br>
 
+### Object
+You may define your own data type. In <u>object oriented languages</u> such as Java or C#, everything is an object.
 
-| Data Type | Python | 
-|----------|----------|
-|Integer | i = 42 <br> i: int = 42 <br> i = int ("3")|
-|Float|d = float(5) <br> d = 5.3|
-|String|s="Hello World!" <br> s=str(42)|
-|Boolean|True, False, >, <, ==, >=, <=, 1, 0
-|Object|o=Object();|
-|Void/Null|o = None
+<br>
+
+### Null
+A null or None type represents the absence of a value. This differs from, say 0, in that 0 is present value. 
+
+<br>
+
+### Array
+An array is a list, or collection, of a certain data type. An array is treated as its own data type since it acts like a container.
+
+<br>
+
+## Data Types
+
+| Data Type | Syntax | 
+|-----------|--------|
+|Integer | `i = 42` <br> `i: int = 42` <br> `i = int("3")` <br> converts a string with int characters into a number |
+|Float | `d = float(5)` <br> is equal to 5.0 <br> `d = 5.3` |
+|String | `s="Hello World!"` <br> `s=str(42)` <br> is equal to "42" |
+|Boolean | True, False, >, <, ==, >=, <=, 1, 0, and, or, not |
+|Object | `o = Object()` |
+|Void/Null | `o = None` |
+|Array | `int[] integerArray = new int[5]` <br> initializes an empty(null) array of length 5 <br> `int[] arr = {4, 3, -1, 4, 34}`|
 
 
 
 <br>
 
 ## Class Discussion
-## Answer the questions on the Markdown file located within your <u>`Module3`</u> directory (Module3.md) - 3 points
+## Answer the questions on the Markdown file located within your <u>`Module3`</u> directory (Module3.md) - `(10pts)`
 
 <!-- This is a comment. It is not processed by the code -->
 <!-- Welcome! These are your questions. -->
 <!-- Answer using full sentences to receive all points. -->
 <!-- 
 
-Evaluate the following code. Is the code written correctly? 
-  print('This message has a syntax error!")
-  print(Churrigueresco)
- - Answer:
-
-If you found a SyntaxError or NameError in the code, what would be the correct code?
+Evaluate the following code. Is the code written correctly? What would be the correct code?
+        print('This message has a syntax error!")
+        print(Churrigueresco)
 
  - Answer:
 
+What is the difference between "42" and 42.
+
+ - Answer:
+
+Define: >, <, ==, >=, <=
+
+ - Answer:
+
+How do you address an index in an array? Write a python code that prints 34 by accessing the index defined in:  
+        int[] arr = {4, 3, -1, 4, 34}
+
+ - Answer:
+
+What is the first index of an array? Why?:  
+
+ - Answer:
+
+Provide an original example of a null.
+
+ - Answer:
 
 Lackluster responses may result in point deductions.
 -->
