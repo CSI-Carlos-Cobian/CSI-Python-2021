@@ -76,16 +76,9 @@ An array is a list, or collection, of a certain data type. An array is treated a
 ## Class Discussion
 ## Answer the questions on the Markdown file located within your <u>`Module3`</u> directory (Module3.md) - `(10pts)`
 
-<!-- This is a comment. It is not processed by the code -->
 <!-- Welcome! These are your questions. -->
 <!-- Answer using full sentences to receive all points. -->
 <!-- 
-
-Evaluate the following code. Is the code written correctly? What would be the correct code?
-        print('This message has a syntax error!")
-        print(Churrigueresco)
-
- - Answer:
 
 What is the difference between "42" and 42.
 
@@ -95,7 +88,7 @@ Define: >, <, ==, >=, <=
 
  - Answer:
 
-How do you address an index in an array? Write a python code that prints 34 by accessing the index defined in:  
+How do you address an index in an array? Write a python code that assigns 34 to a new variable by accessing the value stored in:  
         int[] arr = {4, 3, -1, 4, 34}
 
  - Answer:
@@ -104,7 +97,7 @@ What is the first index of an array? Why?:
 
  - Answer:
 
-Provide an original example of a null.
+Provide an original example of a null in which you prove your understanding of the concept.
 
  - Answer:
 

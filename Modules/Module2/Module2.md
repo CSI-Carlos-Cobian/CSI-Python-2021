@@ -124,7 +124,6 @@ Typing `python` *(or `python3`)* into the terminal will enter the Python console
 # Class Discussion
 ## Answer the questions on the Markdown file located within your `Module2` directory (Module2.md). `(4pts)`
 
-<!-- This is a comment. It is not processed by the code -->
 <!-- Welcome! These are your questions. -->
 <!-- Answer using full sentences to receive all points. -->
 <!-- 
@@ -138,8 +137,7 @@ What does "cd" stand for?
 
  - Answer:
 
-Did you get stuck at any point or become confused with your console? (yes/no) 
-If so, what happened? How did you solve it? (optional)
+Did you get stuck at any point or become confused with your console? (yes/no) If so, what happened? How did you solve it?
 
  - Answer:
 
