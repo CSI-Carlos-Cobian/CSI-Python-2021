@@ -44,7 +44,7 @@ At least 300 points.
 * [Git and source control](/../../tree/main/Modules/Module1/Module1.md)
 * [Integrated Development Environment(IDE) and the Console](/../../tree/main/Modules/Module2/Module2.md)
 * [Data Types](/../../tree/main/Modules/Module3/Module3.md)
-* Input, output, functions and functional strings.
+* [String Operations and Functions](/../../tree/main/Modules/Module4/Module4.md).
 * If-else logic **(Rock Paper Scissors)**
 * Compound logic
 * Looping (for, while) **(Fancy & Funky Print Loops)**

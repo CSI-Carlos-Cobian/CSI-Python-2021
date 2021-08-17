@@ -6,7 +6,7 @@
 </div>
 <br>
 
-# Module 4: 
+# Module 4: String Operations and Functions
 
 ### Open Visual Studio Code. Your first task is create your first script in Python.
 
@@ -16,13 +16,7 @@
 *Python programs usually have a name ending with ".py", which makes them easy to recognize. 
 
 ## `Print`
-In Python, the `print()` function is used to tell a computer to talk. the message to be printed should be surrounded by brackets(`'` or `"`).
-
-<br>
-### Exercise 4.1 
-Print your name using the print() command.
->José D. Quintana Rivera
-<!-- Upload a screenshot -->
+In Python, the `print()` function is used to tell a computer to talk. You may print variables or string but keep in mind that object references may print a memory address instead of the value it represents.
 
 <br>
 
@@ -40,7 +34,69 @@ print(age)
 
 <br>
 
-### Ex. 4.2 Write a script that updates the variable *`meal`*. Update it to reflect each meal of the day before calling print(). (6 points)
+### Exercise 4.1 `(1pts)`
+Create a python script within Module4 called `module4.py`. Assign your name to a variable and print it.
+>José D. Quintana Rivera
+<!-- Upload a screenshot -->
+
+
+
+
+<br>
+
+
+
+## `Concatenation`
+The "`+`" operator doesn't just add 2 numbers, it can also "add" two strings.  Combining two strings is called *concatenation*. Be carefull when using concatenation as the operator may **add** numeric variables that are not defined as strings.
+
+<br>
+
+
+## `Functional Strings`
+A Functional String accepts variables or <u>code blocks</u> `{}` into the construction of a string. Functional strings and <u>string formats</u> are faster and a better practice than concatenation. 
+
+A functional string is denoted by an "f" before the string initialization. eg.
+```c
+var:str = "representing a value"
+myNumber:float = 3.5
+
+myFunctionalString = f"Combine an existing string {var} with a number such as: {myNumber} or {1}"
+
+print(myFunctionalString)
+
+print(f"Or use the print directly {myNumber}")
+```
+<br>
+
+# Functions
+## Definition
+In python, a function may be defined using the following syntax:
+```c
+def my_function():
+  print("Hello from a function")
+```
+and it may be called from anywhere its been initialized by typing the function name.
+
+`my_function()` outputs:
+>Hello from a function
+
+<br>
+A function may receive one or multiple parameters
+
+
+```c
+def greetStudent(name):
+  print(f"Hello {name}!")
+```
+### Add this function to your Module4.py file and greet yourself by calling the function and passing your already defined name `(1pts)`
+>Hello José D. Quintana Rivera!
+
+<br>
+
+## Class Discussion
+## Answer the questions on the Markdown file located within your <u>`Module4`</u> directory (Module4.md) - 3 points
+
+<!-- ### Ex. 4.2 Write a script that updates the variable *`meal`*. Update it to reflect each meal of the day before calling print(). `(6pts)`
 
 <br>
 
@@ -54,11 +110,11 @@ print(age)
 >
 >Dinner:
 >
->Spaghetti with brocoli
+>Spaghetti with brocoli -->
 
 <!-- Sample Code. Create a file named FeedingCycle.py -->
 <!-- 
-meal:string =
+meal:str =
 print
 meal
 print
@@ -69,27 +125,6 @@ print
 
 
 
-<br>
-
-
-
-## `Concatenation`
-The "`+`" operator doesn't just add 2 numbers, it can also "add" two strings.  Combining two strings is called *concatenation*.
-
-<br>
-
-
-## `Functional Strings`
-A Functional String accepts variables or <u>code blocks</u> `{}` into the construction of a string. Functional strings and <u>string formats</u> are faster than concatenation. 
-
-A functional string is denoted by a "f" before the string initialization. eg.
-```c
-s:str = f "Combine an existing {var} with a number such as: {1}"
-```
-<br>
-
-## Class Discussion
-## Answer the questions on the Markdown file located within your <u>`Module4`</u> directory (Module4.md) - 3 points
 
 <!-- This is a comment. It is not processed by the code -->
 <!-- Welcome! These are your questions. -->

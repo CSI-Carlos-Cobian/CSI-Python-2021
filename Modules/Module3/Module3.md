@@ -61,9 +61,9 @@ An array is a list, or collection, of a certain data type. An array is treated a
 
 | Data Type | Syntax | 
 |-----------|--------|
-|Integer | `i = 42` <br> `i: int = 42` <br> `i = int("3")` <br> converts a string with int characters into a number |
+|Integer | `i = 42` <br> `i:int = 42` <br> `i = int("3")` <br> converts a string with int characters into a number |
 |Float | `d = float(5)` <br> is equal to 5.0 <br> `d = 5.3` |
-|String | `s="Hello World!"` <br> `s=str(42)` <br> is equal to "42" |
+|String | `s = "Hello World!"` <br> `s = str(42)` <br> is equal to "42" |
 |Boolean | True, False, >, <, ==, >=, <=, 1, 0, and, or, not |
 |Object | `o = Object()` |
 |Void/Null | `o = None` |
