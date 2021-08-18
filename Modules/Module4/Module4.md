@@ -7,39 +7,71 @@
 <br>
 
 # Module 4: String Operations and Functions
-
-## `Variables`
-
-A variable can store a value.  In Python, programmers assign variables by using the equals sign "`=`". 
-
-Example: 
-```c
-age = 21
-
-print(age)
-```
->21
+## `Print`
+In Python, the `print()` function is used to tell your termial to write back at you. You may print variables or strings, but keep in mind that object references may print a memory address instead of the value it represents.
 
 <br>
 
-### Exercise 4.1 `(1pts)`
-Create a python script within Module4 called `Module4.py`. 
+## `Input`
+In Python, the `input()` takes a string value typed by the user at the end of the terminal. It should be assigned to a variable for future use.
+
+<br>
+
+### *[The best way to learn about a language is always to raed the documentation! These are the built in functions for python.](https://docs.python.org/3/library/functions.html)*
+
+For now we will use simple I/O (Input/Output) functions
+
+<br>
+
+## Defining a Function
+In python, a function may be defined using the following syntax:
+```c
+def my_function():
+  print("Hello from a function")
+
+my_function()
+```
+>Hello from a function
+
+It may be called from anywhere its been initialized by typing the function name.
+
+
+<br>
+
+### Functional Parameters
+
+A function may receive one or multiple parameters
+
+```c
+def greetStudent(name):
+  print(f"Hello {name}!")
+
+greetStudent(name)
+```
+>José D. Quintana Rivera
+
+<br>
+
+
+## Create a python script within Module4 called `Module4.py`. `(1pts)`
 1. Select Module4
 2. Go to File > New File
 3. Name the file as `Module4.py`
-4. Assign your name to a variable called `name` and print it.
+4. Assign your **Full Name** to a variable called `name`.
+5. Copy the above defined function into your file.
+6. Greet yourself by calling the function and passing your name as a variable parameter.
 
 *Python scripts usually have a name ending with ".py", which makes them easy to recognize.*
 
 <br>
 
-## `Concatenation`
+## Concatenation
 The "`+`" operator doesn't just add 2 numbers, it can also "add" two strings.  Combining two strings is called *concatenation*. Be carefull when using concatenation as the operator may **add** numeric variables that are not defined as strings.
 
 <br>
 
 
-## `Functional Strings`
+## Functional Strings
 A Functional String accepts variables or <u>code blocks</u> `{}` into the construction of a string. Functional strings and <u>string formats</u> are faster and a better practice than concatenation. 
 
 A functional string is denoted by an "f" before the string initialization. eg.
@@ -55,59 +87,18 @@ print(f"Or use the print directly {myNumber}")
 ```
 <br>
 
-Add these lines to `Module4.py`.`(1pts)`
+### Add these lines to the bottom of your  `Module4.py` file.`(1pts)`
 
 <br>
 
-# Functions
-## `Print`
-In Python, the `print()` function is used to tell your termial to write back at you. You may print variables or strings, but keep in mind that object references may print a memory address instead of the value it represents.
 
-<br>
-
-## `Input`
-In Python, the `input()` takes a string value typed by the user at the end of the terminal. It should be assigned to a variable for future use.
-
-<br>
-
-## Defining a Function
-In python, a function may be defined using the following syntax:
-```c
-def my_function():
-  print("Hello from a function")
-```
-and it may be called from anywhere its been initialized by typing the function name.
-
-calling `my_function()` outputs:
->Hello from a function
-
-<br>
-
-## Functional Parameters
-
-A function may receive one or multiple parameters
-
-```c
-def greetStudent(name):
-  print(f"Hello {name}!")
-
-greetStudent(name)
-```
->José D. Quintana Rivera
-
-<br>
-
-### Add this function to your Module4.py file and greet yourself by calling the function and passing your already defined name `(1pts)`
-
-<br>
-
-## Ex. 4.2 Write a script that takes user input to update a variable called *`meal`*. `(3pts)`
-* Add the script to `Module4.py`
+## Write a script that takes user input to update a variable called *`meal`*. `(3pts)`
+* Add the script to the bottom of your `Module4.py` file.
 * Update it to reflect each meal the user inputs before printing it to the console. 
 *Module2's HelloWorld.py might be a useful reference.*
 <br>
 ### Example output:
->What did you have for Breakfast?: 
+>What did you have for Breakfast?
 >
 >An english muffin.
 >
@@ -124,13 +115,16 @@ greetStudent(name)
 <br>
 
 ## Upload a screenshot of the full output produced by running `Module4.py` `(1pts)`
+* ### Use the name format: `CSI-Name-Lastname-4.png`
+* ### Store it within your Module4 directory.
+* ### Commit and push the file before next class.
 
 <br>
 
 
 
 # Class Discussion
-## Answer the questions on the Markdown file located within your <u>`Module4`</u> directory (Module4.md)`(3pts)`
+## Answer the questions on the Markdown file located within your <u>`Module4`</u> directory (Module4.md)`(4pts)`
 <!-- Welcome! These are your questions. -->
 <!-- Answer using full sentences to receive all points. -->
 <!-- 
@@ -141,7 +135,13 @@ Evaluate the following code. Is the code written correctly? What would be the co
 
  - Answer:
 
-If you found a SyntaxError or NameError in the code, what would be the correct code?
+Evaluate the following code. Is the code written correctly? What would be the correct code?
+        someNumber=360
+        print(' The Number is someNumber ')
+
+ - Answer:
+
+Define a function that takes 2 or more parameters and prints a single line using them as part of a functional string. The function may do anything you chose but the function name and parameter names must be representative of what they are.
 
  - Answer:
 

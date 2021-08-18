@@ -43,7 +43,7 @@ At least 300 points.
 ## Topics
 * [Git and source control](/../../tree/main/Modules/Module1/Module1.md)
 * [Integrated Development Environment(IDE) and the Console](/../../tree/main/Modules/Module2/Module2.md)
-* [Data Types](/../../tree/main/Modules/Module3/Module3.md)
+* [Data Types and Variables](/../../tree/main/Modules/Module3/Module3.md)
 * [String Operations and Functions](/../../tree/main/Modules/Module4/Module4.md).
 * If-else logic **(Rock Paper Scissors)**
 * Compound logic

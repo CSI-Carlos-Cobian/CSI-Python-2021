@@ -7,8 +7,7 @@
 <br>
 
 
-# Module 3: Data Type
-
+# Module 3: Data Types and Variables
 ## Data type
 A data type is a category for values. The most commons data types in Python are `integer`, `float`, `strings`, and `boolean`. 
 
@@ -69,7 +68,21 @@ An array is a list, or collection, of a certain data type. An array is treated a
 |Void/Null | `o = None` |
 |Array | `int[] integerArray = new int[5]` <br> initializes an empty(null) array of length 5 <br> `int[] arr = {4, 3, -1, 4, 34}`|
 
+<br>
 
+## Variables
+
+A variable can store a value.  In Python, programmers assign variables by using the equals sign "`=`". 
+
+Example: 
+```c
+age = 21
+
+print(age)
+```
+>21
+
+<br>
 
 <br>
 
@@ -93,11 +106,11 @@ How do you address an index in an array? Write a python code that assigns 34 to 
 
  - Answer:
 
-What is the first index of an array? Why?:  
+What is the first index of an array? Why?
 
  - Answer:
 
-Provide an original example of a null in which you prove your understanding of the concept.
+Provide an original example of a null value. It must prove your understanding of the concept.
 
  - Answer:
 
