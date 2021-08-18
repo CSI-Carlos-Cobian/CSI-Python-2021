@@ -154,3 +154,7 @@ Lackluster responses may result in point deductions.
 
 * ### Save the file. Commit your changes and push them to your remote repository. `(1pts)`
 * ### You may complete the answers by issuing **additional** commits and pushing them before the next class.
+
+<br>
+
+## [Next Module ->](/../../tree/main/Modules/Module3/Module3.md)

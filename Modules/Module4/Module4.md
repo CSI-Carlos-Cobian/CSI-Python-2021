@@ -148,3 +148,7 @@ If you found a SyntaxError or NameError in the code, what would be the correct c
 
 Lackluster responses may result in point deductions.
 -->
+
+<br>
+
+## [Next Module ->](/../../tree/main/Modules/Module5/Module5.md)
