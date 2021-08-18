@@ -216,3 +216,7 @@ Lackluster responses may result in point deductions.
 
 * ### Save the file. Commit your changes and push them to your remote repository by the next class. `(1pts)`*(Free for first class. Consult me during office hours if you struggle with Git.)*
 * ### You may complete the answers by issuing additional commits and pushing them before the next class.
+
+<br>
+
+## [Next Module ->](/../../tree/main/Modules/Module2/Module2.md)
