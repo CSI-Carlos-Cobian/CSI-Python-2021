@@ -96,7 +96,9 @@ print(f"Or use the print directly {myNumber}")
 * Add the script to the bottom of your `Module4.py` file.
 * Update it to reflect each meal the user inputs before printing it to the console. 
 *Module2's HelloWorld.py might be a useful reference.*
+
 <br>
+
 ### Example output:
 >What did you have for Breakfast?
 >
