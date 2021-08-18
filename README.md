@@ -45,7 +45,7 @@ At least 300 points.
 * [Integrated Development Environment(IDE) and the Console](/../../tree/main/Modules/Module2/Module2.md)
 * [Data Types and Variables](/../../tree/main/Modules/Module3/Module3.md)
 * [String Operations and Functions](/../../tree/main/Modules/Module4/Module4.md).
-* If-else logic **(Rock Paper Scissors)**
+* [Boolean Logic **(Rock Paper Scissors)**]((/../../tree/main/Modules/Module5/Module5.md)) 
 * Compound logic
 * Looping (for, while) **(Fancy & Funky Print Loops)**
 * Lists & Iteration **(Hangman Project)**
