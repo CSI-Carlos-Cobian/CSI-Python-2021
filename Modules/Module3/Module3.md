@@ -114,6 +114,10 @@ Provide an original example of a null value. It must prove your understanding of
 
  - Answer:
 
+Type down any class notes below this sentence:
+
+
+
 Lackluster responses may result in point deductions.
 -->
 

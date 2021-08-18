@@ -145,6 +145,9 @@ Define a function that takes 2 or more parameters and prints a single line using
 
  - Answer:
 
+Type down any class notes below this sentence:
+
+
 
 Lackluster responses may result in point deductions.
 -->

@@ -211,6 +211,10 @@ What part of these instructions was unclear or incomplete?
 
  - Answer:
 
+Type down any class notes below this sentence:
+
+
+
 Lackluster responses may result in point deductions.
 -->
 

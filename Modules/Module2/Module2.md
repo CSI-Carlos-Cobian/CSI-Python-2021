@@ -149,6 +149,10 @@ What would you like to program?
 
  - Answer:
 
+Type down any class notes below this sentence:
+
+
+
 Lackluster responses may result in point deductions.
 -->
 
