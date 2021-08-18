@@ -205,11 +205,11 @@ What is the difference between a git commit and a git push?
 
 What is the difference between a pull, and an upstream pull?
 
- - Answer:
+ - Answer: The difference between a pull and a upstream pull is that upstream pull is merging that one that you forked and pull is forking.
 
 What part of these instructions was unclear or incomplete?
 
- - Answer:
+ - Answer: None I understand them.
 
 Type down any class notes below this sentence:
 
