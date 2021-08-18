@@ -162,7 +162,7 @@ You may clone a repository without forking it, but only `contributors` may push 
 <br>
 
 ## Update your fork:
-You may update your fork on GitHub.com. When your fork is out of date, a banner will show up. Click on it to update your fork by pulling changes from the repository you've forked.
+You may update your fork on GitHub.com. When your fork is out of date, a banner will show up. Click on it to update your fork with any changes i've made. This is called pulling upstream. You're pulling changes from the primary remote repository, into **your** remote repository.
 <br>
 
 To download fork updates to your **local** repository(PC).
@@ -176,7 +176,7 @@ You may update both simultaneously from Visual Studio by selecting.
 1. `Source Control` > Branch > Merge Branch
 2. Select `upstream/main`
 
-`upstream/main` represents the repository you've forked. 'Merging' it into you branch means that you're applying its updates into your branch.
+`upstream/main` represents the repository you've forked. 'Merging' it into you branch means that you're combining your modifications with the updates.
 
 <br>
 

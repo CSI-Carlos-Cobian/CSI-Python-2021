@@ -75,7 +75,7 @@ An array is a list, or collection, of a certain data type. An array is treated a
 A variable can store a value.  In Python, programmers assign variables by using the equals sign "`=`". 
 
 Example: 
-```c
+```python
 age = 21
 
 print(age)
