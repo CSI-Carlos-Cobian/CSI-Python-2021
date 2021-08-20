@@ -51,8 +51,8 @@ A null or None type represents the absence of a value. This differs from, say 0,
 
 <br>
 
-### Array
-An array is a list, or collection, of a certain data type. An array is treated as its own data type since it acts like a container.
+### List
+An list is a list, or collection, of a certain data type. An list is treated as its own data type since it acts like a container.
 
 <br>
 
@@ -66,7 +66,7 @@ An array is a list, or collection, of a certain data type. An array is treated a
 | Boolean | True, False, >, <, ==, >=, <=, 1, 0, and, or, not |
 | Object | `o = Object()` |
 | Void/Null | `o = None` |
-| List | `myList = ["someValue","otherValue"]` <br> `myArray[0]="updatedFirstValue"` <br> `myArray.append("Third Value")` <br> `myArray.extend(["combine","multiple","lists"])` |
+| List | `myList = ["someValue","otherValue"]` <br> `myList[0]="updatedFirstValue"` <br> `myList.append("Third Value")` <br> `myList.extend(["combine","multiple","lists"])` |
 
 <br>
 
@@ -100,12 +100,12 @@ Define: >, <, ==, >=, <=
 
  - Answer:
 
-How do you address an index in an array? Write a python code that assigns 34 to a new variable by accessing the value stored in:  
+How do you address an index in an list? Write a python code that assigns 34 to a new variable by accessing the value stored in:  
         arr = [4, 3, -1, 4, 34]
 
  - Answer:
 
-What is the first index of an array? Why?
+What is the first index of an list? Why?
 
  - Answer:
 
