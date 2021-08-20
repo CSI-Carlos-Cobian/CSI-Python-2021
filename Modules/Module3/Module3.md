@@ -60,13 +60,13 @@ An array is a list, or collection, of a certain data type. An array is treated a
 
 | Data Type | Syntax | 
 |-----------|--------|
-|Integer | `i = 42` <br> `i:int = 42` <br> `i = int("3")` <br> converts a string with int characters into a number |
-|Float | `d = float(5)` <br> is equal to 5.0 <br> `d = 5.3` |
-|String | `s = "Hello World!"` <br> `s = str(42)` <br> is equal to "42" |
-|Boolean | True, False, >, <, ==, >=, <=, 1, 0, and, or, not |
-|Object | `o = Object()` |
-|Void/Null | `o = None` |
-|Array | `int[] integerArray = new int[5]` <br> initializes an empty(null) array of length 5 <br> `int[] arr = {4, 3, -1, 4, 34}`|
+| Integer | `i = 42` <br> `i:int = 42` <br> `i = int("3")` <br> converts a string with int characters into a number |
+| Float | `d = float(5)` <br> is equal to 5.0 <br> `d = 5.3` |
+| String | `s = "Hello World!"` <br> `s = str(42)` <br> is equal to "42" |
+| Boolean | True, False, >, <, ==, >=, <=, 1, 0, and, or, not |
+| Object | `o = Object()` |
+| Void/Null | `o = None` |
+| List | `myList = ["someValue","otherValue"]` <br> `myArray[0]="updatedFirstValue"` <br> `myArray.append("Third Value")` <br> `myArray.extend(["combine","multiple","lists"])` |
 
 <br>
 
@@ -101,7 +101,7 @@ Define: >, <, ==, >=, <=
  - Answer:
 
 How do you address an index in an array? Write a python code that assigns 34 to a new variable by accessing the value stored in:  
-        int[] arr = {4, 3, -1, 4, 34}
+        arr = [4, 3, -1, 4, 34]
 
  - Answer:
 
