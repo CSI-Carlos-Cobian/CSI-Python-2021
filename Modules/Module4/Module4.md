@@ -87,13 +87,13 @@ print(f"Or use the print directly {myNumber}")
 ```
 <br>
 
-### Add these lines to the bottom of your  `Module4.py` file.`(1pts)`
+### Add these lines to the bottom of your  `Module4-Name-Lastname.py` file.`(1pts)`
 
 <br>
 
 
 ## Write a script that takes user input to update a variable called *`meal`*. `(3pts)`
-* Add the script to the bottom of your `Module4.py` file.
+* Add the script to the bottom of your `Module4-Name-Lastname.py` file.
 * Update it to reflect each meal the user inputs before printing it to the console. 
 *Module2's HelloWorld.py might be a useful reference.*
 
@@ -116,7 +116,7 @@ print(f"Or use the print directly {myNumber}")
 
 <br>
 
-## Upload a screenshot of the full output produced by running `Module4.py` `(1pts)`
+## Upload a screenshot of the full output produced by running `Module4-Name-Lastname.py` `(1pts)`
 * ### Use the name format: `CSI-Name-Lastname-4.png`
 * ### Store it within your Module4 directory.
 * ### Commit and push the file before next class.
