@@ -53,10 +53,10 @@ greetStudent(name)
 <br>
 
 
-## Create a python script within Module4 called `Module4.py`. `(1pts)`
+## Create a python script within Module4 called `Module4-Name-Lastname.py`. `(1pts)`
 1. Select Module4
 2. Go to File > New File
-3. Name the file as `Module4.py`
+3. Name the file as `Module4-Name-Lastname.py`
 4. Assign your **Full Name** to a variable called `name`.
 5. Copy the above defined function into your file.
 6. Greet yourself by calling the function and passing your name as a variable parameter.
