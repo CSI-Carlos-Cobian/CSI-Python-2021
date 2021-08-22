@@ -78,8 +78,10 @@ Example:
 
 ```python
 age = 21
-
 print(age)
+
+age:int = 22
+print(type(age))
 ```
 >21
 
