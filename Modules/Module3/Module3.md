@@ -98,7 +98,7 @@ What is the difference between "42" and 42.
 
  - Answer:
 
-Define: >, <, ==, >=, <=
+Define the boolean operators: >, <, ==, >=, <=
 
  - Answer:
 
