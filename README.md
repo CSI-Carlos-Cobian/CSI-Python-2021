@@ -58,6 +58,5 @@ At least 300 points.
 * Hangman
 * Snake
 * Conway's game of life
-* 
 * Serial Interfacing with Arduino
 * Markdown Writer
