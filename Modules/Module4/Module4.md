@@ -117,7 +117,7 @@ print(f"Or use the print directly {myNumber}")
 <br>
 
 ## Upload a screenshot of the full output produced by running `Module4.py` `(1pts)`
-* ### Use the name format: `CSI-Name-Lastname-4.png`
+* ### Use the name format: `Module4-1.png`
 * ### Store it within your Module4 directory.
 * ### Commit and push the file before next class.
 
