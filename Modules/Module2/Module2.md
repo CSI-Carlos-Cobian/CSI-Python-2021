@@ -132,22 +132,23 @@ What is a benefit of using Markdown?
 https://www.markdownguide.org/getting-started/
 
  - Answer:
+ Mark Down can be used for anything from emails to books, and notes to presentations. It is also portable and independent and supported by a lot of websites like reddit and GitHub.
 
 What does "cd" stand for?
 
- - Answer:
+ - Answer: CD stands for change directory.
 
 Did you get stuck at any point or become confused with your console? (yes/no) If so, what happened? How did you solve it?
 
- - Answer:
+ - Answer: No, i did not get stuck nor confused.
 
 Did you consider searching google for other commands to run? What did you try? 
 
- - Answer:
+ - Answer: I run commands such as ping X to see whether an IP address or website is up as well as arp -a to see the IP addresses on my network.
 
 What would you like to program? 
 
- - Answer:
+ - Answer: I like to program things to have fun, like for example a c# code using google's smtp to send hundreds of emails to friends.
 
 Type down any class notes below this sentence:
 
