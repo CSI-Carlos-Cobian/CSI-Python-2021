@@ -95,24 +95,30 @@ print(age)
 
 What is the difference between "42" and 42.
 
- - Answer:
+ - Answer: "42" is a string, while 42 is an integer.
 
 Define: >, <, ==, >=, <=
 
- - Answer:
+ - Answer: > is more than
+ < is less than
+ == is equal to
+ >= more than or equal to
+ <= less than or equal to
+
+ used in if statements
 
 How do you address an index in an array? Write a python code that assigns 34 to a new variable by accessing the value stored in:  
         int[] arr = {4, 3, -1, 4, 34}
 
- - Answer:
+ - Answer: x = arr[4]
 
 What is the first index of an array? Why?
 
- - Answer:
+ - Answer:The first index of an array is 0. It is 0 because it is contained 0 elements away, so it should be denoted as array[0] . 
 
 Provide an original example of a null value. It must prove your understanding of the concept.
 
- - Answer:
+ - Answer: If you ask a student that is not from San Ignacio what his San Ignacio Cafeteria Number is, he will say nothing, or null, its not 0, because it simply does not exist.
 
 Type down any class notes below this sentence:
 
