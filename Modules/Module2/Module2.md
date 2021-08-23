@@ -131,23 +131,23 @@ Typing `python` *(or `python3`)* into the terminal will enter the Python console
 What is a benefit of using Markdown?
 https://www.markdownguide.org/getting-started/
 
- - Answer:
+ - Answer: Markdown is more versatile than other text formats such as Microsoft Word. It can be used for any computer text-based application, independent of the platform, works regardless of the application, making it future proof, and is supported on many different websites.
 
 What does "cd" stand for?
 
- - Answer:
+ - Answer: change directory, which is why it is the command used to move between files on a repository.
 
 Did you get stuck at any point or become confused with your console? (yes/no) If so, what happened? How did you solve it?
 
- - Answer:
+ - Answer: I had a problem when using python in the console, which I circumvented by running Python through VS Code's run button, rather than using the terminal.
 
 Did you consider searching google for other commands to run? What did you try? 
 
- - Answer:
+ - Answer: I did not try any commands aside from cd or python, as they were not relevant to what I was doing. However, I was already familiar with the cd command for searching through files in the terminal from prior experience with Git Bash.
 
 What would you like to program? 
 
- - Answer:
+ - Answer: I would like to write robotics-related programs, such as those that directly relate to robotic functions such as their movement or sensors, as well as any potential artificial intelligence that the robot would need for its functions, such as in reacting to stimuli that it receives through its sensors.
 
 Type down any class notes below this sentence:
 
