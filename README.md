@@ -26,10 +26,10 @@ At least 300 points.
 ## Tools
 
 | Tool | Windows | Mac |
-|----------|----------|----------|
-| Editor (IDE) | [VS Code](https://code.visualstudio.com/download) | [XCode](https://developer.apple.com/xcode/)<br>[VS Code](https://code.visualstudio.com/download)|
+|------|---------|-----|
+| Editor (IDE) | [VS Code](https://code.visualstudio.com/download) | [XCode](https://developer.apple.com/xcode/)<br>[VS Code](https://code.visualstudio.com/download) |
 | Python | [Python3](https://www.python.org/downloads/) | [Python3](https://www.python.org/downloads/macos/) |
-| Git | [Git](https://git-scm.com/downloads) | [GitHub Desktop](https://desktop.github.com/) <br> Included in XCode|
+| Git | [GitHub Desktop](https://desktop.github.com/) <br> or [Git](https://git-scm.com/downloads) | [GitHub Desktop](https://desktop.github.com/) <br> Included in XCode |
 | Visual Repository <br>(optional) | [Sourcetree](https://www.sourcetreeapp.com/)| [Sourcetree](https://www.sourcetreeapp.com/) |
 
 ## Evaluation Criteria

@@ -51,8 +51,8 @@ A null or None type represents the absence of a value. This differs from, say 0,
 
 <br>
 
-### Array
-An array is a list, or collection, of a certain data type. An array is treated as its own data type since it acts like a container.
+### List
+An list is a list, or collection, of a certain data type. An list is treated as its own data type since it acts like a container.
 
 <br>
 
@@ -60,13 +60,13 @@ An array is a list, or collection, of a certain data type. An array is treated a
 
 | Data Type | Syntax | 
 |-----------|--------|
-|Integer | `i = 42` <br> `i:int = 42` <br> `i = int("3")` <br> converts a string with int characters into a number |
-|Float | `d = float(5)` <br> is equal to 5.0 <br> `d = 5.3` |
-|String | `s = "Hello World!"` <br> `s = str(42)` <br> is equal to "42" |
-|Boolean | True, False, >, <, ==, >=, <=, 1, 0, and, or, not |
-|Object | `o = Object()` |
-|Void/Null | `o = None` |
-|Array | `int[] integerArray = new int[5]` <br> initializes an empty(null) array of length 5 <br> `int[] arr = {4, 3, -1, 4, 34}`|
+| Integer | `i = 42` <br> `i:int = 42` <br> `i = int("3")` <br> converts a string with int characters into a number |
+| Float | `d = float(5)` <br> is equal to 5.0 <br> `d = 5.3` |
+| String | `s = "Hello World!"` <br> `s = str(42)` <br> is equal to "42" |
+| Boolean | True, False, >, <, ==, >=, <=, 1, 0, and, or, not |
+| Object | `o = Object()` |
+| Void/Null | `o = None` |
+| List | `myList = ["someValue","otherValue"]` <br> `myList[0]="updatedFirstValue"` <br> `myList.append("Third Value")` <br> `myList.extend(["combine","multiple","lists"])` |
 
 <br>
 
@@ -75,14 +75,15 @@ An array is a list, or collection, of a certain data type. An array is treated a
 A variable can store a value.  In Python, programmers assign variables by using the equals sign "`=`". 
 
 Example: 
-```c
-age = 21
 
+```python
+age = 21
 print(age)
+
+age:int = 22
+print(type(age))
 ```
 >21
-
-<br>
 
 <br>
 
@@ -97,16 +98,16 @@ What is the difference between "42" and 42.
 
  - Answer:
 
-Define: >, <, ==, >=, <=
+Define the boolean operators: >, <, ==, >=, <=
 
  - Answer:
 
-How do you address an index in an array? Write a python code that assigns 34 to a new variable by accessing the value stored in:  
-        int[] arr = {4, 3, -1, 4, 34}
+How do you address an index in an list? Write a python code that assigns 34 to a new variable by accessing the value stored in:  
+        arr = [4, 3, -1, 4, 34]
 
  - Answer:
 
-What is the first index of an array? Why?
+What is the first index of an list? Why?
 
  - Answer:
 

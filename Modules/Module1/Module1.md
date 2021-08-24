@@ -115,14 +115,6 @@ https://github.com/CSI-Carlos-Cobian/CSI-Python-2021
 
 <br>
 
-# Set up your development environment
-
-## Install [Visual Studio Code](https://code.visualstudio.com/download) or [XCode](https://developer.apple.com/xcode/) `(1pts)`
-
-### Visual Studio works for both MAC and PC. XCode runs only on MAC. Use default settings.
-
-<br>
-
 
 ## Clone the repository into your machine `(1pts)`
 ### Create a folder on your machine **(Windows)**. 
@@ -148,7 +140,7 @@ In here, you will clone the repositories for any courses that use GitHub. Curren
 
 <br>
 
-### Clone using GitHub Desktop **(Mac)**. 
+### Clone using GitHub Desktop. 
 After signing in to GitHub, click on Clone and your fork should show up. **GitHub Desktop** automatically creates a folder on your Documents called <u>GitHub</u>. This is the equivalent of the *'Courses'* folder mentioned above. Within this folder you will find a folder named <u>CSI-Python-2021</u> containing your cloned course.
 
 <br>
@@ -162,11 +154,11 @@ You may clone a repository without forking it, but only `contributors` may push 
 <br>
 
 ## Update your fork:
-You may update your fork on GitHub.com. When your fork is out of date, a banner will show up. Click on it to update your fork by pulling changes from the repository you've forked.
+You may update your fork on GitHub.com. When your fork is out of date, a banner will show up. Click on it to update your fork with any changes i've made. This is called pulling upstream. You're pulling changes from the primary remote repository, into **your** remote repository.
 <br>
 
 To download fork updates to your **local** repository(PC).
-1. Go to your `Source Control` tab in Visual Studio(3rd).
+1. Go to your `Source Control` tab in Visual Studio(or GitHub Desktop).
 2. Click on the 3 dots (your git menu).
 3. Pull.
 
@@ -176,7 +168,7 @@ You may update both simultaneously from Visual Studio by selecting.
 1. `Source Control` > Branch > Merge Branch
 2. Select `upstream/main`
 
-`upstream/main` represents the repository you've forked. 'Merging' it into you branch means that you're applying its updates into your branch.
+`upstream/main` represents the repository you've forked. 'Merging' it into you branch means that you're combining your modifications with the updates.
 
 <br>
 

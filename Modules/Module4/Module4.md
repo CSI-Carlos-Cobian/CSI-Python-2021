@@ -25,7 +25,7 @@ For now we will use simple I/O (Input/Output) functions
 
 ## Defining a Function
 In python, a function may be defined using the following syntax:
-```c
+```python
 def my_function():
   print("Hello from a function")
 
@@ -42,7 +42,7 @@ It may be called from anywhere its been initialized by typing the function name.
 
 A function may receive one or multiple parameters
 
-```c
+```python
 def greetStudent(name):
   print(f"Hello {name}!")
 
@@ -75,7 +75,7 @@ The "`+`" operator doesn't just add 2 numbers, it can also "add" two strings.  C
 A Functional String accepts variables or <u>code blocks</u> `{}` into the construction of a string. Functional strings and <u>string formats</u> are faster and a better practice than concatenation. 
 
 A functional string is denoted by an "f" before the string initialization. eg.
-```c
+```python
 var:str = "representing a value"
 myNumber:float = 3.5
 
@@ -117,7 +117,7 @@ print(f"Or use the print directly {myNumber}")
 <br>
 
 ## Upload a screenshot of the full output produced by running `Module4.py` `(1pts)`
-* ### Use the name format: `CSI-Name-Lastname-4.png`
+* ### Use the name format: `Module4-1.png`
 * ### Store it within your Module4 directory.
 * ### Commit and push the file before next class.
 
