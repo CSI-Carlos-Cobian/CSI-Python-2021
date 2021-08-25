@@ -23,7 +23,7 @@ Examples:
 <br>
 Reference: 
 <br>
-O'Riordan, K (2014). ASCII art. <em>Encyclopedia Britannica</em>. www.britannica.com/topic/ASCII-art)
+O'Riordan, K (2014). ASCII art. <em>Encyclopedia Britannica</em>. https://www.britannica.com/topic/ASCII-art
 <br>
 <br>
 
@@ -43,6 +43,6 @@ Take a screenshot of your terminal's output. Save it in the Project directory. N
 |When compiled and run, the program outputs a beautifully stylized, and readable, ASCII art version of your initials or nickname in the Python console.| <p style="text-align: center" >`12 points`</p>|
 | Each character of your name is composed of at least 35 characters (5x7). Spaces per character are included.| <p style="text-align: center" >`5 points`</p> |
 | Name the file using the ACSII-initials.py |<p style="text-align: center" >`2 points`</p> |
-| Take a screenshot of your terminal's output. Save it in the Project directory. Name the file using the following convention: CSI-Jose-Quintana-ACSII-1.png | <p style="text-align: center" >`3 points`</p> |
+| Take a screenshot of your terminal's output. Save it in the Project directory. Name the file using the following convention: `CSI-Jose-Quintana-ACSII-1.png` | <p style="text-align: center" >`3 points`</p> |
 |Total:|<p style="text-align: center" >`22 points`|
 
