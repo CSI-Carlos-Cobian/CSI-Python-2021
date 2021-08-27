@@ -1,34 +1,34 @@
 def print_A():
-    print("    A    ")
-    print("   / \   ")
-    print("  /___\  ")
-    print(" /     \ ")
-    print("/       \\")
+    print("""    A    
+   / \   
+  /___\  
+ /     \ 
+/       \\""")
 def print_I():
-    print("_________")
-    print("    |    ")
-    print("    |    ")
-    print("    |    ")
-    print("____|____")
+    print(""" _______ 
+    |    
+    |    
+    |    
+ ___|___ """)
 def print_M():
-    print("|\     /|")
-    print("| \   / |")
-    print("|  \ /  |")
-    print("|   V   |")
-    print("|       |")
+    print("""|\     /|
+| \   / |
+|  \ /  |
+|   V   |
+|       |""")
 def print_O():
-    print("  _____  ")
-    print(" /     \ ")
-    print(" |     | ")
-    print(" |     | ")
-    print(" \_____/ ")
+    print("""  _____  
+ /     \ 
+ |     | 
+ |     | 
+ \_____/ """)
 def print_R():
-    print("  ____  ")
-    print("  |   \ ")
-    print("  |___/  ")
-    print("  | \   ")
-    print("  |  \  ")
-    print("  |   \  ")
+    print("""  ____  
+  |   \ 
+  |___/  
+  | \   
+  |  \  
+  |   \  """)
 print_M()
 print()
 print_A()
