@@ -49,7 +49,7 @@ Markdown is a lightweight markup language that you can use to add formatting ele
 
 * `dir` will Show contents of current directory
  
-* `cd ..` will take you back one directory
+* `cd ..` will take you back one directory. It stands for change directory.
 
 * `cd CSI-Python-2021` will bring you back to the project directory (Assuming you went back one directory in the step before)
 
