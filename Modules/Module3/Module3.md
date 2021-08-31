@@ -107,7 +107,7 @@ How do you address an index in an list? Write a python code that assigns 34 to a
 
  - Answer:
 
-What is the first index of an list? Why?
+What is the first index of a list? Why?
 
  - Answer:
 
