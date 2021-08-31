@@ -6,7 +6,7 @@
 </div>
 <br>
 
-# Multi-line Strings (5pts Bonus)
+# Multi-line Strings `(5pts Bonus)`
 ### We have already created a ASCII art project. Some students may be interested in a more advanced adaptation. for this reason we have created an extra project. 
 * The first step will be to create a python script inside the `"images"` folder of the class.
 * name it `Logo.py`
