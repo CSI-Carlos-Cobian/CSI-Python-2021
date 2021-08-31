@@ -8,7 +8,7 @@ def print_O():
     print("  _____  \n /     \ \n |     | \n |     | \n \_____/ ")
 def print_R():
     print("  ____  \n  |   \ \n  |___/  \n  | \   \n  |  \  \n  |   \  ")
-def print_name():
+def printName():
     print_M()
     print()
     print_A()
@@ -19,5 +19,5 @@ def print_name():
     print()
     print_O()
     print()
-print_name()
+printName()
 test = input();

@@ -1,5 +1,5 @@
 import sys
 import ASCII_Initials
 
-print_name()
+ASCII_Initials.printName()
 test = input();
