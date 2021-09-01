@@ -140,6 +140,7 @@ Evaluate the following code. Is the code written correctly? What would be the co
 Evaluate the following code. Is the code written correctly? What would be the correct code?
         someNumber=360
         print(' The Number is someNumber ')
+Expected:  The Number is 360
 
  - Answer:
 
