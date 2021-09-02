@@ -38,8 +38,10 @@ $105.925
 
 | Criteria | Points | 
 |-----------|--------|
-|When compiled and run, the program outputs a receipt with the item descriptions purchased by 2 students and the sales total in the Python console.| <p style="text-align: center" >`21 points`</p>|
+|The script includes the following variables: item descriptions, item prices, sale tax, students items, student totals ant student taxes.| <p style="text-align: center" >`25 points`</p>|
+|When compiled and run, the program outputs a receipt with a detailed descriptions of the item purchased by Student One and the sale total in the Python console.| <p style="text-align: center" >`5 points`</p>|
+|When compiled and run, the program outputs a receipt with a detailed descriptions of the item purchased by Student Two and the sale total in the Python console.| <p style="text-align: center" >`5 points`</p>|
 | Name the file using the Receipts-Guarida-Leon.py |<p style="text-align: center" >`2 points`</p> |
 | Take a screenshot of your terminal's output. Save it in the Project directory. Name the file using the following convention: `CSI-Jose-Quintana-Receipts-Guarida.png` | <p style="text-align: center" >`3 points`</p> |
-|Total:|<p style="text-align: center" >`26 points`|
+|Total:|<p style="text-align: center" >`40 points`|
 
