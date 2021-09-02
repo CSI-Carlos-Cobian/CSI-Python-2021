@@ -34,12 +34,12 @@ Student One Total:
 $105.925
 ```
 
-Editar rúbrica
+## Rubric
 
 | Criteria | Points | 
 |-----------|--------|
-|When compiled and run, the program outputs a receipt with the items purchased descriptions and the sales total in the Python console.| <p style="text-align: center" >`21 points`</p>|
+|When compiled and run, the program outputs a receipt with the item descriptions purchased by 2 students and the sales total in the Python console.| <p style="text-align: center" >`21 points`</p>|
 | Name the file using the Receipts-Guarida-Leon.py |<p style="text-align: center" >`2 points`</p> |
-| Take a screenshot of your terminal's output. Save it in the Project directory. Name the file using the following convention: `CSI-Jose-Quintana-ACSII-1.png` | <p style="text-align: center" >`3 points`</p> |
-|Total:|<p style="text-align: center" >`22 points`|
+| Take a screenshot of your terminal's output. Save it in the Project directory. Name the file using the following convention: `CSI-Jose-Quintana-Receipts-Guarida.png` | <p style="text-align: center" >`3 points`</p> |
+|Total:|<p style="text-align: center" >`26 points`|
 
