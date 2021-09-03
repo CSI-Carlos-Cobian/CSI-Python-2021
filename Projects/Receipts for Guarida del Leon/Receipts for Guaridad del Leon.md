@@ -25,6 +25,8 @@ In this project, you will be storing names and prices of the Guarida del León c
 <br>
 
 ### Example output:
+<br>
+
 ```python
 Student One:
 
