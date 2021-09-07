@@ -37,7 +37,7 @@ A Boolean is a value that is represented by a single bit. This means that it is 
 >
 >i = 10
 >
->(i < 15) is False
+>(i < 15) is True
 
 <br>
 
@@ -51,8 +51,8 @@ A null or None type represents the absence of a value. This differs from, say 0,
 
 <br>
 
-### Array
-An array is a list, or collection, of a certain data type. An array is treated as its own data type since it acts like a container.
+### List
+An list is a list, or collection, of a certain data type. An list is treated as its own data type since it acts like a container.
 
 <br>
 
@@ -60,13 +60,13 @@ An array is a list, or collection, of a certain data type. An array is treated a
 
 | Data Type | Syntax | 
 |-----------|--------|
-|Integer | `i = 42` <br> `i:int = 42` <br> `i = int("3")` <br> converts a string with int characters into a number |
-|Float | `d = float(5)` <br> is equal to 5.0 <br> `d = 5.3` |
-|String | `s = "Hello World!"` <br> `s = str(42)` <br> is equal to "42" |
-|Boolean | True, False, >, <, ==, >=, <=, 1, 0, and, or, not |
-|Object | `o = Object()` |
-|Void/Null | `o = None` |
-|Array | `int[] integerArray = new int[5]` <br> initializes an empty(null) array of length 5 <br> `int[] arr = {4, 3, -1, 4, 34}`|
+| Integer | `i = 42` <br> `i:int = 42` <br> `i = int("3")` <br> converts a string with int characters into a number |
+| Float | `d = float(5)` <br> is equal to 5.0 <br> `d = 5.3` |
+| String | `s = "Hello World!"` <br> `s = str(42)` <br> is equal to "42" |
+| Boolean | True, False, >, <, ==, >=, <=, 1, 0, and, or, not |
+| Object | `o = Object()` |
+| Void/Null | `o = None` |
+| List | `myList = ["someValue","otherValue"]` <br> `myList[0]="updatedFirstValue"` <br> `myList.append("Third Value")` <br> `myList.extend(["combine","multiple","lists"])` |
 
 <br>
 
@@ -75,14 +75,15 @@ An array is a list, or collection, of a certain data type. An array is treated a
 A variable can store a value.  In Python, programmers assign variables by using the equals sign "`=`". 
 
 Example: 
-```c
-age = 21
 
+```python
+age = 21
 print(age)
+
+age:int = 22
+print(type(age))
 ```
 >21
-
-<br>
 
 <br>
 
@@ -95,30 +96,24 @@ print(age)
 
 What is the difference between "42" and 42.
 
- - Answer: "42" is a string, while 42 is an integer.
+ - Answer:
 
-Define: >, <, ==, >=, <=
+Define the boolean operators: >, <, ==, >=, <=
 
- - Answer: > is more than
- < is less than
- == is equal to
- >= more than or equal to
- <= less than or equal to
+ - Answer:
 
- used in if statements
+How do you address an index in an list? Write a python code that assigns 34 to a new variable by accessing the value stored in:  
+        arr = [4, 3, -1, 4, 34]
 
-How do you address an index in an array? Write a python code that assigns 34 to a new variable by accessing the value stored in:  
-        int[] arr = {4, 3, -1, 4, 34}
+ - Answer:
 
- - Answer: x = arr[4]
+What is the first index of a list? Why?
 
-What is the first index of an array? Why?
-
- - Answer:The first index of an array is 0. It is 0 because it is contained 0 elements away, so it should be denoted as array[0] . 
+ - Answer:
 
 Provide an original example of a null value. It must prove your understanding of the concept.
 
- - Answer: If you ask a student that is not from San Ignacio what his San Ignacio Cafeteria Number is, he will say nothing, or null, its not 0, because it simply does not exist.
+ - Answer:
 
 Type down any class notes below this sentence:
 
