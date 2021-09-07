@@ -31,4 +31,3 @@ def printLogo():
                                     +    .:                                     
                                     .    `                                      """)
 printLogo()
-name = input()

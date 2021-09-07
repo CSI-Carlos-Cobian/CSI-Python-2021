@@ -20,4 +20,3 @@ def printName():
     print_O()
     print()
 printName()
-test = input();
