@@ -37,7 +37,7 @@ A Boolean is a value that is represented by a single bit. This means that it is 
 >
 >i = 10
 >
->(i < 15) is False
+>(i < 15) is True
 
 <br>
 
