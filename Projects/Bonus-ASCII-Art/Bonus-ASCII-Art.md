@@ -9,7 +9,7 @@
 # Multi-line Strings `(5pts Bonus)`
 ### We have already created a ASCII art project. Some students may be interested in a more advanced adaptation. for this reason we have created an extra project. 
 * The first step will be to create a python script inside the `"images"` folder of the class.
-* name it `Logo.py`
+* Name it `Logo.py`
 * Within this file we will create a multi-line string. It would look like this:
 
 ```python
@@ -25,7 +25,7 @@ myMultiline = """
 print(myMultiline)
 
 ```
-Once that is done, you will look for a image that you like or have made. You may use anything you like but i suggest something simple and rounded with little intricacies. This is because they will be lost in the conversion process and may render your image illegible.
+Once that is done, you will look for a image that you like or have made. You may use anything you like but i suggest something simple and rounded with little intricacies. This is because they will be lost in the conversion process and may render your image unintelligible.
 
 <br>
 
