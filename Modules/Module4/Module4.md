@@ -135,18 +135,20 @@ Evaluate the following code. Is the code written correctly? What would be the co
         print('This message has a syntax error!")
         print(Churrigueresco)
 
- - Answer:
+ - Answer: Churrigueresco is not a string and is undefined. You would need to put " or ' around it in order to make it a string, changing it to print('Churrigueresco').
 
 Evaluate the following code. Is the code written correctly? What would be the correct code?
         someNumber=360
         print(' The Number is someNumber ')
 Expected:  The Number is 360
 
- - Answer:
+ - Answer: This is not correct due to the fact that someNumber is contained within ', meaning that it will print "someNumber" rather than the value within the variable. In order to change it so that it prints the value of someNumber, you would need to cast it a string. The line would then be print('The Number is ' + str(someNumber)) so that someNumber turns into a string and concatenates with the rest of the string. You could also make it a functional print function with print(f'The Number is {someNumber}')
 
 Define a function that takes 2 or more string parameters and prints a single line using them as part of a functional string. The function may do anything you chose but the function name and parameter names must be representative of what they are.
 
- - Answer:
+ - Answer: 
+ def printParameters(a:str, b:str):
+        print(f'The first parameter is {a}, and the second parameter is {b}')
   
 
 
