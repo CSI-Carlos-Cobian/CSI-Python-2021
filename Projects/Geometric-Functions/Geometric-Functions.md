@@ -11,23 +11,23 @@ In order to practice writing functions and functional string outputs, we will be
 
 | Function | Equation | 
 |-----------|--------|
-| Area of a Triangle | $A = \frac{1}{2} * base * height$ |
-| Area of a Trapezoid | $A = \frac{a + b}{2} * height$ |
-| Perimeter of a Trapezoid | $P = a + b + c + d$ |
-| Volume of Pyramid | $V = \frac{(a * b)}{3}$ |
-| Area of Rectangle | $A = width * height$ |
-| Area of circle | $A = \pi * radius^2$ |
-| Perimeter of a rectangle | $P = 2(length) + 2(width)$ |
-| Volume of rectangular prism of a rectangle | $V = length * width * height$ |
-| Volume of rectangular prism of a rectangle | $V = length * width * height$ |
+| Area of a Triangle | <img src="https://render.githubusercontent.com/render/math?math=A = \frac{1}{2} * base * height"> |
+| Area of a Trapezoid | <img src="https://render.githubusercontent.com/render/math?math=A = \frac{a %2b b}{2} * height"> |
+| Perimeter of a Trapezoid | <img src="https://render.githubusercontent.com/render/math?math=P = a %2b b %2b c %2b d"> |
+| Volume of Pyramid | <img src="https://render.githubusercontent.com/render/math?math=V = \frac{(a * b)}{3}"> |
+| Area of Rectangle | <img src="https://render.githubusercontent.com/render/math?math=A = width * height"> |
+| Area of circle | <img src="https://render.githubusercontent.com/render/math?math=A = \pi * radius^2"> |
+| Perimeter of a rectangle | <img src="https://render.githubusercontent.com/render/math?math=P = 2(length) %2b 2(width)"> |
+| Volume of rectangular prism of a rectangle | <img src="https://render.githubusercontent.com/render/math?math=V = length * width * height"> |
 
+<!-- %2b is the URL encoding for the plus sign + -->
 <br>
 
 # Physics Equations
 | Function | Equation | 
 |-----------|--------|
-| Speed | $S = \frac{distance}{time}$ |
-| Force | $F = mass * acceleration$ |
+| Speed | <img src="https://render.githubusercontent.com/render/math?math=S = \frac{distance}{time}"> |
+| Force | <img src="https://render.githubusercontent.com/render/math?math=F = mass * acceleration"> |
 
 <br>
 
