@@ -8,7 +8,9 @@
 
 # Module 5: Boolean Logic 
 
-## Boolean Operators
+## [Truth tables and Boolean Operators](https://www.mcckc.edu/tutoring/docs/br/math/reasoning/Logic_and_Truth_Tables.pdf)
+
+### OR
 
 ## If-else logic
 
