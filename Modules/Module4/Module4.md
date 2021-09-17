@@ -161,7 +161,7 @@ Which code returns the length of the string s0:
 
 s0 = "What is my length? Store it as a number in a variable."
 
- - Answer:
+ - Answer: Use the function len(s0), and apply it to a variable such as x = len(s0)
 
 How do you create a substring in python?
 Create a substring of s1 containing only my name. Store it in a variable called ss1.
@@ -169,11 +169,11 @@ https://www.freecodecamp.org/news/how-to-substring-a-string-in-python/
 
 s1 = "Hello Student! My name is Carlos Jose Cobián. I enjoy coding and video games!"
 
- - Answer: ss1 =
+ - Answer: use ss1[first index :  last index], which in this case would be s1 = s1[26:44]
 
 Capitalize every letter of ss1 using a function. Store it in a variable called SS1.
 
- - Answer: SS1 =
+ - Answer: use the capitalize() function, such that SS1 = ss1.capitalize()
 
 
 This last section is not worth any points, but is worth looking into. It is good string manipulation practice and contains exercises that you may see in a pop quiz! 
