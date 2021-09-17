@@ -21,6 +21,10 @@ In order to practice writing functions and functional string outputs, we will be
 | Volume of rectangular prism of a rectangle | $V = length * width * height$ |
 | Volume of rectangular prism of a rectangle | $V = length * width * height$ |
 
+
+<img src="https://render.githubusercontent.com/render/math?math=A = \frac{1}{2} * base * height">
+
+
 <br>
 
 # Physics Equations
