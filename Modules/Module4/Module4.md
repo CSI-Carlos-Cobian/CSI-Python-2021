@@ -17,7 +17,7 @@ In Python, the `input()` takes a string value typed by the user at the end of th
 
 <br>
 
-### *[The best way to learn about a language is always to raed the documentation! These are the built in functions for python.](https://docs.python.org/3/library/functions.html)*
+### *[The best way to learn about a language is always to read the documentation! These are the built in functions for python.](https://docs.python.org/3/library/functions.html)*
 
 For now we will use simple I/O (Input/Output) functions
 
@@ -66,7 +66,7 @@ greetStudent(name)
 <br>
 
 ## Concatenation
-The "`+`" operator doesn't just add 2 numbers, it can also "add" two strings.  Combining two strings is called *concatenation*. Be carefull when using concatenation as the operator may **add** numeric variables that are not defined as strings.
+The "`+`" operator doesn't just add 2 numbers, it can also "add" two strings.  Combining two strings is called *concatenation*. Be carefull when using concatenation as the operator may **add** numeric variables that are not defined as strings. All operands must be of type `string` for a concatenation.
 
 <br>
 
@@ -76,10 +76,10 @@ A Functional String accepts variables or <u>code blocks</u> `{}` into the constr
 
 A functional string is denoted by an "f" before the string initialization. eg.
 ```python
-var:str = "representing a value"
+var:str = "regular string"
 myNumber:float = 3.5
 
-myFunctionalString = f"Combine an existing string {var} with a number such as: {myNumber} or {1}"
+myFunctionalString = f"Combine an existing {var} with a number such as: {myNumber} or execute something like {round(3.4 * 1.1)}"
 
 print(myFunctionalString)
 
@@ -126,7 +126,7 @@ print(f"Or use the print directly {myNumber}")
 
 
 # Class Discussion
-## Answer the questions on the Markdown file located within your <u>`Module4`</u> directory (Module4.md)`(4pts)`
+## Answer the questions on the Markdown file located within your <u>`Module4`</u> directory (Module4.md)`(12pts)`
 <!-- Welcome! These are your questions. -->
 <!-- Answer using full sentences to receive all points. -->
 <!-- 
@@ -144,9 +144,39 @@ Expected:  The Number is 360
 
  - Answer:
 
-Define a function that takes 2 or more parameters and prints a single line using them as part of a functional string. The function may do anything you chose but the function name and parameter names must be representative of what they are.
+Define a function that takes 2 or more string parameters and prints a single line using them as part of a functional string. The function may do anything you chose but the function name and parameter names must be representative of what they are.
 
  - Answer:
+  
+
+
+Refer to this documentation webpage and google for the exercises below:
+https://www.w3schools.com/python/python_ref_string.asp
+
+
+How do you find the length of a string?
+Which code returns the length of the string s0:
+
+s0 = "What is my length? Store it as a number in a variable."
+
+ - Answer:
+
+How do you create a substring in python?
+Create a substring of s1 containing only my name. Store it in a variable called ss1.
+https://www.freecodecamp.org/news/how-to-substring-a-string-in-python/
+
+s1 = "Hello Student! My name is Carlos Jose Cobián. I enjoy coding and video games!"
+
+ - Answer: ss1 =
+
+Capitalize every letter of ss1 using a function. Store it in a variable called SS1.
+
+ - Answer: SS1 =
+
+
+This last section is not worth any points, but is worth looking into. It is good string manipulation practice and contains exercises that you may see in a pop quiz! 
+https://codingbat.com/python/String-1
+
 
 Type down any class notes below this sentence:
 
