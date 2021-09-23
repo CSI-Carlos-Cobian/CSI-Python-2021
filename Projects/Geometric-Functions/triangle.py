@@ -1,3 +1,5 @@
+from pathlib import Path
+exec(open(Path(__file__).parents[2].joinpath("images/Logo.py")).read())
 # triangle.py
 
 # Returns the area of a triangle using the 
@@ -34,7 +36,7 @@ def triangleValues():
         triangleValues[i][2] = unit
     for i in range(4):
         print(f"The following is the information for triangle #{i+1}")
-        area = triArea(triangleValues[i-1][0], triangleValues[i][1])
+        area = triArea(triangleValues[i][0], triangleValues[i][1])
         printTriangleAreaScientific(area, triangleValues[i][2])
         printTriangleAreaSimple(area, triangleValues[i][2])
         print("")
