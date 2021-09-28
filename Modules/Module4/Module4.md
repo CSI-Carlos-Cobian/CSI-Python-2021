@@ -49,7 +49,8 @@ def greetStudent(name):
 greetStudent(name)
 ```
 >José D. Quintana Rivera
-
+def greetstudent(name):
+        print(f"Hello{name}!")
 <br>
 
 
@@ -135,7 +136,7 @@ Evaluate the following code. Is the code written correctly? What would be the co
         print('This message has a syntax error!")
         print(Churrigueresco)
 
- - Answer:
+ - Answer: C
 
 Evaluate the following code. Is the code written correctly? What would be the correct code?
         someNumber=360

@@ -189,7 +189,7 @@ You may update both simultaneously from Visual Studio by selecting.
 
 What is the difference between Git and GitHub?
 
- - Answer:
+ - Answer:The difference between Git and GitHub is that Git 
 
 What is the difference between a git commit and a git push?
 
@@ -201,7 +201,7 @@ What is the difference between a pull, and an upstream pull?
 
 What part of these instructions was unclear or incomplete?
 
- - Answer:
+ - Answer:none 
 
 Type down any class notes below this sentence:
 
