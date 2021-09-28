@@ -9,3 +9,9 @@
 def greetstudent(name):
     print(f"Hello{name}"!")
 greetstudent(Ignacio Guzman)
+
+myName:str = "Ignacio Guzman"
+myAge:int = 15
+
+width = int(input(" What is the width of the square:"))
+myheigh =
