@@ -1,3 +1,12 @@
+
+<div style="text-align:center">
+        <img    src="https://spaceplace.nasa.gov/review/planets-weight/planets-weight3.en.png"
+                width="60%" 
+                height="60%" />
+                
+</div>
+<br>
+
 # Your weight in space
 Create an script to calculate your weight in space.
 
