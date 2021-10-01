@@ -71,9 +71,23 @@ print(f"Computer selected: {computerChoice}")
 Give a python example for each logic operator in the module image.
 
  - Answers:
-   - OR:
-   - AND: 
-   - NOT: 
+   - OR: used if the code you want to execute only needs one of several values to be true in order to execute. for instance, if you want to write code to check if it is the weekend, you would write the following:
+   if (day == "saturday" or day == "sunday"):
+    print("It is the weekend")
+  else:
+    print("It is a weekday")
+   - AND: used if the code you want to execute needs multiple values to be true in order to execute. for instance, if you want to check if a grade is in the range to be a B, you would write:
+   if (grade >= 80 and grade < 90): # in this case, a B is 
+                                    # assumed to be an average 
+                                    # of 80-89
+    print("Your grade is a B")
+  else:
+    print("Your grade is not a B")
+   - NOT: this operator is used if a code should execute only if a specific value is not true. For instance, to check if a number is odd, you would write
+   if not ( num % 2 == 0): # this is assuming the value is an int
+    print("The number is odd")
+  else:
+    print("The number is even")
 
 
 Type down any class notes below this sentence:
