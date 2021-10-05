@@ -1,5 +1,5 @@
 <div style="text-align:center">
-        <img    src="https://www.lotame.com/wp-content/uploads/2016/07/BooleanLogic_NR.jpg"
+        <img    src="https://beginnersbook.com/wp-content/uploads/2017/09/for_loop_C.jpg"
                 title="Python" 
                 width="70%" 
                 height="70%" />
@@ -16,7 +16,7 @@
 <br>
 
 ## Upload a screenshot of the full output produced by running `Module6.py` `(1pts)`
-* ### Use the name format: `CSI-Name-Lastname-5.png`
+* ### Use the name format: `CSI-Name-Lastname-6.png`
 * ### Store it within your Module6 directory.
 * ### Commit and push the file before next class.
 
@@ -40,4 +40,4 @@ Lackluster responses may result in point deductions.
 
 <br>
 
-## [Next Module ->](/../../tree/main/Modules/Module6/Module6.md)
+## [Next Module ->](/../../tree/main/Modules/Module7/Module7.md)
