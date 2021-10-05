@@ -1,22 +1,28 @@
 <div style="text-align:center">
-        <img    src="https://beginnersbook.com/wp-content/uploads/2017/09/for_loop_C.jpg"
-                title="Python" 
+        <img    src="https://www.nylas.com/wp-content/uploads/JSON_Blog_Hero.png"
+                title="JSON" 
                 width="70%" 
                 height="70%" />
 </div>
 <br>
 
-# Module 6: Loops
-Iteration is defined as ["the repetition of a sequence of computer instructions a specified number of times or until a condition is met"](https://www.merriam-webster.com/dictionary/iteration).
-
-## For-Loop
-A for loop is used to iterate over over iterable items. 
-
-## Create a python script within Module6 called `Module6.py`. `(1pts)`
-1. Carry out tasks related to the module.
-
+# Module 6: Objects and the JSON Format
 
 <br>
+
+## What is JSON.
+
+<br>
+
+## How to define an object.
+
+<br>
+
+
+## What is an object constructor
+
+<br>
+
 
 ## Upload a screenshot of the full output produced by running `Module6.py` `(1pts)`
 * ### Use the name format: `CSI-Name-Lastname-6.png`
@@ -28,10 +34,14 @@ A for loop is used to iterate over over iterable items.
 
 
 # Class Discussion
-## Answer the questions on the Markdown file located within your <u>`Module6`</u> directory (Module6.md)`(4pts)`
+## Answer the questions on the Markdown file located within your <u>`Module6`</u> directory (Module6.md)`(1pts)`
 <!-- Welcome! These are your questions. -->
 <!-- Answer using full sentences to receive all points. -->
 <!-- 
+
+What does JSON Stand for?
+
+ - Answer:
 
 
 Type down any class notes below this sentence:
