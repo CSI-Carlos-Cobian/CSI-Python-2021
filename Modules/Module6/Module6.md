@@ -7,7 +7,10 @@
 <br>
 
 # Module 6: Loops
+Iteration is defined as ["the repetition of a sequence of computer instructions a specified number of times or until a condition is met"](https://www.merriam-webster.com/dictionary/iteration).
 
+## For-Loop
+A for loop is used to iterate over over iterable items. 
 
 ## Create a python script within Module6 called `Module6.py`. `(1pts)`
 1. Carry out tasks related to the module.
