@@ -61,9 +61,6 @@ print(f"Computer selected: {computerChoice}")
 
 # Add logic below this line
 ```
-  
-<br>
-
 
 <br>
 

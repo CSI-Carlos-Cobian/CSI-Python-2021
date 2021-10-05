@@ -17,7 +17,7 @@
 
 ## Upload a screenshot of the full output produced by running `Module7.py` `(1pts)`
 * ### Use the name format: `CSI-Name-Lastname-7.png`
-* ### Store it within your Module6 directory.
+* ### Store it within your Module7 directory.
 * ### Commit and push the file before next class.
 
 <br>

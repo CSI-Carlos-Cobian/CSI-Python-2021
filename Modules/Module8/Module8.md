@@ -13,7 +13,7 @@
 
 ## Upload a screenshot of the full output produced by running `Module8.py` `(1pts)`
 * ### Use the name format: `CSI-Name-Lastname-8.png`
-* ### Store it within your Module6 directory.
+* ### Store it within your Module8 directory.
 * ### Commit and push the file before next class.
 
 <br>

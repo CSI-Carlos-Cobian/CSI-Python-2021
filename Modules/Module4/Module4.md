@@ -123,6 +123,7 @@ print(f"Or use the print directly {myNumber}")
 
 <br>
 
+### [The Geometric-Functions project corresponds to this lecture.]((/../../tree/main/Projects/Geometric-Functions/Geometric-Functions.md))
 
 
 # Class Discussion
