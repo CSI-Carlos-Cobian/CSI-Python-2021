@@ -1,12 +1,28 @@
 <div style="text-align:center">
         <img    src="https://www.lotame.com/wp-content/uploads/2016/07/BooleanLogic_NR.jpg"
-                title="Python" 
+                title="Boolean Logic" 
                 width="70%" 
                 height="70%" />
 </div>
 <br>
 
 # Module 5: Boolean Logic 
+
+## If-else logic
+One of the most common statements in programming is the `if` statement. It is often followed by an `else` statement. If statements evaluate a boolean predicate and execute code depending on the propositional statement response. An `else` statement is used when you would like another piece of code to execute of a false response. An `elif` (else if) statement may be used when you'd like a piece of code to run when an alternate condition IS met. An example using a mathematical proposition is displayed below.
+
+```python
+x = 45
+
+if(x == 0): # Evaluate if x is 0 
+    print("The value of x is 0")
+elif(x > 50): # Assumes x is not 0.
+  print("The value of x is more than 50")
+else: # In the case that x is less than 50 and not 0.
+    print("The value of x is lower than 50, and is not 0")
+```
+
+<br>
 
 ## [Truth tables and Boolean Operators](https://www.mcckc.edu/tutoring/docs/br/math/reasoning/Logic_and_Truth_Tables.pdf)
 
@@ -16,19 +32,16 @@
                 height="60%" />
 
 
-## If-else logic
-One of the most common statements in programming is the `if` statement. It is often followed by an `else` statement. If statement evaluate boolean propositions and execute code depending on the propositional statement response. An `else` statement is used when you would like another piece of code when the code fails. An `elif` (else if) statement may be used when you'd like a piece of code to run when an alternate condition IS met. An example using a mathematical proposition is displayed below.
+## Compound Logic
+Multiple logical statements can be combined using the logical operators seen above. These take 2 boolean values and produce a single one. An example of using the logical operator `AND` is seen below.
 
 ```python
 x = 45
-
-if(x == 0):
-    print("The value of x is 0")
-elif(x > 50):
-  print("The value of x is more than 50")
-else:
-    print("The value of x is lower than 50, and is not 0")
+if( x > 0 and x < 100 ):
+  print("Will run.")
 ```
+
+Let's call `x > 0` <u>**A**</u> and `x < 100` <u>**B**</u>. A is true and so is B. They are both then denoted the value of 1(true). The logical operator **AND** will combine these two true values and produce a single boolean value of true. 
 
 <br>
 
@@ -48,9 +61,6 @@ print(f"Computer selected: {computerChoice}")
 
 # Add logic below this line
 ```
-  
-<br>
-
 
 <br>
 
