@@ -56,8 +56,7 @@ print(f"Computer selected: {computerChoice}")
 
 ## Upload a screenshot of the full output produced by running `RockPaperScissors.py` `(1pts)`
 * ### Use the name format: `CSI-Name-Lastname-5.png`
-* ### Store it within your Module5 directory.
-* ### Commit and push the file before next class.
+* ##=
 
 <br>
 
@@ -71,9 +70,15 @@ print(f"Computer selected: {computerChoice}")
 Give a python example for each logic operator in the module image.
 
  - Answers:
-   - OR:
-   - AND: 
-   - NOT: 
+   - OR: X = 35
+   if(x > 20 or x < 30)
+    print("your number is 25"):
+   - AND: candies = 6
+   if(candies > 7 or < 5 )
+  print("you have little candies"):
+   - NOT: X = 32
+   if not (x > 29 and x < 32):
+    print("Your number is 32"):
 
 
 Type down any class notes below this sentence:
