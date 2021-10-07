@@ -1,19 +1,22 @@
 <div style="text-align:center">
-        <img    src="https://www.nylas.com/wp-content/uploads/JSON_Blog_Hero.png"
+        <img    src="https://beginnersbook.com/wp-content/uploads/2017/09/for_loop_C.jpg"
                 title="Python" 
                 width="70%" 
                 height="70%" />
 </div>
 <br>
 
-# Module 7: Objects and the JSON Format
+# Module 7: Loops
+Iteration is defined as ["the repetition of a sequence of computer instructions a specified number of times or until a condition is met"](https://www.merriam-webster.com/dictionary/iteration).
 
-# How to define an object
+## For-Loop
+A for loop is used to iterate over over iterable items. 
 
-## What is JSON
+## Create a python script within Module7 called `Module7.py`. `(1pts)`
+1. Carry out tasks related to the module.
 
-## What is an object constructor
 
+<br>
 
 ## Upload a screenshot of the full output produced by running `Module7.py` `(1pts)`
 * ### Use the name format: `CSI-Name-Lastname-7.png`
