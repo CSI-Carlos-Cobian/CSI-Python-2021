@@ -6,7 +6,7 @@
 </div>
 <br>
 
-# Geometric Functions
+# Geometric Functions `(25 pts)`
 In order to practice writing functions and functional string outputs, we will be defining a variety of geometric functions. Each student will be assigned one function from the list below. You must use write 2 functions. One to execute the calculation and another to print the result in a nice format. You must also use it at least 4 times as examples.
 
 | Function | Equation | 
