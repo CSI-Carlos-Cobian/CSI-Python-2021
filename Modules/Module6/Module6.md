@@ -6,15 +6,15 @@
 </div>
 <br>
 
-# Module 6: Objects and the JSON Format
+# [Module 6: Objects and the JSON Format](https://www.geeksforgeeks.org/convert-class-object-to-json-in-python)
 
 <br>
 
-## What is JSON.
+## [What is JSON](https://www.w3schools.com/whatis/whatis_json.asp).
 
 <br>
 
-## How to define an object.
+## [How to define an object](https://www.geeksforgeeks.org/convert-class-object-to-json-in-python/).
 
 <br>
 

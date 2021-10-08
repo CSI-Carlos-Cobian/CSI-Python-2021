@@ -49,8 +49,18 @@
 
 <br>
 
-## Convert your script parameters into a single JSON Object `(10pts)`
-* Convert all tha variables you have created into parameters. 
+## Convert your script parameters into a single JSON Object `(5pts)`
+* call your object `experimentalData`
+
+<br>
+
+## Create a Python Class  `(15pts)`
+* Name your class `ExperimentalData`
+* Convert all tha variables you have created ia class.
+* Use a Constructor and `json.dumps()` on your experiments.
+* Change your function to receive a single object as a parameter.
+  * Use object references on your function.
+
 
 <br>
 
@@ -71,7 +81,7 @@
 
 <br>
 
-## Add the option to run the calculation on another planet.`(20pts)`
+## Add the option to run the calculation on another planet.`(10pts)`
 * Recall from `Planets.py`
 ```python
 # Parallel Lists
