@@ -46,8 +46,8 @@ At least 300 points.
 * [Data Types and Variables](/../../tree/main/Modules/Module3/Module3.md)
 * [String Operations and Functions](/../../tree/main/Modules/Module4/Module4.md).
 * [Boolean Logic **(Rock Paper Scissors)**](/../../tree/main/Modules/Module5/Module5.md)
-* [Looping (for, while) **(Fancy & Funky Print Loops)**](/../../tree/main/Modules/Module6/Module6.md)
-* Lists & Iteration **(Hangman Project)**
+* [Looping (for, while)](/../../tree/main/Modules/Module6/Module6.md)
+* [Objects and the JSON Format]((/../../tree/main/Modules/Module7/Module7.md))
 * 2D Arrays **(Snake)**
 * Canvas, Vectors, Putting it all together. **(Egg Catcher)** 
 

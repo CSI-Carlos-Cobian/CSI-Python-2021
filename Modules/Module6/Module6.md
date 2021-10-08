@@ -1,22 +1,31 @@
 <div style="text-align:center">
-        <img    src="https://www.lotame.com/wp-content/uploads/2016/07/BooleanLogic_NR.jpg"
-                title="Python" 
+        <img    src="https://www.nylas.com/wp-content/uploads/JSON_Blog_Hero.png"
+                title="JSON" 
                 width="70%" 
                 height="70%" />
 </div>
 <br>
 
-# Module 6: Loops
-
-
-## Create a python script within Module6 called `Module6.py`. `(1pts)`
-1. Carry out tasks related to the module.
-
+# [Module 6: Objects and the JSON Format](https://www.geeksforgeeks.org/convert-class-object-to-json-in-python)
 
 <br>
 
+## [What is JSON](https://www.w3schools.com/whatis/whatis_json.asp).
+
+<br>
+
+## [How to define an object](https://www.geeksforgeeks.org/convert-class-object-to-json-in-python/).
+
+<br>
+
+
+## What is an object constructor
+
+<br>
+
+
 ## Upload a screenshot of the full output produced by running `Module6.py` `(1pts)`
-* ### Use the name format: `CSI-Name-Lastname-5.png`
+* ### Use the name format: `CSI-Name-Lastname-6.png`
 * ### Store it within your Module6 directory.
 * ### Commit and push the file before next class.
 
@@ -25,10 +34,14 @@
 
 
 # Class Discussion
-## Answer the questions on the Markdown file located within your <u>`Module6`</u> directory (Module6.md)`(4pts)`
+## Answer the questions on the Markdown file located within your <u>`Module6`</u> directory (Module6.md)`(1pts)`
 <!-- Welcome! These are your questions. -->
 <!-- Answer using full sentences to receive all points. -->
 <!-- 
+
+What does JSON Stand for?
+
+ - Answer:
 
 
 Type down any class notes below this sentence:
@@ -40,4 +53,4 @@ Lackluster responses may result in point deductions.
 
 <br>
 
-## [Next Module ->](/../../tree/main/Modules/Module6/Module6.md)
+## [Next Module ->](/../../tree/main/Modules/Module7/Module7.md)
