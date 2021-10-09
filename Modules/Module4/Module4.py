@@ -1,4 +1,4 @@
-def  greetStudent(Javier):
-    print (f"Hello Javier Estremera!") 
-
-greetStudent()
+def greetStudent(name):
+      print(f"Hello {name}!")
+greetStudent(name) 
+name = "Javier"
