@@ -1,14 +1,9 @@
-x = 45
+foo = [ "r", "p", "s"]
+computerChoice = any.choice(foo)
+print(f"Computer selected: {computerChoice}")  
 
-if(x == 0):
-    print("The value of x is 0")
-elif(x > 50):
-  print("The value of x is more than 50")
-else:
-    print("The value of x is lower than 50, and is not 0")
+Player = input("Lets play a game. Pick r = rock, p = paper s = Scissors." )
 
-import random
-
-foo = ['firstValue', 'secondValue', 'anotherValue']
-computerChoice = random.choice(foo)
-print(computerChoice)
+r = "Rock" 
+p = "Paper"
+s = "Scissor"  
