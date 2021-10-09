@@ -96,24 +96,25 @@ print(type(age))
 
 What is the difference between "42" and 42.
 
- - Answer:
+ - Answer: when you put "42" you are specifing another intiger to make another intiger. When it dosent have on you are putting one intiger.
 
 Define the boolean operators: >, <, ==, >=, <=
 
- - Answer:
+ - Answers: a = 25 
+ ( a = 25) is True
 
 How do you address an index in an list? Write a python code that assigns 34 to a new variable by accessing the value stored in:  
         arr = [4, 3, -1, 4, 34]
 
- - Answer:
+ - Answer: number = i = arr("34")
 
 What is the first index of a list? Why?
 
- - Answer:
+ - Answer: A first index
 
 Provide an original example of a null value. It must prove your understanding of the concept.
 
- - Answer:
+ - Answer: a = 
 
 Type down any class notes below this sentence:
 
