@@ -106,7 +106,7 @@ Typing `python` *(or `python3`)* into the terminal will enter the Python console
 
 ### The output should look similar to this:
 
-<img    src="CSI-Carlos-Cobian-Module2-1.png" 
+<img    src="Module2-1.png" 
         title="HelloCarlos!" 
         width="80%" 
         height="80%" />
@@ -114,7 +114,7 @@ Typing `python` *(or `python3`)* into the terminal will enter the Python console
 ### Take a screenshot of your terminal's output showing the same elements as above. 
 * #### On Windows use `WIN+SHFT+S` to make a selection.
 * #### Save it in the <u>Module2</u> directory of your branch. 
-* #### Name the file using the following convention: `CSI-Carlos-Cobian-Module2-1.png`
+* #### Name the file using the following convention: `Module2-1.png`
 
 
 ### Commit and push this image before the next lecture`(2pts)`

@@ -65,7 +65,7 @@ print(f"Computer selected: {computerChoice}")
 <br>
 
 ## Upload a screenshot of the full output produced by running `RockPaperScissors.py` `(1pts)`
-* ### Use the name format: `CSI-Name-Lastname-5.png`
+* ### Use the name format: `Module5.png`
 * ### Store it within your Module5 directory.
 * ### Commit and push the file before next class.
 
