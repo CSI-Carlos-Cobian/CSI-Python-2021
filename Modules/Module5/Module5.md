@@ -82,8 +82,19 @@ Give a python example for each logic operator in the module image.
 
  - Answers:
    - OR:
+   pinneapples:6
+   if (pinneapples > 2 or pinneapples < 7):
+    print("You have less pinneapples.") #true
    - AND: 
+   pinneapples:8
+   if (pinneapples > 1 and pinneapples < 9):
+    print("You have few pinneapples.") #true
    - NOT: 
+   pinneapples:6
+   if not (pinneapples > 2 or pinneapples < 7):
+    print("You have less pinneapples.") #false 
+    else:
+    print("You have more pinneapples")
 
 
 Type down any class notes below this sentence:
