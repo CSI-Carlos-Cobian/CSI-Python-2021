@@ -1,6 +1,6 @@
 <div style="text-align:center">
         <img    src="https://www.lotame.com/wp-content/uploads/2016/07/BooleanLogic_NR.jpg"
-                title="Python" 
+                title="Boolean Logic" 
                 width="70%" 
                 height="70%" />
 </div>
@@ -61,14 +61,11 @@ print(f"Computer selected: {computerChoice}")
 
 # Add logic below this line
 ```
-  
-<br>
-
 
 <br>
 
 ## Upload a screenshot of the full output produced by running `RockPaperScissors.py` `(1pts)`
-* ### Use the name format: `CSI-Name-Lastname-5.png`
+* ### Use the name format: `Module5.png`
 * ### Store it within your Module5 directory.
 * ### Commit and push the file before next class.
 
