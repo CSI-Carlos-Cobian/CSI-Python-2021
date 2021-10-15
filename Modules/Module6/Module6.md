@@ -16,7 +16,7 @@
 
 ## [How to define an object](https://www.geeksforgeeks.org/convert-class-object-to-json-in-python/).
 * ### [What is an object constructor](https://www.geeksforgeeks.org/constructors-in-python)
-
+  * An object constructor is like a function. It's function is included by default in all classes. it is used by writing a function called `__init__`.You define how many parameters it includes. You also define what variables are stored into your object by assigning them to `self`.
 <br>
 
 
