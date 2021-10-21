@@ -2,7 +2,7 @@ print("Welcome to Simpsons' Shipping")
 weight:float = float(input("What is the weight of your package?"))
 #ground shipping
 
-if (weight == 2 and weight < 2):
+if (weight == 2 or weight < 2):
     cost_ground = float(weight * 1.75 + 20)
     print("Ground Shipping: $", float(cost_ground))
 elif (weight > 2 and weight <= 6):
@@ -16,7 +16,7 @@ else:
     print("Ground Shipping: $", float(cost_ground))
 #courier shipping
 
-if (weight == 2 and weight <2):
+if (weight == 2 or weight <2):
     cost_courier = weight * 3.50 + 5
     print("Courier Shipping: $", float(cost_courier))
 elif (weight > 2 and weight <= 6):
@@ -30,7 +30,7 @@ else:
     print("Courier Shipping: $", float(cost_courier))
 #drone shipping
 
-if (weight == 2 and weight <2):
+if (weight == 2 or weight <2):
     cost_drone = weight * 5.25 
     print("Drone Shipping: $", float(cost_drone))
 elif (weight > 2 and weight <= 6):
