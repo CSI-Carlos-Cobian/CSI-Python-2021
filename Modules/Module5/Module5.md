@@ -27,7 +27,7 @@ else: # In the case that x is less than 50 and not 0.
 ## [Truth tables and Boolean Operators](https://www.mcckc.edu/tutoring/docs/br/math/reasoning/Logic_and_Truth_Tables.pdf)
 
 <img    src="https://www.researchgate.net/profile/Seth-Abels/publication/291418819/figure/fig3/AS:718510820962304@1548317737478/Summary-of-the-common-Boolean-logic-gates-with-symbols-and-truth-tables.png"
-                title="Python" 
+                title="Boolean Operators" 
                 width="60%" 
                 height="60%" />
 
