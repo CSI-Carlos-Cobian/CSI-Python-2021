@@ -9,9 +9,13 @@
 # Module 7: Loops
 Iteration is defined as ["the repetition of a sequence of computer instructions a specified number of times or until a condition is met"](https://www.merriam-webster.com/dictionary/iteration).
 
-## For-Loop
-A for loop is used to [iterate](https://www.merriam-webster.com/dictionary/iteration) over over iterable items. 
-
+## [For-Loop](https://www.w3schools.com/python/python_for_loops.asp)
+A for loop is used to [iterate](https://www.merriam-webster.com/dictionary/iteration) over a list. 
+```python
+planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
+for planet in planets:
+  print(x)
+```
 ## Create a python script within Module7 called `Module7.py`. `(1pts)`
 1. Carry out tasks related to the module.
 
