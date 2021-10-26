@@ -1,0 +1,17 @@
+gun = "GLOCK17"
+caliber = "9x19mm"
+ammunition = "Single"
+velocity_ms= "30"
+
+Building == "Caribean Sea View"
+BuildingHeight = "334"
+
+gravity = 9.81
+
+import math 
+
+time_s = math.sqrt ((2 * 334) /  9.81)
+
+distance = (30 * 68)
+
+print(f"The gun selected was "GLOCK17")

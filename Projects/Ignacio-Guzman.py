@@ -4,7 +4,7 @@ g_ms2   = [3.7, 8.87 ,9.81, 3.711, 24.79, 10.44 , 8.69, 11.5]
 print("Calculate your weight in a diffrent planet")
 
 myWeigh = int(input("What is your weight (pounds)?")
-myplanet = input(f"Select a planet from the list:   {Planets}")
+myplanet = input(f"Select a planet from the list:  {Planets}")
 
 def calculateWeight(planet, mass ) :
         print(f"/nEarth mass in pounds is : {mass})
@@ -19,3 +19,4 @@ print(f"Weight in {planets[planet_index]}mmis {w_kg * g_ms[planet_index])  / n_l
 
 
 calculateWeight(myPlanet , myWeigh)
+

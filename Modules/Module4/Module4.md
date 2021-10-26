@@ -150,6 +150,7 @@ Define a function that takes 2 or more string parameters and prints a single lin
 
  - Answer:
   
+  
 
 
 Refer to this documentation webpage and google for the exercises below:
