@@ -11,7 +11,7 @@
 <br>
 
 ## [What is JSON](https://www.w3schools.com/whatis/whatis_json.asp).
-JSON is a format that encodes objects in a string.
+JSON is a format that encodes objects into a string.
 * https://realpython.com/python-json/
   
 <br>
@@ -24,11 +24,11 @@ JSON is a format that encodes objects in a string.
 
 ## [Serialization and Deserialization](https://medium.com/swlh/object-serialization-and-deserialization-in-python-5fad3c2970a4)
  Serialization means to convert an object into that string, and deserialization is its inverse operation (convert string -> object). 
- * [Source](https://stackoverflow.com/questions/3316762/what-is-deserialize-and-serialize-in-json)
+ * [Search winklerrr](https://stackoverflow.com/questions/3316762/what-is-deserialize-and-serialize-in-json)
 
 ### json.dump() vs. json.dumps()
 * <u>json.dump</u> serializes an object into a file. It takes 2 parameters, the object and the destination file.
-* <u>json.dumps</u> serializes an object into a string, that may then be stored into a variable for future use. It's only parameter is the 
+* <u>json.dumps</u> or *dump string* serializes an object into a string, that may then be stored into a variable for future use. It's only parameter is the object.
 
 ### Deserializing using a class
 ```python
