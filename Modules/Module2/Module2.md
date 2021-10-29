@@ -135,19 +135,19 @@ https://www.markdownguide.org/getting-started/
 
 What does "cd" stand for?
 
- - Answer:
+ - Answer: cd = Change directory
 
 Did you get stuck at any point or become confused with your console? (yes/no) If so, what happened? How did you solve it?
 
- - Answer:
+ - Answer: When you it said to make a new python document but it was just my fault
 
 Did you consider searching google for other commands to run? What did you try? 
 
- - Answer:
+ - Answer: I didnt end up using google i just kept reading to see what was wrong and i just finding it out
 
 What would you like to program? 
 
- - Answer:
+ - Answer: i love to program videogames so mainly that
 
 Type down any class notes below this sentence:
 

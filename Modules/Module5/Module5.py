@@ -1,14 +1,47 @@
-x = 45
-
-if(x == 0):
-    print("The value of x is 0")
-elif(x > 50):
-  print("The value of x is more than 50")
-else:
-    print("The value of x is lower than 50, and is not 0")
-
 import random
 
-foo = ['firstValue', 'secondValue', 'anotherValue']
+foo = ['Rock', 'Paper', 'Scissors']
+
 computerChoice = random.choice(foo)
-print(computerChoice)
+playerChoice = input("Rock, Paper or  Scissors? ")
+
+print(f"Computer selected: {computerChoice}")
+print(f"Player selected: {playerChoice}")
+
+if(computerChoice == "Rock" and playerChoice == "Rock"):
+    print("tied")
+elif(computerChoice == "Rock" and playerChoice == "Paper"):
+    print("You Win!") 
+elif(computerChoice == "Rock" and playerChoice == "Scissors"):
+    print("Computer Wins") 
+
+
+elif(computerChoice == "Paper" and playerChoice == "Paper"): 
+    print("Tied!")
+elif(computerChoice == "Paper" and playerChoice == "Scissors"): 
+    print("You win!") 
+elif(computerChoice == "Paper" and playerChoice == "Rock"): 
+    print("You Lose") 
+
+
+elif(computerChoice == "Scissors" and playerChoice == "Scissors"): 
+    print("Tied!") 
+elif(computerChoice == "Scissors" and playerChoice == "Rock"): 
+    print("You Win") 
+elif(computerChoice == "Scissors" and playerChoice == "Paper"): 
+    print("You Lose")
+else:
+    print("Something went wrong")
+
+# ## Conditions of Rock,Paper and Scissors
+# if player == computer:
+#     print("Tie!")
+# elif player == "Rock":
+#     if computer == "Paper":
+#         print("You lose!", computer, "covers", player)
+# print("You win!", player, "smashes", computer) 
+
+# if player == "Paper":
+#     print("You Lose!")
+# if computer == "Scissors":
+#  print("You lose!")

@@ -136,7 +136,7 @@ Evaluate the following code. Is the code written correctly? What would be the co
         print('This message has a syntax error!")
         print(Churrigueresco)
 
- - Answer:
+ - Answer: The first one has two different types of " in the begining it has a single one and at the end it has a double one. The second one is also incorrect cause it dosent have " at all.
 
 Evaluate the following code. Is the code written correctly? What would be the correct code?
         someNumber=360
