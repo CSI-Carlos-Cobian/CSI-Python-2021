@@ -25,6 +25,8 @@ class ExperimentalData:
         self.buildingName = buildingName
         self.height = height
         self.planetName = planetName
+
+    def getGravity(self, planetName, height): # calculates gravity using Newton's grvity equations
         G = 6.67408 * math.pow(10, -11)
         planets = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"]
         planetRadius = [2439700, 6051800, 6371000, 3389500, 69911000, 58232000, 25362000, 24622000]
@@ -32,8 +34,8 @@ class ExperimentalData:
         name = planetName.lower()
         index = planets.index(name)
         radius = planetRadius[index] + height
-        self.gravity = (planetMass[index] * G) / math.pow(radius, 2)
-
+        gravity = (planetMass[index] * G) / math.pow(radius, 2)
+        return gravity
 
     def buildingFireTime(self, height): #Takes height of the building
         time = math.sqrt(height/(9.8/2)) # Uses gravitational acceleration to find the time given a distance
