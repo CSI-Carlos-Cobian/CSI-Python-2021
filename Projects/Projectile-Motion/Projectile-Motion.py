@@ -22,7 +22,7 @@ if __name__ == "__main__":
     #     print()
 
     myOutputPath = Path(__file__).parents[0] # gets the path for the json
-    myOutputFilePath = os.path.join(myOutputPath, 'ExperimentalData.json')
+    myOutputFilePath = os.path.join(myOutputPath, 'Projectile-Motion.json')
     # with open(myOutputFilePath, 'w') as outfile:
     #     json.dump([data.__dict__ for data in myDataSet], outfile)
     
