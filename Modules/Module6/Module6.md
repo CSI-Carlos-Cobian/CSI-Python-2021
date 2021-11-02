@@ -48,23 +48,29 @@ myObject = ExperimentData(**experimentJson)
 
 What does JSON Stand for?
 
- - Answer:
+ - Answer: JSON is JavaScript Object Notation, which is used to convert objects into data for uses such as web servers.
 
 Why are JSON formats important?
 
- - Answer:
+ - Answer: JSON formatting essentially gives a consistent way to transfer data as a string rather than an object. By having this consistent structure for data, any programming language can deserialize a JSON into an object, meaning that JSON files are useful even when moving data between code made in different languages.
 
 Create an example of a JSON object with at least 4 values. It may represent anything but it must be original.
 
- - Answer:
+ - Answer: JSON object for a triangle:
+ {
+    "base": 3,
+    "height": 4,
+    "area": 6,
+    "perimeter": 12
+  }
 
 What is the difference between serialization and deserialization?
 
- - Answer:
+ - Answer: Serialization and deserialization are essentially inverse operations. To serialize something means to turn it into a string that holds the data from an object, while deserialization means to convert a string of data back into an object.
 
 Research data persistance. What did you find?
 
- - Answer: 
+ - Answer: Data persistence is essentially the process of saving data, where the data is stored even when a procedure is no longer running. This is important due to the fact that if data is not persistent, it can be lost. Ensuring that data persists constantly can sometimes be taxing on a computer, so a balance between persistence and performance is necessary.
 
 Type down any class notes below this sentence:
 
