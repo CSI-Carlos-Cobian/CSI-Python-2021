@@ -47,13 +47,15 @@ At least 300 points.
 * [String Operations and Functions](/../../tree/main/Modules/Module4/Module4.md).
 * [Boolean Logic **(Rock Paper Scissors)**](/../../tree/main/Modules/Module5/Module5.md)
 * [Looping (for, while)](/../../tree/main/Modules/Module6/Module6.md)
-* [Objects and the JSON Format]((/../../tree/main/Modules/Module7/Module7.md))
+* [Objects and the JSON Format](/../../tree/main/Modules/Module7/Module7.md)
 * 2D Arrays **(Snake)**
 * Canvas, Vectors, Putting it all together. **(Egg Catcher)** 
 
 ## Suggested projects
+* [Bonus-ASCII-Art](/../../tree/main/Projects/Bonus-ASCII-Art/Bonus-ASCII-Art.md)
+* [Geometric-Functions](/../../tree/main/Projects/Geometric-Functions/Geometric-Functions.md)
+* [Projectile-Motion](/../../tree/main/Projects/Projectile-Motion/Projectile-Motion.md)
 * Egg Catcher
-* Rock Paper Scissors
 * Hangman
 * Snake
 * Conway's game of life
