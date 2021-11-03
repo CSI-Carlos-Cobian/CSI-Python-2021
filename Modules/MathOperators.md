@@ -1,5 +1,3 @@
-
-
 | Operator |Operation|Example|Evaluates to...
 | -------- | -------- | -------- | ------- |
 | ** |Exponent| 4 ** 3 | 64 |
@@ -9,4 +7,3 @@
 | * | Multiplication | 5 * 5 | 25
 | - | Subtraction | 5 - 2 <br> -9 +3 | 3 <br> -6 |
 | + | Addition | 9 + -16 | -7 |
-||
