@@ -1,13 +1,30 @@
-#Coca Music Hall ticket sales calculator 
-# Given three ticket categories 
-# Write a program that reads how mmmany ticketsa were sold per category, and prints the total amount of more
 
-print("Welcome to Nio Garcia Concert")
-print(The cost of each seat is a follow: VIP= 200$, Plaza level 1-2-3-4-5=95$, Balcony Standing 301-305=30$)
+print("Welcome to Rauw Alejandro Concert")
+print("The cost of each seat is a follow: VIP= 200$, Arena/Nivel Principal = 95$, Club Seat = 85$")
 
-VIP = int (input("How many tickets sod for VIP?=")
-Plaza Level 1-2-3-4-5=int(input("How many tickets sold for Plaza Level 1-2-3-4-5")
-Balcanoy Standing 301-305=int(input("How many tickets sold for Balcony")
+VIP = int(input("How many tickets sold for VIP?"))
 
+ArenaNivelPrincipal = int(input("How many tickets sold for Arena/Nivel Principal?"))
+
+ClubSeats = int(input("How many tickets sold for Club Seat?"))
 
 
+
+def TicketsSold(VIP, ArenaNivelPrincipal, ClubSeats):
+    print(f"The cost of all of the VIP tickets sold were: {int(VIP) * 200}")
+    print(f"The cost of all of the Arena/Nivel Principal tickets sold were: {int(ArenaNivelPrincipal) * 95}")
+    print(f"The cost of all of the Clubs Seat tickets sold  were: {int(ClubSeats) * 85}")
+
+
+
+TicketsSold(VIP, ArenaNivelPrincipal , ClubSeats)
+sold_VIP = VIP * 183
+sold_ANP = ArenaNivelPrincipal * 160
+sold_CL = ClubSeats * 150
+
+
+def TicketsTotal(sold_VIP, sold_ANP, sold_CL):
+    print(f"The total of tickets sales is: {int(sold_VIP) + int(sold_ANP) + int(sold_CL)}")
+
+    
+TicketsTotal(sold_VIP, sold_ANP, sold_CL)
