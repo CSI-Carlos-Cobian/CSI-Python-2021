@@ -7,6 +7,7 @@
 <br>
 
 # Calculate the distance traveled by a projectile `(100pts)`
+* Your script must be fully documented (`# Inline documentation at every step`).
 
 <!-- ## [Select a projectile weapon](https://www.giantbomb.com/profile/phatcat/lists/modern-military-weapons/27505/) -->
 ## [Select a projectile weapon.](https://escapefromtarkov.fandom.com/wiki/Weapons)`(5pts)`
@@ -33,7 +34,7 @@
 * Determine how far will your projectile go if was fired straight (angle of 0 degrees).
   * Assume no air resistance.
   * Your script must Calculate the time (t) and distance traveled (delta X).
-* Your script must be fully documented (`# Inline documentation at every step`).
+
 
 <br>
 
