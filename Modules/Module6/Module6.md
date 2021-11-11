@@ -44,6 +44,7 @@ s = Student("14-146", "Carlos Cobian")
 ### Serialization of an object into a file
 This file will be placed in the same directory as the script being executed.
 See the below example. It will not run until our class labeled `ObjectDataType` is defined.
+
 ```python
 # List of Students
 students = [
