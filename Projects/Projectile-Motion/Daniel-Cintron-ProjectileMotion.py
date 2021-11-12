@@ -27,7 +27,7 @@ def ProjectileFunction(experimentalData:ExperimentalData):
 
     print(f"The gun chosen was {experimentalData.gun} its cartridge is {experimentalData.cartridge}, its rounds are {experimentalData.rounds} and the bullets velocity was {experimentalData.velocity_ms}.m/s")
     print("Its the product of the US-based company Desert Tech LLC MDR rifle is a modular, multi-caliber weapon with compact bullpup layout. Barrel lengths and calibers can be changed by the end user within minutes with a minimum amount of tools.")
-    print(f"The projectile will go to a distance of {distance}, and the time it will take to cover it is {time_s} and the planet is {experimentalData.planets} ")
+    print(f"The projectile will go to a distance of {distance}, and the time it will take to cover it is {time_s} and the planets and gravity is {experimentalData.planets}")
 #Convert your parameters into a single JSON Object.
 # experimentationData = {
 
@@ -69,8 +69,10 @@ with open(myOutputFilePath, 'w') as outfile:
     deserialize = open(myOutputFilePath)
     experimentJson = json.load(deserialize)
 
-    for e in experimentJson:
-        ExperimentalData(**e).run()
+for e in experimentJson: 
+    print("\n-------------------------------------------------\n")
+    ProjectileFunction(ExperimentalData(**e))
+
     #json.dump(myDataSet[0].__dict__, outfile)
 
 # ProjectileFunction(experimentalData)
