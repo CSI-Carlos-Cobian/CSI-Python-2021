@@ -19,15 +19,16 @@ import os
 def ProjectileFunction(experimentalData:ExperimentalData):
     planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
     g_ms2 = [3.7, 8.87, 9.81, 3.711, 24.79, 10.44, 8.69, 11.15]
+    planet = planets.index(experimentalData.planet)
 
-    time_s =math.sqrt((2 * experimentalData.BuildingHeight) / experimentalData.planets)
+    time_s =math.sqrt((2 * experimentalData.BuildingHeight) / g_ms2[planet])
 
     # distance = experimentationData([velocity_ms] * time_s)
     distance = (experimentalData.velocity_ms * time_s) 
 
     print(f"The gun chosen was {experimentalData.gun} its cartridge is {experimentalData.cartridge}, its rounds are {experimentalData.rounds} and the bullets velocity was {experimentalData.velocity_ms}.m/s")
     print("Its the product of the US-based company Desert Tech LLC MDR rifle is a modular, multi-caliber weapon with compact bullpup layout. Barrel lengths and calibers can be changed by the end user within minutes with a minimum amount of tools.")
-    print(f"The projectile will go to a distance of {distance}, and the time it will take to cover it is {time_s} and the planets and gravity is {experimentalData.planets}")
+    print(f"The projectile will go to a distance of {distance}, and the time it will take to cover it is {time_s} and the planets and gravity is {experimentalData.planet}")
 #Convert your parameters into a single JSON Object.
 # experimentationData = {
 
@@ -66,8 +67,8 @@ with open(myOutputFilePath, 'w') as outfile:
     json.dump([data.__dict__ for data in myDataSet], outfile)
 
     #Deserialzation
-    deserialize = open(myOutputFilePath)
-    experimentJson = json.load(deserialize)
+deserialize = open(myOutputFilePath)
+experimentJson = json.load(deserialize)
 
 for e in experimentJson: 
     print("\n-------------------------------------------------\n")
