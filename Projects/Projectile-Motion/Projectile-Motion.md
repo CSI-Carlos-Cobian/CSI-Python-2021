@@ -31,7 +31,7 @@
 ## Gather data for your experiment. `(10pts)`
 * Create a file using the following convention `Projectile-Motion.py`
 * [Use this website to review projectile motion. Example 1 will help.](https://www.khanacademy.org/science/physics/two-dimensional-motion/two-dimensional-projectile-mot/a/what-is-2d-projectile-motion) 
-* Determine how far will your projectile go if was fired straight (angle of 0 degrees).
+* Determine how far will your projectile go if it was fired straight (angle of 0 degrees).
   * Assume no air resistance.
   * Your script must Calculate the time (t) and distance traveled (delta X).
 

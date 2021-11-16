@@ -51,6 +51,7 @@ while n > 0:
 ```
 
 Alternatively, a continue statement jumps through whatever code is left and starts the next iteration.
+
 ```python
 n = 10
 while n > 0:
