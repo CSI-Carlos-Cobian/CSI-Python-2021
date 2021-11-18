@@ -49,3 +49,4 @@ with open(myOutputFilePath, "w") as outfile:
 for e in experimentJson:
         print("\n-------------------------------------------------\n")
         projectilefunction(ExperimentalData(**e))
+        
