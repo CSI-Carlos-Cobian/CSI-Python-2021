@@ -16,27 +16,77 @@ planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "
 for planet in planets:
   print(x)
 ```
-## Create a python script within Module7 called `Module7.py`. `(1pts)`
-1. Carry out tasks related to the module.
+This will select each planet in the list, one by one. It will then assign each selected value to a temporary variable called planet. Our code will simply print the planet string before moving on to the next planet.
 
+### For loops using indices
+To use a for-loop with numbers we use the `range` function.
 
-<br>
+```python
+for x in range(6):
+  print(x)
+```
 
-## Upload a screenshot of the full output produced by running `Module7.py` `(1pts)`
-* ### Use the name format: `Module7.png`
-* ### Store it within your Module7 directory.
-* ### Commit and push the file before next class.
+```python
+for x in range(2, 6):
+  print(x)
+```
 
-<br>
+## While Loops
+A While loop runs indefinitely. It is interrupted when the condition stated besides the `while` keyword is met.
+```python
+n = 5
+while n > 0:
+     n -= 1
+     print(n)
+```
 
+You may force an interruption of the while loop by using a `break` statement.
+```python
+n = 10
+while n > 0:
+     n -= 1
+     print(n)
+     if(n==5):
+       break
+```
 
+Alternatively, a continue statement jumps through whatever code is left and starts the next iteration.
+```python
+n = 10
+while n > 0:
+    n -= 1
+    # The modulus % operand allows us to determine when a number is even or odd very easily.
+    if n % 2 == 1:
+        continue
+    print(n)
+print('Loop ended.')
+```
 
 # Class Discussion
-## Answer the questions on the Markdown file located within your <u>`Module7`</u> directory (Module7.md)`(4pts)`
+## Answer the questions on the Markdown file located within your <u>`Module7`</u> directory (Module7.md)`(15pts)`
 <!-- Welcome! These are your questions. -->
 <!-- Answer using full sentences to receive all points. -->
 <!-- 
 
+What is an Iterator?
+
+ - Answer:
+
+Why are iterators important im programming?
+
+ - Answer:
+
+What is the purpose of a for-loop.
+
+ - Answer:
+
+Describe how the modulus operand allows us to determine when a number is odd. Provide a mathematical example.
+
+ - Answer: 
+
+How do you create an infinite loop in python?
+
+ - Answer:
 
 Type down any class notes below this sentence:
 
