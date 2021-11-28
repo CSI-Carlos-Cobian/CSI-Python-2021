@@ -7,6 +7,7 @@
 <br>
 
 # Calculate the distance traveled by a projectile `(100pts)`
+* Create a file using the following convention `Projectile-Motion.py`
 * Your script must be fully documented (`# Inline documentation at every step`).
 
 <!-- ## [Select a projectile weapon](https://www.giantbomb.com/profile/phatcat/lists/modern-military-weapons/27505/) -->
@@ -29,7 +30,6 @@
 <br>
 
 ## Gather data for your experiment. `(10pts)`
-* Create a file using the following convention `Projectile-Motion.py`
 * [Use this website to review projectile motion. Example 1 will help.](https://www.khanacademy.org/science/physics/two-dimensional-motion/two-dimensional-projectile-mot/a/what-is-2d-projectile-motion) 
 * Determine how far will your projectile go if was fired straight (angle of 0 degrees).
   * Assume no air resistance.
