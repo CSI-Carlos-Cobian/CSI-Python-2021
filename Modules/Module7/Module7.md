@@ -62,6 +62,36 @@ while n > 0:
 print('Loop ended.')
 ```
 
+<br>
+
+## Iterating over a JSON Object
+To parse a list of students into a JSON file and then load them see the example below.
+```python
+# List of Students
+students = [
+  Student("14-146", "Carlos Cobian"),
+  Student("98-007", "Jose Quintana")
+]
+
+# Determine output Directory
+myOutputPath = Path(__file__).parents[0]
+myOutputFilePath = os.path.join(myOutputPath, 'students.json')
+
+# Serialization
+with open(myOutputFilePath, 'w') as outfile:
+  # For loop will include all students in list.
+  json.dump([data.__dict__ for data in myDataSet], outfile)
+
+# Deserialization
+file = open('students.json',)
+studentsJson = json.load(file)
+
+myStudentsList = []
+for student in studentsJson:
+    myStudentsList.append(Student(**student))
+```
+
+<br>
 # Class Discussion
 ## Answer the questions on the Markdown file located within your <u>`Module7`</u> directory (Module7.md)`(15pts)`
 <!-- Welcome! These are your questions. -->
