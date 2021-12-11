@@ -1,8 +1,8 @@
 <div style="text-align:center">
         <img    src="https://www.nylas.com/wp-content/uploads/JSON_Blog_Hero.png"
                 title="JSON" 
-                width="70%" 
-                height="70%" />
+                width="40%" 
+                height="40%" />
 </div>
 <br>
 
