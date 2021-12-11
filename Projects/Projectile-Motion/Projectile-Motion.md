@@ -33,7 +33,7 @@
 * [Use this website to review projectile motion. Example 1 will help.](https://www.khanacademy.org/science/physics/two-dimensional-motion/two-dimensional-projectile-mot/a/what-is-2d-projectile-motion) 
 * Determine how far will your projectile go if was fired straight (angle of 0 degrees).
   * Assume no air resistance.
-  * Your script must Calculate the time (t) and distance traveled (delta X).
+  * Your script must Calculate the time (t) and distance traveled (delta of vector X written as ΔX).
 
 
 <br>
@@ -100,7 +100,7 @@ planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "
 g_ms2 = [3.7, 8.87, 9.81, 3.711, 24.79, 10.44, 8.69, 11.15]
 
 # Planet Index
-planet = planets.index(input("Planet Name: "))
+planet = planets.index("Earth")
 
 # Planet Gravity
 g_ms2[planet]
