@@ -7,9 +7,11 @@
 <br>
 
 # Calculate the distance traveled by a projectile `(100pts)`
+*Prequisite of Modules 1-7*
 * Create a file using the following convention `Projectile-Motion.py`
 * Your script must be fully documented (`# Inline documentation at every step`).
 
+# **<u>Module 3: </u>**
 <!-- ## [Select a projectile weapon](https://www.giantbomb.com/profile/phatcat/lists/modern-military-weapons/27505/) -->
 ## [Select a projectile emitter.](https://escapefromtarkov.fandom.com/wiki/Weapons)`(5pts)`
 * Store its name as a variable.
@@ -29,6 +31,7 @@
 
 <br>
 
+
 ## Gather data for your experiment. `(10pts)`
 * [Use this website to review projectile motion. Example 1 will help.](https://www.khanacademy.org/science/physics/two-dimensional-motion/two-dimensional-projectile-mot/a/what-is-2d-projectile-motion) 
 * Determine how far will your projectile go if was fired straight (angle of 0 degrees).
@@ -38,7 +41,8 @@
 
 <br>
 
-## Print a descriptive paragraph. `(10pts)`
+# **<u>Module 4: </u>**
+##  Print a descriptive paragraph. `(10pts)`
 * It must use all the variables defined above in correctly punctuated sentences that are grammatically correct.
 * Describe the experimental conditions and results.
 
@@ -50,6 +54,7 @@
 
 <br>
 
+# **<u>Module 6: </u>**
 ## Convert your script parameters into a single JSON Object `(5pts)`
 * Change your experimental function to receive a single object as a parameter.
   * call your object `experimentalData`
@@ -86,6 +91,7 @@
 
 <br>
 
+# **<u>Module 7: </u>**
 ## Write a For-Loop `(10pts)`
 * Iterate over your JSON List. 
 * Call the previously defined function on each iteration. 
