@@ -65,12 +65,14 @@ with open(myOutputFilePath, 'w') as outfile:
 ```
 
 ### Deserializing using a class
+Passing each parameter to a constructor is tedious work. By using the two asterisks `**` we may take a JSON object and load it into a class. This will automatically match each class parameter with the equally named one found on the JSON object. 
 ```python
 file = open('ExperimentData.json',)
 experimentJson = json.load(file)
 
 myObject = ExperimentData(**experimentJson)
 ```
+*The example above assumes there is only one object in the file and not a list.* 
 
 <br>
 
