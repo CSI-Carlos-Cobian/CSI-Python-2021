@@ -42,6 +42,7 @@
 
 ## Push
 #### Pushing to your remote repository will upload all pending commits. You should make sure that all commits are stable and correct before pushing. Once a commit has been pushed it will be available to anyone working on the repository. It is easier to delete or revert commits that are local and unpushed, as another user may pull bad code before you fix it. 
+*You should always pull before pushing. This will make sure that what your are pushing is not outdated.*
 
 
 <br>
