@@ -42,9 +42,11 @@
 * It must use all the variables defined above in correctly punctuated sentences that are grammatically correct.
 * Describe the experimental conditions and results.
 
-## Convert your script into a function `(10pts)`
+### Convert your script into a function `(10pts)`
 * Convert all tha variables you have created into parameters.
   * Their data types must be defined.
+
+### Call your function with 4 different configurations (Different parameter values)  `(10pts)`
 
 <br>
 
@@ -69,9 +71,6 @@
 
   * Specify the data type of your function to be `ExperimentalData`
   * Update your function`s variable references.
-
-
-### Call your function with 4 different configurations (Different parameter values)  `(10pts)`
 
 ### Externalize your JSON `(10pts)`
 * Create a file called `Projectile-Motion.json`
