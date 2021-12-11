@@ -65,8 +65,8 @@
 
 <br>
 
-## Install [GitHub Desktop](https://desktop.github.com/) (Mac). 
-Any users that chose to use Visual Studio Code on Mac should download and install [GitHub Desktop](https://desktop.github.com/) as it is the easiest solution to the git dependency. XCode does not require this, as it is already integrated.
+## Install [GitHub Desktop](https://desktop.github.com/) (Alternate). 
+Any users that chose to use Visual Studio Code on Mac or have problems with VS Code's implementation of git may [Download GitHub Desktop](https://desktop.github.com/) as it is the easiest solution.
 
 <br>
 
