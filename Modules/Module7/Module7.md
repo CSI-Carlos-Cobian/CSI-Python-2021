@@ -86,6 +86,7 @@ with open(myOutputFilePath, 'w') as outfile:
 file = open('students.json',)
 studentsJson = json.load(file)
 
+# Iterate over loaded JSON list. Construct each object and add it to a Object list.
 myStudentsList = []
 for student in studentsJson:
     myStudentsList.append(Student(**student))
