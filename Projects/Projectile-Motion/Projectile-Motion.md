@@ -7,7 +7,7 @@
 <br>
 
 # Calculate the distance traveled by a projectile `(100pts)`
-*Requires Modules 1-7 *
+*Requires Modules 1-7*
 * Create a file using the following convention `Projectile-Motion.py`
 * Your script must be fully documented (`# Inline documentation at every step`).
 
