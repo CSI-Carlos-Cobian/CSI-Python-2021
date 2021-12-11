@@ -1,8 +1,8 @@
 <div style="text-align:center">
         <img    src="https://beginnersbook.com/wp-content/uploads/2017/09/for_loop_C.jpg"
                 title="Python" 
-                width="70%" 
-                height="70%" />
+                width="40%" 
+                height="40%" />
 </div>
 <br>
 
