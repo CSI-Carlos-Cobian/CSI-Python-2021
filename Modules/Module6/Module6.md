@@ -1,8 +1,8 @@
 <div style="text-align:center">
         <img    src="https://www.nylas.com/wp-content/uploads/JSON_Blog_Hero.png"
                 title="JSON" 
-                width="70%" 
-                height="70%" />
+                width="40%" 
+                height="40%" />
 </div>
 <br>
 
@@ -43,33 +43,26 @@ s = Student("14-146", "Carlos Cobian")
 
 ### Serialization of an object into a file
 This file will be placed in the same directory as the script being executed.
-See the below example. It will not run until our class labeled `ObjectDataType` is defined.
 
 ```python
-# List of Students
-students = [
-  Student("14-146", "Carlos Cobian"),
-  Student("98-007", "Jose Quintana")
-]
-
 # Determine output Directory
 myOutputPath = Path(__file__).parents[0]
-myOutputFilePath = os.path.join(myOutputPath, 'students.json')
+myOutputFilePath = os.path.join(myOutputPath, 'student.json')
 
 # Serialization
 with open(myOutputFilePath, 'w') as outfile:
-  # For a single student seen above use: json.dump(s.__dict__, outfile)
-  # For loop will include all students in list.
-  json.dump([data.__dict__ for data in myDataSet], outfile)
-
+  json.dump(s.__dict__, outfile)
 ```
 
 ### Deserializing using a class
+Passing each parameter to a constructor is tedious work. By using the two asterisks `**` we may take a JSON object and load it into a class. This will automatically match each class parameter with the equally named one found on the JSON object. 
 ```python
-file = open('ExperimentData.json',)
-experimentJson = json.load(file)
+# Load file as JSON
+file = open('student.json',)
+studentJson = json.load(file)
 
-myObject = ExperimentData(**experimentJson)
+# Construct Student Object
+myStudent = Student(**studentJson)
 ```
 
 <br>

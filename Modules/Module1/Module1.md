@@ -1,8 +1,8 @@
 <div style="text-align:center">
-        <img    src="../../images/csi.png" 
-                title="Colegio San Ignacio" 
-                width="20%" 
-                height="20%" />
+        <img    src="https://www.pngitem.com/pimgs/m/608-6085261_git-push-and-pull-hd-png-download.png" 
+                title="Git diagram" 
+                width="40%" 
+                height="40%" />
 </div>
 <br>
 
@@ -42,16 +42,8 @@
 
 ## Push
 #### Pushing to your remote repository will upload all pending commits. You should make sure that all commits are stable and correct before pushing. Once a commit has been pushed it will be available to anyone working on the repository. It is easier to delete or revert commits that are local and unpushed, as another user may pull bad code before you fix it. 
+*You should always pull before pushing. This will make sure that what your are pushing is not outdated.*
 
-<br>
-
-<br>
-
-## A Diagram
-<img    src="https://www.pngitem.com/pimgs/m/608-6085261_git-push-and-pull-hd-png-download.png" 
-        title="Git diagram" 
-        width="60%" 
-        height="60%" />
 
 <br>
 
@@ -73,8 +65,8 @@
 
 <br>
 
-## Install [GitHub Desktop](https://desktop.github.com/) (Mac). 
-Any users that chose to use Visual Studio Code on Mac should download and install [GitHub Desktop](https://desktop.github.com/) as it is the easiest solution to the git dependency. XCode does not require this, as it is already integrated.
+## Install [GitHub Desktop](https://desktop.github.com/) (Alternate). 
+Any users that chose to use Visual Studio Code on Mac or have problems with VS Code's implementation of git may [Download GitHub Desktop](https://desktop.github.com/) as it is the easiest solution.
 
 <br>
 
