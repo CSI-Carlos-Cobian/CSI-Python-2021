@@ -1,8 +1,8 @@
 <div style="text-align:center">
-        <img    src="../../images/csi.png" 
+        <img    src="https://www.tmssoftware.com/images/visualstudiocodelogo.png" 
                 title="Colegio San Ignacio" 
-                width="20%" 
-                height="20%" />
+                width="50%" 
+                height="50%" />
 </div>
 <br>
 
@@ -27,8 +27,8 @@ Markdown is a lightweight markup language that you can use to add formatting ele
 ### The first thing you will see on the left-most side of visual studio code is the file system for the course.
 <img    src="VSLeftPanel.png" 
         title="Files available on the directory may vary from the time of the screenshot" 
-        width="60%" 
-        height="60%" />
+        width="50%" 
+        height="50%" />
 
 <br>
 
