@@ -7,10 +7,15 @@
 <br>
 
 # Calculate the distance traveled by a projectile `(100pts)`
+*Requires Modules 1-7*
+* Create a file using the following convention `Projectile-Motion.py`
 * Your script must be fully documented (`# Inline documentation at every step`).
 
+<br>
+
+## **Module 3:**
 <!-- ## [Select a projectile weapon](https://www.giantbomb.com/profile/phatcat/lists/modern-military-weapons/27505/) -->
-## [Select a projectile weapon.](https://escapefromtarkov.fandom.com/wiki/Weapons)`(5pts)`
+### [Select a projectile emitter.](https://escapefromtarkov.fandom.com/wiki/Weapons)`(5pts)`
 * Store its name as a variable.
 * Find the cartridge calibre for the weapon you selected. eg. 5.56 for an M4.
   * Store its name as a variable.
@@ -20,44 +25,38 @@
   * Store its value as a variable.
 <!-- * Find the weight of the bullet. It is available as part of the description available for the ammunition. If it is not, google it. -->
 
-<br>
-
-## [Select a building you're going to send it from.](https://www.emporis.com/statistics/tallest-buildings/country/100193/puerto-rico)`(5pts)`
+### [Select a building you're going to send it from.](https://www.emporis.com/statistics/tallest-buildings/country/100193/puerto-rico)`(5pts)`
 * Store its name and height value as variables.
 * [You may use any other building.](https://www.google.com/search?q=tallest+building)
 
-<br>
-
-## Gather data for your experiment. `(10pts)`
-* Create a file using the following convention `Projectile-Motion.py`
+### Gather data for your experiment. `(10pts)`
 * [Use this website to review projectile motion. Example 1 will help.](https://www.khanacademy.org/science/physics/two-dimensional-motion/two-dimensional-projectile-mot/a/what-is-2d-projectile-motion) 
 * Determine how far will your projectile go if was fired straight (angle of 0 degrees).
   * Assume no air resistance.
-  * Your script must Calculate the time (t) and distance traveled (delta X).
-
+  * Your script must Calculate the time (t) and distance traveled (delta of vector X written as ΔX).
 
 <br>
 
-## Print a descriptive paragraph. `(10pts)`
+## **Module 4:**
+###  Print a descriptive paragraph. `(10pts)`
 * It must use all the variables defined above in correctly punctuated sentences that are grammatically correct.
 * Describe the experimental conditions and results.
 
-<br>
-
-## Convert your script into a function `(10pts)`
+### Convert your script into a function `(10pts)`
 * Convert all tha variables you have created into parameters.
   * Their data types must be defined.
 
+### Call your function with 4 different configurations (Different parameter values)  `(10pts)`
+
 <br>
 
-## Convert your script parameters into a single JSON Object `(5pts)`
+## **Module 6:**
+### Convert your script parameters into a single JSON Object `(5pts)`
 * Change your experimental function to receive a single object as a parameter.
   * call your object `experimentalData`
   * Update your function variable references to use this object. eg. `experimentalData.velocity_ms`
 
-<br>
-
-## Create a Python Class  `(15pts)`
+### Create a Python Class  `(15pts)`
 * Comment out your `experimentalData` object 
   * Highlight section and press `CTRL + /`
 * Create a file and class named `ExperimentalData`
@@ -73,20 +72,15 @@
   * Specify the data type of your function to be `ExperimentalData`
   * Update your function`s variable references.
 
-<br>
-
-## Call your function with 4 different configurations (Different parameter values)  `(10pts)`
-
-<br>
-
-## Externalize your JSON `(10pts)`
+### Externalize your JSON `(10pts)`
 * Create a file called `Projectile-Motion.json`
 * Migrate all of your configurations into this JSON file.
   * Use a list
 
 <br>
 
-## Write a For-Loop `(10pts)`
+## **Module 7:**
+### Write a For-Loop `(10pts)`
 * Iterate over your JSON List. 
 * Call the previously defined function on each iteration. 
 
@@ -100,7 +94,7 @@ planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "
 g_ms2 = [3.7, 8.87, 9.81, 3.711, 24.79, 10.44, 8.69, 11.15]
 
 # Planet Index
-planet = planets.index(input("Planet Name: "))
+planet = planets.index("Earth")
 
 # Planet Gravity
 g_ms2[planet]
