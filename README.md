@@ -10,7 +10,7 @@
 <br>
 
 # Course Description
-#### By understanding Git and GitHub you will acquire access to most of the code humanity has developed. Fundamental understanding of computer programming will allow you to visualize concepts unnatural to your brain. 
+#### By understanding Git and GitHub you will acquire access to most of the code humanity has developed. Fundamental understanding of computer programming may modify your perception. 
 
 2 meetings per cycle
 24 courses in semester
@@ -59,6 +59,5 @@ At least 300 points.
 * Egg Catcher
 * Hangman
 * Snake
-* Conway's game of life
 * Serial Interfacing with Arduino
 * Markdown Writer
