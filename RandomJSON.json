@@ -1,0 +1,11 @@
+{
+    "projectId": "vizmule",
+    "appId": "1:381084636812:web:9ab6280f71b5137ad90da9",
+    "databaseURL": "https://vizmule.firebaseio.com",
+    "storageBucket": "vizmule.appspot.com",
+    "locationId": "us-central",
+    "authDomain": "vizmule.firebaseapp.com",
+    "messagingSenderId": "381084636812",
+    "measurementId": "G-41C9NY052Q"
+  }
+
