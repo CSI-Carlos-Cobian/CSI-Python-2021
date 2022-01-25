@@ -55,6 +55,8 @@ At least 300 points.
 * [Bonus-ASCII-Art](/../../tree/main/Projects/Bonus-ASCII-Art/Bonus-ASCII-Art.md)
 * [Geometric-Functions](/../../tree/main/Projects/Geometric-Functions/Geometric-Functions.md)
 * [Projectile-Motion](/../../tree/main/Projects/Projectile-Motion/Projectile-Motion.md)
+* [Web-Servers](/../../tree/main/Projects/Web-Servers/Web-Servers.md)
+* Egg Catcher
 * Hangman
 * Snake
 * Serial Interfacing with Arduino
