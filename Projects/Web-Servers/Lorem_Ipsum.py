@@ -12,3 +12,16 @@ class Lorem_Ipsum:
         self.question = question
         self.questions = questions
 
+    def printData(self):
+        print(f"""ID: {self.id}
+UID: {self.uid}
+Word: {self.word}
+Words: {self.words}
+Characters: {self.characters}
+Short Sentence: {self.short_sentence}
+Long Sentence: {self.long_sentence}
+Very Long Sentence: {self.very_long_sentence}
+Paragraphs: {self.paragraphs}
+Question: {self.question}
+Questions: {self.questions}""")
+
