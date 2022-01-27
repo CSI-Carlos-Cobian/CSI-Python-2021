@@ -38,7 +38,7 @@ At least 300 points.
    - Student uses full sentences on commit descriptions and questionnaire answers. 
 * Partial credit may be granted for late submissions.
 * In class problem solving.
-* Open branch final exam. 
+* Open branch final exam.  
 
 ## Topics
 * [Git and source control](/../../tree/main/Modules/Module1/Module1.md)
