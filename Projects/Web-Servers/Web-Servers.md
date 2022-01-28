@@ -1,7 +1,7 @@
 <div style="text-align:center">
         <img    src="https://sparkyway.com/wp-content/uploads/2017/05/1-ISR0kaBJfjxXoakSF1JiJg.jpeg"
-                width="40%" 
-                height="40%" />
+                width="20%" 
+                height="20%" />
                 
 </div>
 <br>
