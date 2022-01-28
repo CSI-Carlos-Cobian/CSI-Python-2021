@@ -88,5 +88,5 @@ for r in requestData:
 ```
 
 # Store requests
-* Create a folder within your project folder named `requests`
+* Programatcally create a folder within your project folder named `requests`.
 * Store 10,000 requests into this folder. Use separate files for each record.
