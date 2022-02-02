@@ -12,8 +12,8 @@ class Lorem_Ipsum:
         self.question = question
         self.questions = questions
 
-    def printData(self):
-        print(f"""ID: {self.id}
+    def __str__(self):
+        return(f"""ID: {self.id}
 UID: {self.uid}
 Word: {self.word}
 Words: {self.words}
