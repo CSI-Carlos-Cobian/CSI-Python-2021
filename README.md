@@ -38,7 +38,7 @@ At least 300 points.
    - Student uses full sentences on commit descriptions and questionnaire answers. 
 * Partial credit may be granted for late submissions.
 * In class problem solving.
-* Open branch final exam. 
+* Open branch final exam.  
 
 ## Topics
 * [Git and source control](/../../tree/main/Modules/Module1/Module1.md)
@@ -55,6 +55,8 @@ At least 300 points.
 * [Bonus-ASCII-Art](/../../tree/main/Projects/Bonus-ASCII-Art/Bonus-ASCII-Art.md)
 * [Geometric-Functions](/../../tree/main/Projects/Geometric-Functions/Geometric-Functions.md)
 * [Projectile-Motion](/../../tree/main/Projects/Projectile-Motion/Projectile-Motion.md)
+* [Web-Servers](/../../tree/main/Projects/Web-Servers/Web-Servers.md)
+* Egg Catcher
 * Hangman
 * Snake
 * Serial Interfacing with Arduino
