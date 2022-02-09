@@ -1,9 +1,6 @@
-from ntpath import join
-from operator import index
-from pickle import APPEND
 import random
-from re import I
-word_list = ["Celestina Cordero y Molina", "Adolfina Villanueva Osorio", "Sylvia del Villard Moreno ", "Ivonne Solla Cabrera", "Ruth Fernández Cortada", "sandungueo", "pichaera", "feca", "blinblineo", "banshee" ]
+word_list = ["CelestinaCordero", "AdolfinVillanueva ", "SylviaVillard  ", "IvonneCabrera", "RutFernández ", "EneidGomez", "DomingaCruz", "JuliaBurgos", "LuisaCapetillo", "FelisaRincón" ]
+
 def get_word(word_list):
    word = random.choice(word_list)
    return word.upper()
@@ -53,7 +50,7 @@ def play(word):
        print(display_hangman(tries))
        print(word_completion)
        print("\n")
-jjb
+
    if guessed:
        print("Good job, you guessed the word")
    else:
