@@ -105,8 +105,44 @@ def getWord():
         municipio = municipio[0:municipio.index("-")] + (municipio[municipio.index("-")+1:])
     return(municipio)
 
-def main():
-    print(getWord())
+def validateInput(c:str, used:str): # validates the input: whether it is a standard character and whether it has not been used
+    c = c.lower() # sets to lowercase, easier to work with
+    stdAlphabet = "abcdefghijklmnopqrstuvwxyz" # standard alphabet to compare against
+    if not(len(c)==1): # checks if it is a character. prints and returns false if it is not
+        print("Your guess must be one character. Please guess again.")
+        return False
+    for l in used: # checking against every character that has been used
+        if (c == l): # checks if the guess is the same. if it is, prints and returns false
+            print("You have already guessed this character. Please guess again.")
+            return False
+    for a in stdAlphabet: # checking through the whole alphabet to compare against
+        if(a == c): # if it is a standard letter, returns true
+            True
+    # now that all other possibilities have been exhausted, returns a generic code for if it is a single character but not a standard letter
+    print("Your guess is not in the standard alphabet. Please guess again.")
+    return False
 
-if __name__ == "__main__":
-    main()
+# work in progress code, commented out
+# def checkGuess(c:str, used:str, word:str, guess:str, unGuess:str):
+#     c = c.lower() # lowercase, easier to deal with
+#     if validateInput(c, used) == True: # checks if it is a valid input
+#         guessed = list(guess) # turns the string of correctly guessed letters into a list
+#         notGuessed = list(unGuess) # turns the string of unguessed correct letters into a list
+#         i = 0 # iterator for use with the guessed letters
+#         for a in word: # checks through all the letters in the word
+#             if(c == a): # if the letter is correct,
+#                 guessed[i] = c # switches the underscore in the guessed string with the letter
+#                 notGuessed[i] = "_" # switches the letter in the unguessed string with an underscore
+#                 used += c # adds the letter to the used letters string
+#             else:
+#                 used += c # adds the letter to the used letters string
+#             i += 1
+#         return [guessed, notGuessed, used]
+#     else:
+#         return False
+
+# def main():
+    
+
+# if __name__ == "__main__":
+#     main()
