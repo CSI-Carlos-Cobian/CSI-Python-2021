@@ -22,8 +22,9 @@ You may select a random word by one of 2 ways:
      - no numbers
      - only 1 character
      - Must handle lower case and upper case letters.
-3. Unused letters List.
-4. Match input to selected word letters.
-5. Logic for correct and incorrect guesses.
-6. Logic for game progression.
-7. Loop to restart game.
+3. Display incorrectly used letters List.
+5. Logic for game progression.
+   1. Display correct letters and current step.
+   2. Logic for correct and incorrect guesses.
+   3. Match input to selected word's letters.
+6. Loop to restart game.
