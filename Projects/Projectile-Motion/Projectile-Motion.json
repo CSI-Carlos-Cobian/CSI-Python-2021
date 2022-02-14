@@ -1,0 +1,47 @@
+[
+    {
+        "weaponName": "AK-105",
+        "projectileName": "5.45x39mm",
+        "ammunitionType": "PS gs",
+        "speed": 905,
+        "buildingName": "Soleil",
+        "height": 88,
+        "planetName": "Mercury"
+    },
+    {
+        "weaponName": "M4A1",
+        "projectileName": "5.56x45mm NATO",
+        "ammunitionType": "55 HP",
+        "speed": 947,
+        "buildingName": "Aquablue 1",
+        "height": 85,
+        "planetName": "Venus"
+    },
+    {
+        "weaponName": "HK 416A5",
+        "projectileName": "5.56x45mm NATO",
+        "ammunitionType": "M856A1",
+        "speed": 940,
+        "buildingName": "Minillas South Tower",
+        "height": 74,
+        "planetName": "Earth"
+    },
+    {
+        "weaponName": "SA-58",
+        "projectileName": "7.62x51mm NATO",
+        "ammunitionType": "M80",
+        "speed": 833,
+        "buildingName": "Nacional Plaza",
+        "height": 73,
+        "planetName": "Mars"
+    },
+    {
+        "weaponName": "MP9-N",
+        "projectileName": "9x19mm Parabellum",
+        "ammunitionType": "PSO gzh",
+        "speed": 340,
+        "buildingName": "Oriental Plaza",
+        "height": 64,
+        "planetName": "Jupiter"
+    }
+]

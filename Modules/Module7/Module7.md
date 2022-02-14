@@ -101,23 +101,23 @@ for student in studentsJson:
 
 What is an Iterator?
 
- - Answer:
+ - Answer: An iterator essentially repeats a set of steps as long as a certain condition, which is set by the programmer, is being met. The condition can be one that has an unknown number of repetitions, which can vary depending on the value of a variable, or they can be repeated a specified number of times that the programmer wants.
 
 Why are iterators important im programming?
 
- - Answer:
+ - Answer: Iterators have many useful applications. One of those is that it can condense code that would otherwise be much larger. For instance, instead of needing to copy and paste code 10 times, you can put it inside of a for loop that repeats 10 times. It can also be useful when a programmer wants to repeat a certain number of steps that varies depending on the input. For instance, a programmer might want to move through all of the values of an array. Since arrays vary in length, something such as a for each loop is useful so that it can always iterate as many times as necessary for each individual array, without needing to alter the code to accomodate every specific array.
 
 What is the purpose of a for-loop.
 
- - Answer:
+ - Answer: A for loop (sometimes called a for each loop in other languages) iterates over an array or list. The for each loop creates a variable in each iteration that will correspond to a specific value in the array, going in ascending order (the first iteration will have the variable equal to the first value, the second iteration to the second, so on and so forth). Using the range method makes it so that instead of moving through an array of different values, it goes through an array of numbers, which is useful for when someone needs to iterate a specific number of times but does not need to directly use a value in an array or list.
 
 Describe how the modulus operand allows us to determine when a number is odd. Provide a mathematical example.
 
- - Answer: 
+ - Answer: The modulus operand determines the remainder of a mathematical operation. For instance, 1 / 3 is 0 with a remainder of 1, so 1 % 3 is 1. All even numbers divided by 2 will have a remainder of 0, while all odd numbers will have a remainder of 1, meaning that n % 2 == 0 will only trigger if n is even, while n % 2 == 1 will only trigger if n is odd.
 
 How do you create an infinite loop in python?
 
- - Answer:
+ - Answer: While loops only break if the condition set at the beginning of the loop stops being met or if a break statement is used. Due to this, if you ensure that the condition will never stop being true and that there is no statement to break the loop, a while loop can go on forever, Generally, people will use statements such as while 1 == 1, although others prefer to simply use while True. The specific value doesn't matter, as well as the condition is always true.
 
 Type down any class notes below this sentence:
 
