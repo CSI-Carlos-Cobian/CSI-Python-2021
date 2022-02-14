@@ -48,16 +48,19 @@ At least 300 points.
 * [Boolean Logic **(Rock Paper Scissors)**](/../../tree/main/Modules/Module5/Module5.md)
 * [Objects and the JSON Format](/../../tree/main/Modules/Module6/Module6.md)
 * [Looping (for, while)](/../../tree/main/Modules/Module7/Module7.md)
+* [Exception handling](/../../tree/main/Modules/Module8/Module8.md)
+* [Computer Networks](/../../tree/main/Modules/Module9/Module9.md)
 * 2D Arrays **(Snake)**
-* Canvas, Vectors, Putting it all together. **(Egg Catcher)** 
 
 ## Suggested projects
 * [Bonus-ASCII-Art](/../../tree/main/Projects/Bonus-ASCII-Art/Bonus-ASCII-Art.md)
 * [Geometric-Functions](/../../tree/main/Projects/Geometric-Functions/Geometric-Functions.md)
 * [Projectile-Motion](/../../tree/main/Projects/Projectile-Motion/Projectile-Motion.md)
 * [Web-Servers](/../../tree/main/Projects/Web-Servers/Web-Servers.md)
-* Egg Catcher
-* Hangman
+* [Hangman](/../../tree/main/Projects/Web-Servers/Hangman.md)
 * Snake
 * Serial Interfacing with Arduino
 * Markdown Writer
+
+<br><br>
+
