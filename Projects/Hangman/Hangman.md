@@ -43,7 +43,7 @@ steps = [
 
 <br>
 
-## Display the current step of the game by addressing the index of the array.
+## Display the current step of the game by addressing it's index of the array.
 You must develop a mechanism to keep track of which step you're on base of failed attempts.
 ```python
 # Example of printing the fist step in hangman.
