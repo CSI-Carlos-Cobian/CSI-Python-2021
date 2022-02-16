@@ -62,5 +62,13 @@ At least 300 points.
 * Serial Interfacing with Arduino
 * Markdown Writer
 
-<br><br>
+<br><br><br>
+
+## Teachers:
+### [CSI-Carlos-Cobian](https://github.com/CSI-Carlos-Cobian)
+### [CSI-Jose-Quintana](https://github.com/CSI-Jose-Quintana)
+
+<br>
+
+[![Alt text](https://img.youtube.com/vi/6h0gdUg8MGc/0.jpg)](https://www.youtube.com/watch?v=6h0gdUg8MGc)
 
