@@ -64,6 +64,23 @@ print('Loop ended.')
 
 <br>
 
+An infinite loop can be interrupted using a `break`.
+```python
+n = 10
+while True:
+    n -= 1
+    if n % 2 == 1:
+        break
+    print(n)
+print('Loop ended.')
+```
+
+<br>
+
+### *A return statement will break a while loop.*
+
+<br>
+
 ## Iterating over a JSON Object
 To parse a list of students into a JSON file and then load them see the example below.
 ```python
