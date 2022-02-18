@@ -117,32 +117,40 @@ def validateInput(c:str, used:str): # validates the input: whether it is a stand
             return False
     for a in stdAlphabet: # checking through the whole alphabet to compare against
         if(a == c): # if it is a standard letter, returns true
-            True
+            return True
     # now that all other possibilities have been exhausted, returns a generic code for if it is a single character but not a standard letter
     print("Your guess is not in the standard alphabet. Please guess again.")
     return False
 
 # work in progress code, commented out
-# def checkGuess(c:str, used:str, word:str, guess:str, unGuess:str):
-#     c = c.lower() # lowercase, easier to deal with
-#     if validateInput(c, used) == True: # checks if it is a valid input
-#         guessed = list(guess) # turns the string of correctly guessed letters into a list
-#         notGuessed = list(unGuess) # turns the string of unguessed correct letters into a list
-#         i = 0 # iterator for use with the guessed letters
-#         for a in word: # checks through all the letters in the word
-#             if(c == a): # if the letter is correct,
-#                 guessed[i] = c # switches the underscore in the guessed string with the letter
-#                 notGuessed[i] = "_" # switches the letter in the unguessed string with an underscore
-#                 used += c # adds the letter to the used letters string
-#             else:
-#                 used += c # adds the letter to the used letters string
-#             i += 1
-#         return [guessed, notGuessed, used]
-#     else:
-#         return False
+def checkGuess(c:str, used:str, word:str, guess:str, unGuess:str):
+    c = c.lower() # lowercase, easier to deal with
+    if validateInput(c, used) == True: # checks if it is a valid input
+        guessed = list(guess) # turns the string of correctly guessed letters into a list
+        notGuessed = list(unGuess) # turns the string of unguessed correct letters into a list
+        i = 0 # iterator for use with the guessed letters
+        for a in word: # checks through all the letters in the word
+            if(c == a): # if the letter is correct,
+                guessed[i] = c # switches the underscore in the guessed string with the letter
+                notGuessed[i] = "_" # switches the letter in the unguessed string with an underscore
+                used += c # adds the letter to the used letters string
+            else:
+                used += c # adds the letter to the used letters string
+            i += 1
+        guessed = "".join(guessed)
+        notGuessed = "".join(notGuessed)
+        return [guessed, notGuessed, used]
+    else:
+        return False
 
-# def main():
-    
+def main():
+    print(validateInput("h", "asdasd"))
+    word = "hello"
+    guess = "h"
+    used = "asdasd"
+    guessed = "_ _ _ _ _ "
+    unguessed = "h e l l o "
+    print(checkGuess(guess, used, word, guessed, unguessed))
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
