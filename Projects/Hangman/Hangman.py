@@ -4,8 +4,9 @@ import random
 from Municipalities import Municipalities
 import json
 
-def printFirstGuess():
-    print(""" He's not on the hangman yet. What a happy lad!
+def returnStep(s):
+    # defines the steps as an index and returns the step at a certain index
+    step = [""" He's not on the hangman yet. What a happy lad!
        _______
       /       |
      /        |
@@ -13,9 +14,7 @@ def printFirstGuess():
     |
     |
     |__________
-    """)
-def printSecondGuess():
-    print(""" His head is on the hangman but he's still alive!
+    """, """ His head is on the hangman but he's still alive!
        _______
       /       |
      /        |
@@ -23,10 +22,7 @@ def printSecondGuess():
     |
     |
     |__________
-    """)
-
-def printThirdGuess():
-    print(""" It's starting to get dangerous, but we can't lose hope yet!
+    """,""" It's starting to get dangerous, but we can't lose hope yet!
        _______
       /       |
      /        |
@@ -34,10 +30,7 @@ def printThirdGuess():
     |         |
     |
     |__________
-    """)
-
-def printFourthGuess():
-    print(""" We're halfway there, you have to pick up the pace!
+    """, """ We're halfway there, you have to pick up the pace!
        _______
       /       |
      /        |
@@ -45,10 +38,7 @@ def printFourthGuess():
     |        /|
     |
     |__________
-    """)
-
-def printFifthGuess():
-    print(""" Oh no, both arms are here!
+    """, """ Oh no, both arms are here!
        _______
       /       |
      /        |
@@ -56,10 +46,7 @@ def printFifthGuess():
     |        /|\\
     |
     |__________
-    """)
-
-def printSixthGuess():
-    print(""" He's already at the legs, he doesn't have much time left!
+    """, """ He's already at the legs, he doesn't have much time left!
        _______
       /       |
      /        |
@@ -67,10 +54,7 @@ def printSixthGuess():
     |        /|\\
     |        / 
     |__________
-    """)
-
-def printSeventhGuess():
-    print(""" His whole body is here, but you have one final chance to save him!
+    """, """ His whole body is here, but you have one final chance to save him!
        _______
       /       |
      /        |
@@ -78,7 +62,8 @@ def printSeventhGuess():
     |        /|\\
     |        / \\
     |__________
-    """)
+    """]
+    return step[s]
 
 def printRules():
     print("""                                      Welcome to Hangman!
@@ -94,6 +79,7 @@ def printRules():
     |Spaces are ignored. Accents are put together with the normal letters. Ñ is counted as N.|
     |________________________________________________________________________________________|
                                            Have Fun!""")
+
 def getWord():
     n = random.randint(1,9) # sets up a random number for the request
     req = urllib.request.Request(f"https://municipios.rauln.com/adjacent/san-juan?distance={n}") # makes the URL for the API request
@@ -144,13 +130,7 @@ def checkGuess(c:str, used:str, word:str, guess:str, unGuess:str):
         return False
 
 def main():
-    print(validateInput("h", "asdasd"))
-    word = "hello"
-    guess = "h"
-    used = "asdasd"
-    guessed = "_ _ _ _ _ "
-    unguessed = "h e l l o "
-    print(checkGuess(guess, used, word, guessed, unguessed))
+    print(returnStep(7))
 
 if __name__ == "__main__":
     main()
