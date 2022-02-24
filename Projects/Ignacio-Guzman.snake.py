@@ -7,6 +7,8 @@ green=(155,252,10)
 orange=(246,97,33)
 yellow=(253,253,10)
 violet= (107,10,253)
+dis_width = 400
+dis_height = 400 
 
 dis=pygame.display.set_mode((400, 300))
 pygame.display.update()
@@ -21,6 +23,10 @@ x1_change = 0
 y1_change = 0
 
 clock = pygame.time.Clock()
+snake_speed = 15
+snake_block = 10 
+
+font_style = pygame.font.SysFont(None, 50)
 
 while not game_over:
     for event in pygame.event.get():
@@ -35,11 +41,12 @@ while not game_over:
                 y1_change = 0
             elif event.key == pygame.K_UP:
                 y1_change = -10
-                x1_change = 0
+             12   x1_change = 0
             elif event.key == pygame.K_DOWN:
                 y1_change = 10
                 x1_change = 0
- 
+ if x1 >= dis_width or x1 or y1 >= dis_height or y1 <0:
+     
         
  x1 += x1_change
     y1 += y1_change
