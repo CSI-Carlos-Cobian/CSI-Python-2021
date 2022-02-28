@@ -22,7 +22,8 @@
 You may select a random word by one of 2 ways:
 1. Create a list with at least 20 words and use `random()`
 2. Fetch a random Word from an API. This may be done by using the *HTTP Request deserialization* code used in `Web-Servers`.
-3. Print out it's length represented by underscores:
+
+Print out it's length represented by underscores:
 
 eg. MAGISTERIO
 ``` 
