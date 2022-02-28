@@ -54,7 +54,7 @@ def returnStep(s):
     |        /|\\
     |        / 
     |__________
-    """, """ His whole body is here, but you have one final chance to save him!
+    """, """ Sadly, the man is now fully hanging. You have lost the game.
        _______
       /       |
      /        |
@@ -63,9 +63,10 @@ def returnStep(s):
     |        / \\
     |__________
     """]
-    return step[s]
+    return step[s] # returns the specific step needed
 
 def printRules():
+    # very basic function, simply prints the rules as stated in the name. multi-line string.
     print("""                                      Welcome to Hangman!
     
                                       Here are the rules:
@@ -87,50 +88,96 @@ def getWord():
     municipios:Municipalities = Municipalities(**listAPI) # shoves the list in the API into a class
     municipioList = municipios.result # puts the resulting list from the API into a separate variable
     municipio = municipioList[random.randint(0, (len(municipioList)-1))] # picks a random town from the list
-    if(municipio.index("-")):
-        municipio = municipio[0:municipio.index("-")] + (municipio[municipio.index("-")+1:])
-    return(municipio)
+    if("-") in municipio: # checks if there are any dashes (dashes represent spaces)
+        municipio = municipio[0:municipio.index("-")] + (municipio[municipio.index("-")+1:]) # removes the dashes
+    return(municipio) # returns the word
 
 def validateInput(c:str, used:str): # validates the input: whether it is a standard character and whether it has not been used
     c = c.lower() # sets to lowercase, easier to work with
     stdAlphabet = "abcdefghijklmnopqrstuvwxyz" # standard alphabet to compare against
     if not(len(c)==1): # checks if it is a character. prints and returns false if it is not
-        print("Your guess must be one character. Please guess again.")
+        print("Your guess must be one character. Please guess again.") # error message the user sees
         return False
     for l in used: # checking against every character that has been used
         if (c == l): # checks if the guess is the same. if it is, prints and returns false
-            print("You have already guessed this character. Please guess again.")
+            print("You have already guessed this character. Please guess again.") # error message the user sees
             return False
     for a in stdAlphabet: # checking through the whole alphabet to compare against
         if(a == c): # if it is a standard letter, returns true
             return True
     # now that all other possibilities have been exhausted, returns a generic code for if it is a single character but not a standard letter
-    print("Your guess is not in the standard alphabet. Please guess again.")
+    print("Your guess is not in the standard alphabet. Please guess again.") # error message the user sees
     return False
 
-# work in progress code, commented out
 def checkGuess(c:str, used:str, word:str, guess:str, unGuess:str):
     c = c.lower() # lowercase, easier to deal with
     if validateInput(c, used) == True: # checks if it is a valid input
         guessed = list(guess) # turns the string of correctly guessed letters into a list
         notGuessed = list(unGuess) # turns the string of unguessed correct letters into a list
         i = 0 # iterator for use with the guessed letters
+        letterInWord = False
         for a in word: # checks through all the letters in the word
             if(c == a): # if the letter is correct,
                 guessed[i] = c # switches the underscore in the guessed string with the letter
                 notGuessed[i] = "_" # switches the letter in the unguessed string with an underscore
-                used += c # adds the letter to the used letters string
+                if not c in used: # makes sure to not add the same letter multiple times
+                    used += c # adds the letter to the used letters string
+                letterInWord = True
             else:
-                used += c # adds the letter to the used letters string
+                if not c in used: # makes sure not to add the same letter multiple times
+                    used += c # adds the letter to the used letters string
             i += 1
-        guessed = "".join(guessed)
-        notGuessed = "".join(notGuessed)
-        return [guessed, notGuessed, used]
+        guessed = "".join(guessed) # this converts the list into a string
+        notGuessed = "".join(notGuessed) # same as above
+        return [guessed, notGuessed, used, letterInWord] # returns a list in order to return all of the necessary values
     else:
-        return False
+        return False # returns false, meaning it was an invalid guess. error message will be printed in the if statement
+
+def getInput(s:int, guessed:str, used:str):
+    print(returnStep(s)) # prints out the current step
+    print(guessed) # prints out the guessed letters with underscores
+    print(f"These are the characters you have used: {used}") # prints out the letters the user has spent
+    guess = input("What character would you like to guess? ") # leaves a space for user input
+    return guess # returns the user input
+
+def guessedFully(guess:str):
+    if "_" in guess: # if the guess string has any underscores, it means there are unguessed letters
+        return False # returns false because the word has not been fully guessed yet
+    else:
+        return True # since there are no unguessed letters, it returns true
+
+def playGame():
+    word = getWord() # gets the random word the user will be guessing
+    notGuessed = word # adds all of the letters of the word here, meaning none have been guessed
+    guess = "" # empty string to be filled with underscores. each underscore represents a letter that has not been guessed
+    used = "" # string for letters the user has guessed. starts out empty
+    for i in range(len(word)): # used to add an underscore for each letter
+        guess += "_" # adds the underscore
+    step = 0 # used later in code, defines that the current step is the first
+    printRules() # prints rules the user will need
+    while(step < 6): # this loop will only break in the lose or win condition: the player runs out of steps or has guessed all letters
+        userInput = getInput(step, guess, used) # gets the input from the player
+        check = checkGuess(userInput, used, word, guess, notGuessed) # checks if the guess is valid and correct or not, puts the result here
+        if(check == False): # if the guess is invalid, this will trigger
+            continue # restarts the loop
+        if(check[3] == False): # if this check is true, it means the player guessed wrong
+            step += 1 # adds a step in the cycle, due to the incorrect guess
+        guess = check[0] # updates the correctly guessed letters
+        notGuessed = check[1] # updates the unguessed letters
+        used = check[2] # updates the used letters
+        print("------") # blank space between guesses
+        print("------") # blank space between guesses
+        if(guessedFully(guess)): # checks if the user has guessed all possible letters
+            break # breaks the loop if they have guessed all of them
+    if(guessedFully(guess)): # checks if all letters were guessed. if the user is outside the loop, the only way they won is if this is true
+        print(f"Congratulations! You have won the game! The correct word was: {word}") # congratulates the player, ends the game
+    else: # if the player reaches this else, it means they have lost
+        finalStep = returnStep(6) # shows the man fully hanging
+        print(f"{finalStep} The correct word was: {word}") # tells the losing player what the correct word was
+
 
 def main():
-    print(returnStep(7))
+    playGame()
 
 if __name__ == "__main__":
     main()
