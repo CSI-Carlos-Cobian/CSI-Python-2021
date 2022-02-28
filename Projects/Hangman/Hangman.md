@@ -6,7 +6,7 @@
 
 <br>
 
-# Hangman
+# Hangman `100pts Total`
 
 <br>
 
