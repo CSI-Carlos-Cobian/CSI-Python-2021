@@ -96,20 +96,23 @@ def validateInput(c:str, used:str): # validates the input: whether it is a stand
     c = c.lower() # sets to lowercase, easier to work with
     stdAlphabet = "abcdefghijklmnopqrstuvwxyz" # standard alphabet to compare against
     if not(len(c)==1): # checks if it is a character. prints and returns false if it is not
+        print("------") # blank space
         print("Your guess must be one character. Please guess again.") # error message the user sees
         return False
     for l in used: # checking against every character that has been used
         if (c == l): # checks if the guess is the same. if it is, prints and returns false
+            print("------") # blank space
             print("You have already guessed this character. Please guess again.") # error message the user sees
             return False
     for a in stdAlphabet: # checking through the whole alphabet to compare against
         if(a == c): # if it is a standard letter, returns true
             return True
     # now that all other possibilities have been exhausted, returns a generic code for if it is a single character but not a standard letter
+    print("------") # blank space
     print("Your guess is not in the standard alphabet. Please guess again.") # error message the user sees
     return False
 
-def checkGuess(c:str, used:str, word:str, guess:str, unGuess:str):
+def checkGuess(c:str, used:str, word:str, guess:str, unGuess:str, usedDisplay:str):
     c = c.lower() # lowercase, easier to deal with
     if validateInput(c, used) == True: # checks if it is a valid input
         guessed = list(guess) # turns the string of correctly guessed letters into a list
@@ -126,17 +129,20 @@ def checkGuess(c:str, used:str, word:str, guess:str, unGuess:str):
             else:
                 if not c in used: # makes sure not to add the same letter multiple times
                     used += c # adds the letter to the used letters string
+                if not c in usedDisplay and not c in word: # checks to see if the letter is incorrect
+                    usedDisplay += c # only adds the incorrect letter once to the display
+                    
             i += 1
         guessed = "".join(guessed) # this converts the list into a string
         notGuessed = "".join(notGuessed) # same as above
-        return [guessed, notGuessed, used, letterInWord] # returns a list in order to return all of the necessary values
+        return [guessed, notGuessed, used, letterInWord, usedDisplay] # returns a list in order to return all of the necessary values
     else:
         return False # returns false, meaning it was an invalid guess. error message will be printed in the if statement
 
-def getInput(s:int, guessed:str, used:str):
+def getInput(s:int, guessed:str, usedDisplay:str):
     print(returnStep(s)) # prints out the current step
     print(guessed) # prints out the guessed letters with underscores
-    print(f"These are the characters you have used: {used}") # prints out the letters the user has spent
+    print(f"These are the characters you have used: {usedDisplay}") # prints out the letters the user has spent
     guess = input("What character would you like to guess? ") # leaves a space for user input
     return guess # returns the user input
 
@@ -151,13 +157,16 @@ def playGame():
     notGuessed = word # adds all of the letters of the word here, meaning none have been guessed
     guess = "" # empty string to be filled with underscores. each underscore represents a letter that has not been guessed
     used = "" # string for letters the user has guessed. starts out empty
+    usedDisplay = "" # string for letters that will be displayed for the user
     for i in range(len(word)): # used to add an underscore for each letter
         guess += "_" # adds the underscore
     step = 0 # used later in code, defines that the current step is the first
     printRules() # prints rules the user will need
     while(step < 6): # this loop will only break in the lose or win condition: the player runs out of steps or has guessed all letters
-        userInput = getInput(step, guess, used) # gets the input from the player
-        check = checkGuess(userInput, used, word, guess, notGuessed) # checks if the guess is valid and correct or not, puts the result here
+        print("------") # blank space between guesses
+        print("------") # blank space between guesses
+        userInput = getInput(step, guess, usedDisplay) # gets the input from the player
+        check = checkGuess(userInput, used, word, guess, notGuessed, usedDisplay) # checks if the guess is valid and correct or not, puts the result here
         if(check == False): # if the guess is invalid, this will trigger
             continue # restarts the loop
         if(check[3] == False): # if this check is true, it means the player guessed wrong
@@ -165,8 +174,7 @@ def playGame():
         guess = check[0] # updates the correctly guessed letters
         notGuessed = check[1] # updates the unguessed letters
         used = check[2] # updates the used letters
-        print("------") # blank space between guesses
-        print("------") # blank space between guesses
+        usedDisplay = check[4] # updates the displayed letters for the user
         if(guessedFully(guess)): # checks if the user has guessed all possible letters
             break # breaks the loop if they have guessed all of them
     if(guessedFully(guess)): # checks if all letters were guessed. if the user is outside the loop, the only way they won is if this is true
@@ -174,6 +182,21 @@ def playGame():
     else: # if the player reaches this else, it means they have lost
         finalStep = returnStep(6) # shows the man fully hanging
         print(f"{finalStep} The correct word was: {word}") # tells the losing player what the correct word was
+    restartGame() # asks the player if they would like to play again
+
+def restartGame():
+    response = None # begins with no response
+    print("I hope you enjoyed the game!") # text for the player
+    while not(response == 'y' or response == 'n'): # validates the input
+        response = input("To restart the game, type y. To end the game, type n. ") # asks for player input
+        response = response.lower() # switches to lowercase for validation
+        if not(response == 'y' or response == 'n'): # checks if valid
+            print("Response invalid. Please respond again.") # tells the player why it is invalid
+    if response == 'y': # checks if the player said yes
+        print("Okay! We will be restarting the game!") # short message for the player
+        playGame() # restarts the game
+    if response == 'n': # checks if the player said no
+        print("Thank you for your time! Game over.") # short message for the player, end of game
 
 
 def main():
