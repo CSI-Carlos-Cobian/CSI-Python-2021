@@ -3,6 +3,7 @@ import os
 import random
 from Municipalities import Municipalities
 import json
+import time
 
 def returnStep(s):
     # defines the steps as an index and returns the step at a certain index
@@ -80,6 +81,7 @@ def printRules():
     |Spaces are ignored. Accents are put together with the normal letters. Ñ is counted as N.|
     |________________________________________________________________________________________|
                                            Have Fun!""")
+    input("Press enter to continue.")
 
 def getWord():
     n = random.randint(1,9) # sets up a random number for the request
@@ -96,20 +98,23 @@ def validateInput(c:str, used:str): # validates the input: whether it is a stand
     c = c.lower() # sets to lowercase, easier to work with
     stdAlphabet = "abcdefghijklmnopqrstuvwxyz" # standard alphabet to compare against
     if not(len(c)==1): # checks if it is a character. prints and returns false if it is not
-        print("------") # blank space
+        print("\n") # blank space
         print("Your guess must be one character. Please guess again.") # error message the user sees
+        time.sleep(1.5) # gives player time to read
         return False
     for l in used: # checking against every character that has been used
         if (c == l): # checks if the guess is the same. if it is, prints and returns false
-            print("------") # blank space
+            print("\n") # blank space
             print("You have already guessed this character. Please guess again.") # error message the user sees
+            time.sleep(1.5) # gives player time to read
             return False
     for a in stdAlphabet: # checking through the whole alphabet to compare against
         if(a == c): # if it is a standard letter, returns true
             return True
     # now that all other possibilities have been exhausted, returns a generic code for if it is a single character but not a standard letter
-    print("------") # blank space
+    print("\n") # blank space
     print("Your guess is not in the standard alphabet. Please guess again.") # error message the user sees
+    time.sleep(1.5) # gives player time to read
     return False
 
 def checkGuess(c:str, used:str, word:str, guess:str, unGuess:str, usedDisplay:str):
@@ -163,8 +168,7 @@ def playGame():
     step = 0 # used later in code, defines that the current step is the first
     printRules() # prints rules the user will need
     while(step < 6): # this loop will only break in the lose or win condition: the player runs out of steps or has guessed all letters
-        print("------") # blank space between guesses
-        print("------") # blank space between guesses
+        print("\n\n\n\n") # blank space between guesses
         userInput = getInput(step, guess, usedDisplay) # gets the input from the player
         check = checkGuess(userInput, used, word, guess, notGuessed, usedDisplay) # checks if the guess is valid and correct or not, puts the result here
         if(check == False): # if the guess is invalid, this will trigger
@@ -177,6 +181,7 @@ def playGame():
         usedDisplay = check[4] # updates the displayed letters for the user
         if(guessedFully(guess)): # checks if the user has guessed all possible letters
             break # breaks the loop if they have guessed all of them
+    print("\n\n\n\n")
     if(guessedFully(guess)): # checks if all letters were guessed. if the user is outside the loop, the only way they won is if this is true
         print(f"Congratulations! You have won the game! The correct word was: {word}") # congratulates the player, ends the game
     else: # if the player reaches this else, it means they have lost
@@ -193,10 +198,12 @@ def restartGame():
         if not(response == 'y' or response == 'n'): # checks if valid
             print("Response invalid. Please respond again.") # tells the player why it is invalid
     if response == 'y': # checks if the player said yes
-        print("Okay! We will be restarting the game!") # short message for the player
+        print("\n\nOkay! We will be restarting the game!") # short message for the player
+        time.sleep(1.5)
+        print("\n\n\n\n")
         playGame() # restarts the game
     if response == 'n': # checks if the player said no
-        print("Thank you for your time! Game over.") # short message for the player, end of game
+        print("\n\nThank you for your time! Game over.\n\n") # short message for the player, end of game
 
 
 def main():
