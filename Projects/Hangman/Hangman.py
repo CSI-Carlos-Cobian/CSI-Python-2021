@@ -199,8 +199,8 @@ def restartGame():
             print("Response invalid. Please respond again.") # tells the player why it is invalid
     if response == 'y': # checks if the player said yes
         print("\n\nOkay! We will be restarting the game!") # short message for the player
-        time.sleep(1.5)
-        print("\n\n\n\n")
+        time.sleep(1.5) # give player the time to read
+        print("\n\n\n\n") # blank space
         playGame() # restarts the game
     if response == 'n': # checks if the player said no
         print("\n\nThank you for your time! Game over.\n\n") # short message for the player, end of game
