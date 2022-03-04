@@ -90,6 +90,7 @@ def gameLoop ():
         snake_List.append(snake_head)
         if len(snake_List) > length_of_snake:
             del snake_List[0]
+            My_Score(length_of_snake -1)
 
         for x in snake_List[:-1]:
             if x == snake_head:
@@ -106,7 +107,13 @@ def gameLoop ():
 
         clock.tick(snake_speed)
 
+score_font = pygame.font.SysFont(None,25)
 
+def My_Score(score):
+    value = score_font.render("Your Score:" + str(score), True, red)
+    dis.blit(value, [0,0])
+
+    
 
     pygame.quit()
     quit()
