@@ -1,6 +1,6 @@
-import time
 import random
 import pygame
+import time
 pygame.init()
 
 red = (230, 44, 13) #score
@@ -9,8 +9,8 @@ purple = (178, 17, 194) #background color
 green = (124, 255, 10) #snake
 black = (0, 0, 0) #game over
 
-dis_width = 400
-dis_height = 300
+dis_width = 600
+dis_height = 400
 
 dis= pygame.display.set_mode((dis_width, dis_height))
 pygame.display.update()
@@ -30,7 +30,7 @@ def message(msg, color):
     mesg = font_style.render(msg, True ,color)
     dis.blit(mesg, [dis_width/8, dis_height/4])
 
-def gameLoop ():
+def gameRestart ():
     game_over = False
     game_close = False
 
@@ -58,7 +58,7 @@ def gameLoop ():
                         game_over = True
                         game_close = False
                     if event.key == pygame.K_p:
-                            gameLoop()
+                            gameRestart()
 
         for event in pygame.event.get():
             if event.type==pygame.QUIT:
@@ -113,9 +113,9 @@ def My_Score(score):
     value = score_font.render("Your Score:" + str(score), True, red)
     dis.blit(value, [0,0])
 
-    
-
+    # pygame.display.update
+    # time.sleep(5)
     pygame.quit()
     quit()
 
-gameLoop() 
+gameRestart() 
