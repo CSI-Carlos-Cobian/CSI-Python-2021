@@ -6,7 +6,7 @@
 
 <br>
 
-# Hangman
+# Hangman `100pts Total`
 
 <br>
 
@@ -22,7 +22,8 @@
 You may select a random word by one of 2 ways:
 1. Create a list with at least 20 words and use `random()`
 2. Fetch a random Word from an API. This may be done by using the *HTTP Request deserialization* code used in `Web-Servers`.
-3. Print out it's length represented by underscores:
+
+Print out it's length represented by underscores:
 
 eg. MAGISTERIO
 ``` 
@@ -40,15 +41,6 @@ steps = [
         """
         2
         """]
-```
-
-<br>
-
-## Display the current step of the game by addressing it's index of the array. `(10pts)`
-You must develop a mechanism to keep track of which step you're on base of failed attempts.
-```python
-# Example of printing the fist step in hangman.
-print(steps[0])
 ```
 
 <br>
@@ -72,7 +64,16 @@ M _ G _ S _ E _ I _
 
 <br>
 
+## Display the current step of the game by addressing it's index of the array. `(10pts)`
+You must develop a mechanism to keep track of which step you're on base of failed attempts.
+```python
+# Example of printing the fist step in hangman.
+print(steps[0])
+```
+
+<br>
+
 ## To-Do:
-1. Display incorrectly used letters List. `(10pts)`
+1. Display attempted letters List. `(10pts)`
 2. Logic for game progression.`(10pts)`
 3. Loop to restart game. `(5pts)`
