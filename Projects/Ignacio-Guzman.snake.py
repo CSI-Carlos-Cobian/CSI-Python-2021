@@ -4,7 +4,7 @@ from pickle import TRUE
 from random import random
 from turtle import update, width
 import pygame
-
+ig
 
 pygame.init()
 
