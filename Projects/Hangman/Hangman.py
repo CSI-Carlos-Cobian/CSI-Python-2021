@@ -80,8 +80,9 @@ def printRules():
     |                All words are names of Puerto Rican municipalities.                     |
     |Spaces are ignored. Accents are put together with the normal letters. Ñ is counted as N.|
     |________________________________________________________________________________________|
-                                           Have Fun!""")
-    input("Press enter to continue.")
+                                           Have Fun!
+                                  Press enter to continue.""")
+    input("")
 
 def getWord():
     n = random.randint(1,9) # sets up a random number for the request
