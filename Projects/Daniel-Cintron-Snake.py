@@ -24,6 +24,10 @@ snake_block = 10
 font_style = pygame.font.SysFont(None, 25)
 score_font = pygame.font.SysFont(None, 25)
 
+def My_Score(score):
+    value = score_font.render("Your Score:" + str(score), True, red)
+    dis.blit(value, [0,0])
+
 def my_snake(snake_block, snake_list):
     for x in snake_list:
         pygame.draw.rect(dis, green, [x[0], x[1], snake_block, snake_block])
@@ -113,9 +117,6 @@ def gameRestart ():
         font_style = pygame.font.SysFont(None,25)
         score_font = pygame.font.SysFont(None,25)
 
-def My_Score(score):
-    value = score_font.render("Your Score:" + str(score), True, red)
-    dis.blit(value, [0,0])
 
     # pygame.display.update
     # time.sleep(5)
