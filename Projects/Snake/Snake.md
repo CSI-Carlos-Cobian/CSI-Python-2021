@@ -8,7 +8,10 @@
 
 <br>
 
-## Comment Code:
+## Code Reading Practice
+Follow the tutorial from the link above.
+
+### Comment Code:
 1. Create `Snake.py`
 2. Copy the first block of code.
 3. Run the code.
