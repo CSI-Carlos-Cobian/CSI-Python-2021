@@ -6,7 +6,7 @@
 
 <br>
 
-# Hangman
+# Hangman `100pts Total`
 
 <br>
 
@@ -45,16 +45,7 @@ steps = [
 
 <br>
 
-## Display the current step of the game by addressing it's index of the array. `(10pts)`
-You must develop a mechanism to keep track of which step you're on base of failed attempts.
-```python
-# Example of printing the fist step in hangman.
-print(steps[0])
-```
-
-<br>
-
-## Validate input `(15pts)`
+## Validate input `(10pts)`
 Accept a single character from the user as input. You must ensure to receive a valid character.
 * A single character long
 * Not a number
@@ -73,7 +64,16 @@ M _ G _ S _ E _ I _
 
 <br>
 
+## Display the current step of the game by addressing it's index of the array. `(10pts)`
+You must develop a mechanism to keep track of which step you're on base of failed attempts.
+```python
+# Example of printing the fist step in hangman.
+print(steps[0])
+```
+
+<br>
+
 ## To-Do:
-1. Display incorrectly used letters List. `(10pts)`
+1. Display attempted letters List. `(10pts)`
 2. Logic for game progression.`(10pts)`
 3. Loop to restart game. `(5pts)`
