@@ -9,10 +9,11 @@
 <br>
 
 ## Comment Code:
-1. Copy the first block of code.
-2. Run the code.
-3. Comment each line of code.
-4. Create a commit.
-5. Read the next block of code. 
-6. Include any new lines of code in your file.
-7. Comment and repeat 4-7
+1. Create `Snake.py`
+2. Copy the first block of code.
+3. Run the code.
+4. Comment each line of code.
+5. Create a commit.
+6. Read the next block of code. 
+7. Include any new lines of code in your file.
+8. Comment and repeat 4-7
