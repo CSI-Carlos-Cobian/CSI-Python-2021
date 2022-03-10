@@ -23,6 +23,10 @@ snake_speed = 15 # amount of time it will take to move 1 space in ticks
 font_style = pygame.font.SysFont("bahnschrift", 25) # font used for messages
 score_font = pygame.font.SysFont("comicsansms", 35) # font used for points
 
+def your_score(score): # score display function
+    scoreDisplay = score_font.render("Score: " + str(score), True, yellow) # sets the font to yellow and to show the score
+    dis.blit(scoreDisplay, [0, 0]) # puts the score on the display
+
 def our_snake(snake_size, snake_list): # function for drawing snake
     for x in snake_list: # checks list of snake coordinates
         pygame.draw.rect(dis, black, [x[0], x[1], snake_size, snake_size]) # draws each coordinate
@@ -52,6 +56,7 @@ def gameLoop(): # function that begins the game from the start
         while game_close == True: # checks if to ask the player to restart the game
             dis.fill(white) # makes the background white
             message("You lose! Press Q to Quit or C to Play Again!", red) # message asking the player if they want to restart
+            your_score(snake_length - 1) # displays the score
             pygame.display.update() # updates the board to display this message
 
             for event in pygame.event.get(): # checks if an event is ocurring
@@ -102,7 +107,8 @@ def gameLoop(): # function that begins the game from the start
                 game_close = True # game over condition
 
         our_snake(snake_size, snake_list) # draws the snake in
-        
+        your_score(snake_length - 1) # displays the score
+
         pygame.display.update() #updates display
 
         if x1 == foodx and y1 == foody: # checks if the snake is on top of the food
