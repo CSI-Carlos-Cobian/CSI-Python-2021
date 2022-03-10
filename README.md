@@ -56,6 +56,7 @@ At least 300 points.
 * [Web-Servers](/../../tree/main/Projects/Web-Servers/Web-Servers.md)
 * [Hangman](/../../tree/main/Projects/Hangman/Hangman.md)
 * [Snake](/../../tree/main/Projects/Snake/Snake.md)
+* [Web-Scraping](/../../tree/main/Projects/Web-Scraping/Web-Scraping.md)
 * Serial Interfacing with Arduino
 * Markdown Writer
 
