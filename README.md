@@ -13,8 +13,6 @@
 #### By understanding Git and GitHub you will acquire access to most of the code humanity has developed. Fundamental understanding of computer programming may modify your perception. 
 
 2 meetings per cycle
-24 courses in semester
-48 classes total
 At least 300 points.
 
 ## Objectives
@@ -50,7 +48,6 @@ At least 300 points.
 * [Looping (for, while)](/../../tree/main/Modules/Module7/Module7.md)
 * [Exception handling](/../../tree/main/Modules/Module8/Module8.md)
 * [Computer Networks](/../../tree/main/Modules/Module9/Module9.md)
-* 2D Arrays **(Snake)**
 
 ## Suggested projects
 * [Bonus-ASCII-Art](/../../tree/main/Projects/Bonus-ASCII-Art/Bonus-ASCII-Art.md)
@@ -58,7 +55,8 @@ At least 300 points.
 * [Projectile-Motion](/../../tree/main/Projects/Projectile-Motion/Projectile-Motion.md)
 * [Web-Servers](/../../tree/main/Projects/Web-Servers/Web-Servers.md)
 * [Hangman](/../../tree/main/Projects/Hangman/Hangman.md)
-* Snake
+* [Snake](/../../tree/main/Projects/Snake/Snake.md)
+* [Web-Scraping](/../../tree/main/Projects/Web-Scraping/Web-Scraping.md)
 * Serial Interfacing with Arduino
 * Markdown Writer
 

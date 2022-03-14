@@ -121,6 +121,7 @@
 
 ## Application Layer: 
 * [HTTP Request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+* [URL](https://en.wikipedia.org/wiki/URL)
 
 <br><br>
 

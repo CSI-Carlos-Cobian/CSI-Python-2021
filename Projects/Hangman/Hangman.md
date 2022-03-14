@@ -45,7 +45,7 @@ steps = [
 
 <br>
 
-## Validate input `(15pts)`
+## Validate input `(10pts)`
 Accept a single character from the user as input. You must ensure to receive a valid character.
 * A single character long
 * Not a number
