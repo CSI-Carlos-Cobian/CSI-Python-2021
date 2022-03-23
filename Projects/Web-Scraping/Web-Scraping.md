@@ -39,6 +39,7 @@ The Project Gutenberg Ebook of Romeo and Juliet...
 ```
 **Classwork** (15 points)
 Instructions: 
+
 1.Go to the website https://www.gutenberg.org/.
 2.Select a book.
 3.Click on Plain Text UTF-8.
