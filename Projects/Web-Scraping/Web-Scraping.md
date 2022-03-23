@@ -20,6 +20,22 @@ Open a new terminal and enter the following into it:
 ```
 If no error messages shows up, then the module has benn installed correctly. 
 
+The request.get()function takes a string of a URL to download. By calling *type()* on *requests.get()*'s return value, you can see that it returns a *Response* object, which contains the response that the web server gave for your request. Enter the following into the interactive shell:
+
+```python
+>>>import requests
+>>>res =requests.get("https://automatetheboringstuff.com/files/rj.txt")
+>>>type(res)
+<class 'requests.models.Response'>
+>>>res.status_code == requests.codes.ok
+True
+>>>len(res.text)
+178981
+>>>print(res.text[:250])
+```
+Shell output:
+The Project Gutenberg Ebook of Romeo and Juliet...
+
 ### References: 
 Sweigart, A. (2020). *Automate the boring stuff with Python*. San Francisco. pages 268-300
 
