@@ -37,7 +37,8 @@ Shell output:
 ```python
 The Project Gutenberg Ebook of Romeo and Juliet...
 ```
-##Classwork **(15 points)**
+## Classwork **(15 points)**
+
 Instructions: 
 
 1. Go to the website https://www.gutenberg.org/.
