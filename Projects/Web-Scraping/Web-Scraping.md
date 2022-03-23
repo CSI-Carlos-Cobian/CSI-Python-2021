@@ -40,13 +40,13 @@ The Project Gutenberg Ebook of Romeo and Juliet...
 **Classwork** (15 points)
 Instructions: 
 
-1.Go to the website https://www.gutenberg.org/.
-2.Select a book.
-3.Click on Plain Text UTF-8.
-4.Code directly on the interactive shell or create a script that allows you to download the first 300 characters of the book you selected.
-5.Take a screenshot of your terminal's output showing the first 300 characters of the book.
-6.Save it in Webscraping folder as Name-Lastname-WebScraping01.png
-7.Push
+1. Go to the website https://www.gutenberg.org/.
+2. Select a book.
+3. Click on Plain Text UTF-8.
+4. Code directly on the interactive shell or create a script that allows you to download the first 300 characters of the book you selected.
+5. Take a screenshot of your terminal's output showing the first 300 characters of the book.
+6. Save it in Webscraping folder as Name-Lastname-WebScraping01.png
+7. Push
 
 ### References: 
 Sweigart, A. (2020). *Automate the boring stuff with Python*. San Francisco. pages 268-300
