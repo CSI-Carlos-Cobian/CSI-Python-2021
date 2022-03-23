@@ -18,7 +18,7 @@ Open a new terminal and enter the following into it:
 ```python
 >>>import requests
 ```
-If no error messages shows up, then the module has benn installed correctly. 
+If no error messages shows up, then the module has been installed correctly. 
 
 The request.get()function takes a string of a URL to download. By calling *type()* on *requests.get()*'s return value, you can see that it returns a *Response* object, which contains the response that the web server gave for your request. Enter the following into the interactive shell:
 
