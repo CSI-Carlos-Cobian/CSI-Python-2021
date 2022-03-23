@@ -34,7 +34,9 @@ True
 >>>print(res.text[:250])
 ```
 Shell output:
+```python
 The Project Gutenberg Ebook of Romeo and Juliet...
+```
 
 ### References: 
 Sweigart, A. (2020). *Automate the boring stuff with Python*. San Francisco. pages 268-300
