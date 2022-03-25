@@ -65,6 +65,18 @@ for chunk in res.iter_content(100000):
 plaFile.close
 ```
 
+## Classwork **(15 points)**
+
+Instructions: 
+
+1. Go to the website https://www.gutenberg.org/.
+2. Select a book.
+3. Click on Plain Text UTF-8. Copy the URL
+4. Create a new python script that allows you to download and save in your hard drive the first 100000 characters or bytes of the book. **Use the example script as reference.**
+6. Save the script in the Webscraping folder as Name-Lastname-WebScraping02.py
+7. The downloaded file should appears in your CSI-Python-2021 directory. Move it to the Webscraping directory or folder. 
+8. Push
+
 ### References: 
 Sweigart, A. (2020). *Automate the boring stuff with Python*. San Francisco. pages 268-300.
 
