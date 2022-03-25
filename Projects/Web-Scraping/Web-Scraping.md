@@ -37,7 +37,7 @@ Shell output:
 ```python
 The Project Gutenberg Ebook of Romeo and Juliet...
 ```
-## Classwork **(15 points)**
+## Classwork **(10 points)**
 
 Instructions: 
 
@@ -48,6 +48,22 @@ Instructions:
 5. Take a screenshot of your terminal's output showing the first 300 characters of the book.
 6. Save it in Webscraping folder as Name-Lastname-WebScraping01.png
 7. Push
+
+## Saving Downloaded Files to the Hard Drive
+
+You can download and save the webpage to a file on your hard drive with the standard *open()* function and *write()* method. To do that, you must open the file in *write binary* mode by passing the string *'wb'* as the second argument to *open()*. 
+To write the web page to a file, you can use a *for* loop with the *Response* object's ***iter_content()*** method. 
+
+Example:
+```python
+import requests
+res = requests.get("https://automatetheboringstuff.com/files/rj.txt")
+res.raise_for_status()
+playFile = open("Romeo And Juliet.text", "web")
+for chunk in res.iter_content(100000):
+    playFile.write(chunk)
+plaFile.close
+```
 
 ### References: 
 Sweigart, A. (2020). *Automate the boring stuff with Python*. San Francisco. pages 268-300.
