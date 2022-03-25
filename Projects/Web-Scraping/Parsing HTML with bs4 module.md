@@ -36,6 +36,6 @@ Enter the following in the interactive shell:
 >>>SanIgnaciopr = bs4.BeautifulSoup(res.text, 'html.parser')
 >>>elems = SanIgnaciopr.select('#author')
 >>>type(SanIgnaciopr)
-<<<len(elems)
+>>>len(elems)
 ```
 
