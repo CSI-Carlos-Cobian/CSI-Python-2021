@@ -14,7 +14,7 @@ For Mac:
 ## BeautifulSoup function
 The *bs4.BeautifulSoup()* function needs to be called with a string containing the HTML it will parse. The *bs4.BeautifulSoup()* function returns a *BeautifulSoup* 
 
-Open a new terminal and enter the following into it:
+Open a new terminal and enter the following into the interactive shell:
 ```python
 >>>import requests
 >>>import bs4
@@ -23,7 +23,19 @@ Open a new terminal and enter the following into it:
 >>>SanIgnaciopr = bs4.BeautifulSoup(res.text, 'html.parser')
 >>>type(SanIgnaciopr)
 ```
-The code uses *requests.get* to download the main page from the San Ignacio website and then passes the text atrribute of the response to *bs4.BeautifulSoup()*. The BeautifulSoup object that it returns is stored in a variable named SanIgnaciopr.
+This code uses *requests.get* to download the main page from the San Ignacio website and then passes the text atrribute of the response to *bs4.BeautifulSoup()*. The BeautifulSoup object that it returns is stored in a variable named SanIgnaciopr. Once yout have a BeautifulSoup Object you can use its methods to find specific parts of an HTML document. 
 
-The request.get()function takes a string of a URL to download. By calling *type()* on *requests.get()*'s return value, you can see that it returns a *Response* object, which contains the response that the web server gave for your request. 
+You can retrieve a web page element from a BeautifulSoup object by calling the *select()* method and passing a string of a CSS selector for the elements you ar looking for. Selectors are like regular expressions: the specify a pattern to look for, in HTML pages instead of general text strings.  The *select* method will return a list of *Tag objects*, which is how BeautifulSoup represents an HTML element. 
+
+Enter the following in the interactive shell:
+```python
+>>>import requests
+>>>import bs4
+>>>res = requests.get('https://www.sanignacio.pr')
+>>>res.raise_for_status()
+>>>SanIgnaciopr = bs4.BeautifulSoup(res.text, 'html.parser')
+>>>elems = SanIgnaciopr.select('#author')
+>>>type(SanIgnaciopr)
+<<<len(elems)
+```
 
