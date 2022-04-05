@@ -1,0 +1,598 @@
+1648481999829	geckodriver	INFO	Listening on 127.0.0.1:51795
+1648482002927	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51796" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofilebkMklh"
+1648482003849	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofilebkMklh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51796/devtools/browser/2063c985-5c08-404c-986d-bf2eb7a90dce
+1648482007448	Marionette	INFO	Listening on port 51802
+1648482007794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648482014168	Marionette	INFO	Stopped listening on port 51802
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648482048504	geckodriver	INFO	Listening on 127.0.0.1:51565
+1648482051598	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51566" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofilePEEx6g"
+1648482052313	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofilePEEx6g\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51566/devtools/browser/87a6bee5-2179-46da-9b6c-bcf16846fb57
+1648482055931	Marionette	INFO	Listening on port 56728
+1648482056439	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648482058470	Marionette	INFO	Stopped listening on port 56728
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648652686098	geckodriver	INFO	Listening on 127.0.0.1:54813
+1648652689214	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54814" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileIrIXsx"
+*** You are running in headless mode.
+1648652690935	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileIrIXsx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54814/devtools/browser/3c17b348-3e98-4d41-a21c-eb52ca149401
+1648652694167	Marionette	INFO	Listening on port 54819
+1648652694645	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileIrIXsx\bookmarkbackups\bookmarks-2022-03-30_11_6PGs3nXeaPKtmiavh-87AA==.jsonlz4) because it does not exist
+1648757403542	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileIrIXsx\bookmarkbackups\bookmarks-2022-03-31_11_6PGs3nXeaPKtmiavh-87AA==.jsonlz4) because it does not exist
+1649026346243	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648652733335	geckodriver	INFO	Listening on 127.0.0.1:61334
+1648652736412	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "61335" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileXVGZof"
+*** You are running in headless mode.
+1648652737097	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileXVGZof\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61335/devtools/browser/a02743b8-e0ba-45e4-a9d2-5986ebefde55
+1648652739085	Marionette	INFO	Listening on port 61340
+1648652739612	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileXVGZof\bookmarkbackups\bookmarks-2022-03-30.jsonlz4) because it does not exist
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileXVGZof\bookmarkbackups\bookmarks-2022-03-30.jsonlz4) because it does not exist
+1648757403522	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1649026346138	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ped listening on port 59019
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "55374" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofilew03OP7"
+1648652877556	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofilew03OP7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55374/devtools/browser/7c8a4e7f-b993-4104-9acf-1b52eed8ed6c
+1648652880733	Marionette	INFO	Listening on port 65393
+1648652881061	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648652883706	Marionette	INFO	Stopped listening on port 65393
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648652885998	geckodriver	INFO	Listening on 127.0.0.1:65437
+1648652889054	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65438" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileA0WMEc"
+1648652889720	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileA0WMEc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65438/devtools/browser/885154d6-7a45-4274-9960-beb6102a5076
+1648652892673	Marionette	INFO	Listening on port 65445
+1648652892760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648652920503	Marionette	INFO	Stopped listening on port 65445
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "59140" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofile4eWQ0B"
+1648652906782	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofile4eWQ0B\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59140/devtools/browser/853725dc-ff65-4ae0-94b1-2f0fba6591a0
+1648652910038	Marionette	INFO	Listening on port 59152
+1648652910384	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648652914036	Marionette	INFO	Stopped listening on port 59152
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648652921860	geckodriver	INFO	Listening on 127.0.0.1:59202
+1648652924930	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59203" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofile9ndM0C"
+1648652925643	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofile9ndM0C\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59203/devtools/browser/bcaf9852-0b9e-4c60-80ed-f30ca9405ff1
+1648652928851	Marionette	INFO	Listening on port 59208
+1648652929157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648652932934	Marionette	INFO	Stopped listening on port 59208
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1648652935877	geckodriver	INFO	Listening on 127.0.0.1:59249
+1648652938951	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59250" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileeZyEdf"
+1648652939652	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileeZyEdf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59250/devtools/browser/0ef6d5d8-aa54-43f4-83f8-a988f7bed224
+1648652943004	Marionette	INFO	Listening on port 59256
+1648652943177	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648652950386	Marionette	INFO	Stopped listening on port 59256
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648653040756	geckodriver	INFO	Listening on 127.0.0.1:64405
+1648653043835	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64406" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofilepz7SSM"
+1648653044576	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofilepz7SSM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64406/devtools/browser/da340afe-05fc-45bf-bb74-557535a480cb
+1648653047888	Marionette	INFO	Listening on port 61126
+1648653048064	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+1648653052803	Marionette	INFO	Stopped listening on port 61126
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648653085003	geckodriver	INFO	Listening on 127.0.0.1:56127
+1648653088057	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56128" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileEahGh9"
+1648653088796	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileEahGh9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56128/devtools/browser/ade2d4d0-2ee8-4eae-8236-ef66b9a0bb23
+1648653091949	Marionette	INFO	Listening on port 56146
+1648653092262	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 2269 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648653288202	Marionette	INFO	Stopped listening on port 56146
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "51267" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofilegKJyKg"
+1648653243859	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofilegKJyKg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51267/devtools/browser/023dbff2-caeb-4622-b2f1-a44c42ca628d
+1648653246927	Marionette	INFO	Listening on port 51272
+1648653247368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 2281 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/ line 2249 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71ML2UhVE2L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648653287376	Marionette	INFO	Stopped listening on port 51272
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "58556" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofilez0uIG0"
+1648653272216	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofilez0uIG0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58556/devtools/browser/bc16be3c-bf0b-4967-a311-2aefbf7e906a
+1648653275247	Marionette	INFO	Listening on port 58561
+1648653275688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 2278 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/ line 2249 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648653285329	Marionette	INFO	Stopped listening on port 58561
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648653311365	geckodriver	INFO	Listening on 127.0.0.1:63733
+1648653314500	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63734" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofile8QBHsH"
+1648653315307	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofile8QBHsH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63734/devtools/browser/d88f1f53-731d-4b0a-9a98-fa1e55f0cc32
+1648653318539	Marionette	INFO	Listening on port 63739
+1648653318710	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 2277 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s?k=chainsaw+man+manga&crid=3CXJBHLR0O354&sprefix=chainsaw+m%2Caps%2C162&ref=nb_sb_noss_2 line 8679 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648653328162	Marionette	INFO	Stopped listening on port 63739
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648653349176	geckodriver	INFO	Listening on 127.0.0.1:51723
+1648653352244	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51724" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileUpImBp"
+1648653352971	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileUpImBp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51724/devtools/browser/93eab02a-774c-4749-a42c-86feccf91015
+1648653356056	Marionette	INFO	Listening on port 51729
+1648653356448	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 2285 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s?k=chainsaw+man+manga&ref=nb_sb_noss line 8688 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Chainsaw-Man-Vol-10/dp/1974725359/ref=sr_1_1?keywords=chainsaw+man+manga&qid=1648653358&sr=8-1 line 7701 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.amazon.com/Chainsaw-Man-Vol-10/dp/1974725359/ref=sr_1_1?keywords=chainsaw+man+manga&qid=1648653358&sr=8-1, line 103: Error: Missing Add to Cart item!", "add-to-cart.client.item-state-handler
+JavaScript warning: https://www.amazon.com/s?k=chainsaw+man+manga&ref=nb_sb_noss line 8700 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.amazon.com/Chainsaw-Man-Vol-5/dp/1974719227/ref=sr_1_2?keywords=chainsaw+man+manga&qid=1648653405&sr=8-2, line 103: Error: Missing Add to Cart item!", "add-to-cart.client.item-state-handler
+JavaScript warning: https://www.amazon.com/Chainsaw-Man-Vol-5/dp/1974719227/ref=sr_1_2?keywords=chainsaw+man+manga&qid=1648653405&sr=8-2 line 8932 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://read.amazon.com/sample/B0956BKHWM?f=2&l=en_US&rid=2611YPZDBF29QDE1WMS5&sid=147-9063761-3954445&pa=1974719227&ref_=litb_d line 558 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483748/domwalker23, type watchRootNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nmodule.exports@resource://devtools/shared/commands/resource/legacy-listeners/root-node.js:60:31\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483750/domwalker23, type watchRootNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nmodule.exports@resource://devtools/shared/commands/resource/legacy-listeners/root-node.js:60:31\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483752/domwalker23, type watchRootNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nmodule.exports@resource://devtools/shared/commands/resource/legacy-listeners/root-node.js:60:31\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483754/domwalker23, type watchRootNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nmodule.exports@resource://devtools/shared/commands/resource/legacy-listeners/root-node.js:60:31\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483756/domwalker23, type watchRootNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nmodule.exports@resource://devtools/shared/commands/resource/legacy-listeners/root-node.js:60:31\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483758/domwalker23, type watchRootNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nmodule.exports@resource://devtools/shared/commands/resource/legacy-listeners/root-node.js:60:31\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Unable to find target with innerWindowId:2147483742"
+console.error: "Unable to find target with innerWindowId:2147483742"
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483760/domwalker97, type watchRootNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nmodule.exports@resource://devtools/shared/commands/resource/legacy-listeners/root-node.js:60:31\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Error while destroying front:" "cssProperties" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483760/cssPropertiesActor10, type getCSSDatabase failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ninitialize@resource://devtools/client/fronts/css-properties.js:58:28\nmanage@resource://devtools/shared/protocol/Front.js:146:19\ngetFront@resource://devtools/shared/protocol/types.js:559:18\ngetFront@resource://devtools/client/fronts/targets/target-mixin.js:332:15\n_getCssProperties@resource://devtools/client/inspector/inspector.js:571:45\n_onTargetAvailable@resource://devtools/client/inspector/inspector.js:275:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Error while destroying front:" "accessibility" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483760/accessibilityActor15, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ninitialize@resource://devtools/client/fronts/accessibility.js:536:46\nmanage@resource://devtools/shared/protocol/Front.js:146:19\ngetFront@resource://devtools/shared/protocol/types.js:559:18\ngetFront@resource://devtools/client/fronts/targets/target-mixin.js:332:15\n_getAccessibilityFront@resource://devtools/client/inspector/inspector.js:575:49\n_onTargetAvailable@resource://devtools/client/inspector/inspector.js:276:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal2147483760/cssPropertiesActor10, type getCSSDatabase failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+initialize@resource://devtools/client/fronts/css-properties.js:58:28
+manage@resource://devtools/shared/protocol/Front.js:146:19
+getFront@resource://devtools/shared/protocol/types.js:559:18
+getFront@resource://devtools/client/fronts/targets/target-mixin.js:332:15
+_getCssProperties@resource://devtools/client/inspector/inspector.js:571:45
+_onTargetAvailable@resource://devtools/client/inspector/inspector.js:275:12
+
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3452: TypeError: data.frameData.id is null
+JavaScript warning: https://www.amazon.com/ line 2285 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: "Failed to add session data entry for frame targets in browsing context" 17
+console.warn: (new AbortError("Actor 'DevToolsFrame' destroyed before query 'DevToolsFrameParent:addSessionDataEntry' was resolved", (void 0)))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483763/domwalker24, type watchRootNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nmodule.exports@resource://devtools/shared/commands/resource/legacy-listeners/root-node.js:60:31\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483765/domwalker23, type watchRootNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nmodule.exports@resource://devtools/shared/commands/resource/legacy-listeners/root-node.js:60:31\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483761/domnode153, type getUniqueSelector failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetNodeFrontSelectorsFromTopDocument@resource://devtools/shared/commands/inspector/inspector-command.js:325:42\nupdateSelectionCssSelectors@resource://devtools/client/inspector/inspector.js:1474:8\nonNewSelection@resource://devtools/client/inspector/inspector.js:1548:10\n_emit@resource://devtools/shared/event-emitter.js:244:34\nemit@resource://devtools/shared/event-emitter.js:190:18\nemit@resource://devtools/shared/event-emitter.js:342:18\nsetNodeFront@resource://devtools/client/framework/selection.js:206:10\nonRootNodeAvailable@resource://devtools/client/inspector/inspector.js:368:22\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483761/pagestyle143, type getLayout failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nupdateBoxModel/lastRequest<@resource://devtools/client/inspector/boxmodel/box-model.js:183:36\nupdateBoxModel@resource://devtools/client/inspector/boxmodel/box-model.js:223:18\nonNewSelection@resource://devtools/client/inspector/boxmodel/box-model.js:288:10\n_emit@resource://devtools/shared/event-emitter.js:244:34\nemit@resource://devtools/shared/event-emitter.js:190:18\nemit@resource://devtools/shared/event-emitter.js:342:18\nsetNodeFront@resource://devtools/client/framework/selection.js:206:10\nonRootNodeAvailable@resource://devtools/client/inspector/inspector.js:368:22\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483761/pagestyle143, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:124:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1099:8\nselectElement/<@resource://devtools/client/inspector/rules/rules.js:992:23\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483761/domwalker142, type children failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nchildren@resource://devtools/client/fronts/walker.js:339:20\n_getVisibleChildren@resource://devtools/client/inspector/markup/markup.js:2323:34\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483761/domwalker142, type children failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nchildren@resource://devtools/client/fronts/walker.js:339:20\n_getVisibleChildren@resource://devtools/client/inspector/markup/markup.js:2323:34\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483761/domwalker142, type children failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nchildren@resource://devtools/client/fronts/walker.js:339:20\n_getVisibleChildren@resource://devtools/client/inspector/markup/markup.js:2323:34\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483761/pagestyle143, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:124:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1099:8\nselectElement/<@resource://devtools/client/inspector/rules/rules.js:992:23\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Can not send request 'supportsHighlighters' because front 'inspector' is already destroyed.", "resource://devtools/shared/protocol/Front/FrontClassWithSpec.js", 28))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483761/pagestyle143, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:124:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1099:8\nselectElement/<@resource://devtools/client/inspector/rules/rules.js:992:23\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Error while destroying front:" "accessibility" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483761/accessibilityActor15, type bootstrap failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ninitialize@resource://devtools/client/fronts/accessibility.js:538:37\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal2147483761/accessibilityActor15, type bootstrap failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+initialize@resource://devtools/client/fronts/accessibility.js:538:37
+
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+JavaScript warning: https://www.amazon.com/s?k=chainsaw+man+manga&ref=nb_sb_noss line 8688 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Already started legacy listener for root-node on server0.conn0.windowGlobal2147483777/windowGlobalTarget2"
+console.warn: "Already started legacy listener for root-node on server0.conn0.windowGlobal2147483779/windowGlobalTarget2"
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483775/domwalker23, type watchRootNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nmodule.exports@resource://devtools/shared/commands/resource/legacy-listeners/root-node.js:60:31\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3452: TypeError: data.frameData.id is null
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3452: TypeError: data.frameData.id is null
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal2147483779/domwalker23, type getLayoutInspector failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getLayoutFronts/layoutFronts<@resource://devtools/client/inspector/grids/grid-inspector.js:151:50
+getLayoutFronts@resource://devtools/client/inspector/grids/grid-inspector.js:151:23
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal2147483779/domwalker23, type getLayoutInspector failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getLayoutFronts/layoutFronts<@resource://devtools/client/inspector/grids/grid-inspector.js:151:50
+getLayoutFronts@resource://devtools/client/inspector/grids/grid-inspector.js:151:23
+
+JavaScript warning: https://www.amazon.com/Chainsaw-Man-Vol-10/dp/1974725359/ref=sr_1_1?keywords=chainsaw+man+manga&qid=1648653565&sr=8-1 line 7795 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.amazon.com/Chainsaw-Man-Vol-10/dp/1974725359/ref=sr_1_1?keywords=chainsaw+man+manga&qid=1648653565&sr=8-1, line 103: Error: Missing Add to Cart item!", "add-to-cart.client.item-state-handler
+1648757403677	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileUpImBp\bookmarkbackups\bookmarks-2022-03-31_11_fCl0wYiVAwkQaBGBGXd2xA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileUpImBp\bookmarkbackups\bookmarks-2022-04-01_11_fCl0wYiVAwkQaBGBGXd2xA==.jsonlz4) because it does not exist
+1649026345502	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+oundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileEwi6PW\bookmarkbackups\bookmarks-2022-03-30.jsonlz4) because it does not exist
+1648757403491	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1649026345478	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+://localhost:49759/devtools/browser/32393059-8537-41f5-a1c6-0dd0bdc1a7db
+1648653693593	Marionette	INFO	Listening on port 49764
+1648653694051	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 2275 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=chainsaw+man+manga&ref=nb_sb_noss&crid=2PFB20MUE4LRD&sprefix=%2Caps%2C189 line 8692 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:450:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:414:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2132:35
+addAllSources@resource://devtools/server/actors/thread.js:1487:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:450:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:414:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2132:35
+addAllSources@resource://devtools/server/actors/thread.js:1487:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:450:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:414:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2132:35
+addAllSources@resource://devtools/server/actors/thread.js:1487:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'file:///'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'file:///'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'file:///'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1648655221160	Marionette	INFO	Stopped listening on port 49764
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ipt error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1648653791467	Marionette	INFO	Stopped listening on port 50232
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1648653834198	geckodriver	INFO	Listening on 127.0.0.1:54600
+1648653837263	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54601" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofiled1AN2Y"
+1648653837980	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofiled1AN2Y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54601/devtools/browser/fe03b3f0-eb7f-4b71-964a-8cba93afbdfd
+1648653841230	Marionette	INFO	Listening on port 60473
+1648653841491	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 2269 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=chainsaw+man+manga line 8682 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648653862590	Marionette	INFO	Stopped listening on port 60473
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "60352" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofile2PEY0i"
+1648653862720	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofile2PEY0i\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60352/devtools/browser/033df03b-0bc5-44fc-b0d5-2288184edfbe
+1648653865871	Marionette	INFO	Listening on port 60359
+1648653866318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 2275 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s?k=chainsaw+man+manga&ref=nb_sb_noss line 9584 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648655220920	Marionette	INFO	Stopped listening on port 60359
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "53123" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileNP3zpn"
+1648654068807	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileNP3zpn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53123/devtools/browser/6e818fc5-4e01-4d6a-bf0b-fcfa80a6833b
+1648654071730	Marionette	INFO	Listening on port 53129
+1648654071783	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 2277 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=chainsaw+man+manga&ref=nb_sb_noss&crid=10KIFPG1AQL67&sprefix=%2Caps%2C147 line 8686 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71ML2UhVE2L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648655221884	Marionette	INFO	Stopped listening on port 53129
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 21396, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+654131287	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofile7vUJMl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56287/devtools/browser/fce97ae7-998b-4650-a982-340ef18a97dc
+1648654134447	Marionette	INFO	Listening on port 57399
+1648654134731	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 2269 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s?k=chainsaw+man+manga&ref=nb_sb_noss line 8694 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648655223698	Marionette	INFO	Stopped listening on port 57399
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "59818" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileWFUFAv"
+1648654175005	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileWFUFAv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59818/devtools/browser/dec68635-b065-4a59-8479-583156253657
+1648654177915	Marionette	INFO	Listening on port 59823
+1648654177950	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 2269 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s?k=chainsaw+man+1648654184516	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "598771648655225468	Marionette	INFO	Stopped listening on port 59823
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+tings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofile1TpP3B\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59877/devtools/browser/f9763e77-37d6-479b-ab40-0205f24deb28
+1648654188173	Marionette	INFO	Listening on port 59898
+1648654188201	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 2281 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s?k=chainsaw+man+manga&crid=11Z71TCNJAIAE&sprefix=chainsaw+man+manga%2Caps%2C403&ref=nb_sb_noss_1 line 9600 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Chainsaw-Man-Vol-1/dp/1974709930/ref=sr_1_3?crid=11Z71TCNJAIAE&keywords=chainsaw+man+manga&qid=1648654192&sprefix=chainsaw+man+manga%2Caps%2C403&sr=8-3 line 8628 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.amazon.com/Chainsaw-Man-Vol-1/dp/1974709930/ref=sr_1_3?crid=11Z71TCNJAIAE&keywords=chainsaw+man+manga&qid=1648654192&sprefix=chainsaw+man+manga%2Caps%2C403&sr=8-3, line 97: Error: Missing Add to Cart item!", "add-to-cart.client.item-state-handler
+JavaScript error: https://images-na.ssl-images-amazon.com/images/I/11Y+5x+kkTL._RC|5110husWMzL.js,11yKORv-GTL.js,11giXtZCwVL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,51RzYQslpZL.js,11kWu3cNjYL.js,11tMohjWmVL.js,11OREnu1epL.js,11wcWdhrnDL.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31R9m8rig5L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01Uy0PNmclL.js_.js?AUIClients/AmazonUI#page_type-Detail, line 271: TypeError: a is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1648655227496	Marionette	INFO	Stopped listening on port 59898
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "56906" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileHkYMFh"
+1648655141323	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileHkYMFh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56906/devtools/browser/323befdf-9f3a-49f6-8750-777468e7669a
+1648655145136	Marionette	INFO	Listening on port 56911
+1648655145505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 2277 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=chainsaw+man+manga line 8611 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71ML2UhVE2L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:450:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:414:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2132:35
+addAllSources@resource://devtools/server/actors/thread.js:1487:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:450:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:414:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2132:35
+addAllSources@resource://devtools/server/actors/thread.js:1487:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:450:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:414:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2132:35
+addAllSources@resource://devtools/server/actors/thread.js:1487:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'file:///'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'file:///'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: Failed to open input source 'file:///'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1648655894130	Marionette	INFO	Stopped listening on port 56911
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attemp1648655894562	Marionette	INFO	Stopped listening on port 60025
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "50721" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileyQIEcj"
+1648655646012	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileyQIEcj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50721/devtools/browser/d75adec6-d792-4932-abd0-14cb8707b29a
+1648655649542	Marionette	INFO	Listening on port 50726
+1648655649630	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 2273 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=chainsaw+man+manga line 8358 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648655895590	Marionette	INFO	Stopped listening on port 50726
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "54777" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileSElmS4"
+1648655855690	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileSElmS4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54777/devtools/browser/2c11e6b7-8da7-462e-a604-9a67eeea5b7c
+1648655859685	Marionette	INFO	Listening on port 54782
+1648655860199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 2275 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=chainsaw+man+manga&ref=nb_sb_noss_2&crid=1PEUDYS4MYG3Z&sprefix=c%2Caps%2C224 line 8480 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648655896615	Marionette	INFO	Stopped listening on port 54782
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 8452, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
