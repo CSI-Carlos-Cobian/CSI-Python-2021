@@ -33,38 +33,40 @@ JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\m
 1649026346243	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
- Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-1648652733335	geckodriver	INFO	Listening on 127.0.0.1:61334
-1648652736412	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "61335" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileXVGZof"
-*** You are running in headless mode.
-1648652737097	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileXVGZof\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:61335/devtools/browser/a02743b8-e0ba-45e4-a9d2-5986ebefde55
-1648652739085	Marionette	INFO	Listening on port 61340
-1648652739612	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileXVGZof\bookmarkbackups\bookmarks-2022-03-30.jsonlz4) because it does not exist
-JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileXVGZof\bookmarkbackups\bookmarks-2022-03-30.jsonlz4) because it does not exist
-1648757403522	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileIrIXsx\bookmarkbackups\bookmarks-2022-04-05_11_6PGs3nXeaPKtmiavh-87AA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileIrIXsx\bookmarkbackups\bookmarks-2022-04-07_11_6PGs3nXeaPKtmiavh-87AA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileIrIXsx\bookmarkbackups\bookmarks-2022-04-16_11_6PGs3nXeaPKtmiavh-87AA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1650286128425	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileIrIXsx\bookmarkbackups\bookmarks-2022-04-20_11_6PGs3nXeaPKtmiavh-87AA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+s.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1649026346138	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-ped listening on port 59019
-console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-remote-debugging-port" "55374" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofilew03OP7"
-1648652877556	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofilew03OP7\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:55374/devtools/browser/7c8a4e7f-b993-4104-9acf-1b52eed8ed6c
-1648652880733	Marionette	INFO	Listening on port 65393
-1648652881061	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1648652883706	Marionette	INFO	Stopped listening on port 65393
-console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-1648652885998	geckodriver	INFO	Listening on 127.0.0.1:65437
-1648652889054	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65438" "-no-remote" "-profile" "C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileA0WMEc"
-1648652889720	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mario\\AppData\\Local\\Temp\\rust_mozprofileA0WMEc\\search.json.mozlz4", (void 0)))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileXVGZof\bookmarkbackups\bookmarks-2022-04-05_11_tuG-d+lurjDABfu+puNyzg==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileXVGZof\bookmarkbackups\bookmarks-2022-04-07_11_tuG-d+lurjDABfu+puNyzg==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileXVGZof\bookmarkbackups\bookmarks-2022-04-14_11_tuG-d+lurjDABfu+puNyzg==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileXVGZof\bookmarkbackups\bookmarks-2022-04-16_11_tuG-d+lurjDABfu+puNyzg==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1650286128801	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+earch.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:65438/devtools/browser/885154d6-7a45-4274-9960-beb6102a5076
 1648652892673	Marionette	INFO	Listening on port 65445
 1648652892760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
@@ -338,19 +340,28 @@ JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\m
 1649026345502	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-oundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileEwi6PW\bookmarkbackups\bookmarks-2022-03-30.jsonlz4) because it does not exist
-1648757403491	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
-JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-1649026345478	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-://localhost:49759/devtools/browser/32393059-8537-41f5-a1c6-0dd0bdc1a7db
-1648653693593	Marionette	INFO	Listening on port 49764
-1648653694051	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://www.amazon.com/ line 2275 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
-JavaScript warning: https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=chainsaw+man+manga&ref=nb_sb_noss&crid=2PFB20MUE4LRD&sprefix=%2Caps%2C189 line 8692 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileUpImBp\bookmarkbackups\bookmarks-2022-04-16_11_fCl0wYiVAwkQaBGBGXd2xA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1650286129584	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ks-2022-04-13_11_qOIsEHD+2SHWfgbZlWI4ZA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\mario\AppData\Local\Temp\rust_mozprofileEwi6PW\bookmarkbackups\bookmarks-2022-04-16_11_qOIsEHD+2SHWfgbZlWI4ZA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1650286128869	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+
 Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
 mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
 _fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:450:22
